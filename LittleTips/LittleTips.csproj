@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2640DC0F-DA0F-40F3-BF2A-27B2228EF080}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LittleTips</RootNamespace>
+    <AssemblyName>LittleTips</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-memory-100.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Converters\BoolToCollapsedConverter.cs" />
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\ImagePathConverter.cs" />
+    <Compile Include="Converters\ModifierKeyIndexToStringConverter.cs" />
+    <Compile Include="Converters\StarConverter.cs" />
+    <Compile Include="CustomStyleSelector\ListBoxItemDataTemplateSelector.cs" />
+    <Compile Include="CustomStyleSelector\ListBoxItemStyleSelector.cs" />
+    <Compile Include="Dto\ActivateResult.cs" />
+    <Compile Include="Dto\App.cs" />
+    <Compile Include="Dto\CheckUpdateDto.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ActiveWindow.cs" />
+    <Compile Include="Utils\Common.cs" />
+    <Compile Include="Utils\ID.cs" />
+    <Compile Include="Utils\KeyboardHook.cs" />
+    <Compile Include="Utils\WindowBlur.cs" />
+    <Compile Include="ViewModels\MainModel.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\NotAdaptedModel.cs" />
+    <Compile Include="ViewModels\Shortcut.cs" />
+    <Compile Include="Views\DonateWindow.xaml.cs">
+      <DependentUpon>DonateWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\NotAdaptedWindow.xaml.cs">
+      <DependentUpon>NotAdaptedWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipsWindow.xaml.cs">
+      <DependentUpon>TipsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XMessageBox.xaml.cs">
+      <DependentUpon>XMessageBox.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ControlTemplates\CustomListBoxControlTemplate.xaml" />
+    <Page Include="ControlTemplates\CustomListBoxItemControlTemplate.xaml" />
+    <Page Include="ControlTemplates\CustomWindowTemplate.xaml" />
+    <Page Include="ControlTemplates\ScrollViewer.xaml" />
+    <Page Include="Fonts\Fonts.xaml" />
+    <Page Include="Styles\Buttons.xaml" />
+    <Page Include="Styles\CustomGroupBoxStyle.xaml" />
+    <Page Include="Styles\CustomWindowStyle.xaml" />
+    <Page Include="Styles\DarkColors.xaml" />
+    <Page Include="Styles\LightColors.xaml" />
+    <Page Include="Views\DonateWindow.xaml" />
+    <Page Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\NotAdaptedWindow.xaml" />
+    <Page Include="Views\TipsWindow.xaml" />
+    <Page Include="Views\XMessageBox.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Bold-Italic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Bold.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-BoldItalic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-ExtraBold.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-ExtraBoldItalic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-ExtraLight.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-ExtraLightItalic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Italic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Light.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-LightItalic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Medium.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-MediumItalic.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Regular.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-Thin.ttf" />
+    <Resource Include="Fonts\JetBrainsMono\JetBrainsMono-ThinItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\iconfont.ttf" />
+    <Resource Include="Fonts\segoe.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\Favorites.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon\directory-opus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\atom.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\chrome.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\DirectoryOpus.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\edge.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\excel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\explorer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\firefox.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\intellij idea.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\littletips.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\navicat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\notepad++.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\outlook.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\postman.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\powerpnt.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\pycharm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\sublime.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\visual studio.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\vs code.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\webstorm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-chrome-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-memory-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-microsoft-edge-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-visual-studio-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-visual-studio-code-2019-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-webstorm-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-windows-11-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon\navicat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppShortcut\word.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons8-memory-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="icons8-memory-100.ico" />
+    <Content Include="Images\icons8-memory-100.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="light-bulb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="6.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon\icons8-atom-editor-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-firefox-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-intellij-idea-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-notepad++-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-postman-api-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-pycharm-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-qq-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-sublime-text-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-wechat-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\tim.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\icons8-receive-cash-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons8-receive-cash-96.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon\icons8-microsoft-excel-2019-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-microsoft-outlook-2019-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-microsoft-powerpoint-2019-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppIcon\icons8-microsoft-word-2019-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\icons8-unknown-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,445 @@
+{
+  "Id": "sublime",
+  "AppName": "Sublime",
+  "AppIcon": "icons8-sublime-text-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "编辑",
+      "EnglishCategoryName": "Edit",
+      "Keys": [
+        {
+          "Id": "9a35a4e6-67ea-408e-8447-1e4dab9e4e4c",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "剪切一行",
+          "EnglishFunctionDescription": "Cut line"
+        },
+        {
+          "Id": "361ae28b-bffb-4aa0-a195-f772d57ce2d9",
+          "ShortcutKey": "Ctrl+Enter",
+          "ChineseFunctionDescription": "在后面插入行",
+          "EnglishFunctionDescription": "Insert line after"
+        },
+        {
+          "Id": "3b4f8944-af50-4a7e-b7ff-32f1aafcd895",
+          "ShortcutKey": "Shift+Ctrl+Enter",
+          "ChineseFunctionDescription": "在前面插入行",
+          "EnglishFunctionDescription": "Insert line before"
+        },
+        {
+          "Id": "0dd0a415-dc86-4561-ad80-af12ce031ed4",
+          "ShortcutKey": "Shift+Ctrl+UP",
+          "ChineseFunctionDescription": "向上移动行",
+          "EnglishFunctionDescription": "Move line/selection up"
+        },
+        {
+          "Id": "6f79379e-875a-4fc6-80ea-0d1c192fc74b",
+          "ShortcutKey": "Shift+Ctrl+DOWN",
+          "ChineseFunctionDescription": "向下移动行",
+          "EnglishFunctionDescription": "Move line/selection down"
+        },
+        {
+          "Id": "70daae80-44e6-45dd-b3e5-3061872bd360",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "选择行 - 重复以选择下一行",
+          "EnglishFunctionDescription": "Select line - Repeat to select next lines"
+        },
+        {
+          "Id": "585fe40c-8a41-4203-87a8-6eaeb9e664aa",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "选择单词 - 重复选择其他出现",
+          "EnglishFunctionDescription": "Select word - repeat select other occurrences"
+        },
+        {
+          "Id": "bae38fa5-2666-4c56-86e1-23681f6d9bed",
+          "ShortcutKey": "Ctrl+M",
+          "ChineseFunctionDescription": "转到匹配的括号",
+          "EnglishFunctionDescription": "Go to matching parentheses"
+        },
+        {
+          "Id": "7eb47c71-025f-431d-acfa-442399679d39",
+          "ShortcutKey": "Shift+Ctrl+M",
+          "ChineseFunctionDescription": "选择当前括号的所有内容",
+          "EnglishFunctionDescription": "Select all contents of the current parentheses"
+        },
+        {
+          "Id": "3bd3ad20-4670-44f0-aa18-fba2b072e179",
+          "ShortcutKey": "Ctrl+K,Ctrl+K",
+          "ChineseFunctionDescription": "从光标处删除到行尾",
+          "EnglishFunctionDescription": "Delete from cursor to end of line"
+        },
+        {
+          "Id": "b6afc461-12c0-4586-9cdc-4b58abdc3d83",
+          "ShortcutKey": "Ctrl+K,Ctrl+Backspace",
+          "ChineseFunctionDescription": "从光标删除到行首",
+          "EnglishFunctionDescription": "Delete from cursor to start of line"
+        },
+        {
+          "Id": "ba2e6063-4370-4691-aea6-2a465ae2d867",
+          "ShortcutKey": "Ctrl+]",
+          "ChineseFunctionDescription": "缩进当前行",
+          "EnglishFunctionDescription": "Indent current line(s)"
+        },
+        {
+          "Id": "4b45bf4d-8d0a-4e5b-93ba-d596829f2350",
+          "ShortcutKey": "Ctrl+[",
+          "ChineseFunctionDescription": "取消缩进当前行",
+          "EnglishFunctionDescription": "Un-indent current line(s)"
+        },
+        {
+          "Id": "fce59243-c47d-4004-9123-8e2c4e8a7d06",
+          "ShortcutKey": "Shift+Ctrl+D",
+          "ChineseFunctionDescription": "复制行",
+          "EnglishFunctionDescription": "Duplicate line(s)"
+        },
+        {
+          "Id": "b2d23990-3dcd-4f8e-9ee8-fa4980df47bc",
+          "ShortcutKey": "Ctrl+J",
+          "ChineseFunctionDescription": "将下面的行加入到当前行的末尾",
+          "EnglishFunctionDescription": "Join line below to the end of the current line"
+        },
+        {
+          "Id": "99f02fcb-835f-4ee5-80ec-57e8227a50e7",
+          "ShortcutKey": "Ctrl+/",
+          "ChineseFunctionDescription": "评论/取消注释当前行",
+          "EnglishFunctionDescription": "Comment/un-comment current line"
+        },
+        {
+          "Id": "bc63b5d6-b6a7-4a89-9174-100cbbae60e3",
+          "ShortcutKey": "Shift+Ctrl+/",
+          "ChineseFunctionDescription": "阻止注释当前选择",
+          "EnglishFunctionDescription": "Block comment current selection"
+        },
+        {
+          "Id": "04853d12-c810-4448-b1d1-e073e10ed55a",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "重做或重复上一个键盘快捷键命令",
+          "EnglishFunctionDescription": "Redo or repeat last keyboard shortcut command"
+        },
+        {
+          "Id": "8ed73c17-4932-45c0-ba51-c1055083df55",
+          "ShortcutKey": "Shift+Ctrl+V",
+          "ChineseFunctionDescription": "粘贴和缩进",
+          "EnglishFunctionDescription": "Paste and indent correctly"
+        },
+        {
+          "Id": "e46eeb7b-a31c-423d-930e-ec15c3833910",
+          "ShortcutKey": "Ctrl+Space",
+          "ChineseFunctionDescription": "选择下一个自动完成建议",
+          "EnglishFunctionDescription": "Select next auto-complete suggestion"
+        },
+        {
+          "Id": "39bc9e32-b71a-436a-a5c3-ee0bfbc0a0f7",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "撤销",
+          "EnglishFunctionDescription": "Soft undo"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "导航",
+      "EnglishCategoryName": "Navigation",
+      "Keys": [
+        {
+          "Id": "d8b989c8-0b9f-402a-b339-b5b9db0379a7",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "按名称快速打开文件",
+          "EnglishFunctionDescription": "Quick-open files by name"
+        },
+        {
+          "Id": "e2edbbbf-ea71-4f65-bb3a-63d2ff515e88",
+          "ShortcutKey": "Ctrl+;",
+          "ChineseFunctionDescription": "转到当前文件中的单词",
+          "EnglishFunctionDescription": "Goto word in current file"
+        },
+        {
+          "Id": "c89700f6-8d8c-460f-bb97-03f2817ee49d",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "转到符号",
+          "EnglishFunctionDescription": "Goto symbol"
+        },
+        {
+          "Id": "55db0499-c2d6-4340-898b-9155109b6146",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "转到当前文件中的行",
+          "EnglishFunctionDescription": "Goto line in current file"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "通用",
+      "EnglishCategoryName": "General",
+      "Keys": [
+        {
+          "Id": "cf46ae7b-d220-4f90-aeec-221633a09207",
+          "ShortcutKey": "Alt+.",
+          "ChineseFunctionDescription": "关闭标签",
+          "EnglishFunctionDescription": "Close tag"
+        },
+        {
+          "Id": "1a6bfa15-03f8-46b6-9847-cd151a157811",
+          "ShortcutKey": "Ctrl+K,Ctrl+C",
+          "ChineseFunctionDescription": "滚动到选择",
+          "EnglishFunctionDescription": "Scroll to selection"
+        },
+        {
+          "Id": "e67f7dce-8e05-4822-b387-12f245d8125f",
+          "ShortcutKey": "Shift+Ctrl+A",
+          "ChineseFunctionDescription": "选择标签",
+          "EnglishFunctionDescription": "Select tag"
+        },
+        {
+          "Id": "f833a6dd-3b8b-44d9-be6a-643c7f8a7d3b",
+          "ShortcutKey": "Shift+Ctrl+J",
+          "ChineseFunctionDescription": "选择缩进",
+          "EnglishFunctionDescription": "Select indentation"
+        },
+        {
+          "Id": "9bdd811f-7a7d-4f64-90d5-ced3e3afb7c1",
+          "ShortcutKey": "Shift+Ctrl+Space",
+          "ChineseFunctionDescription": "选择范围",
+          "EnglishFunctionDescription": "Select scope"
+        },
+        {
+          "Id": "d1eda93a-dd08-447d-9e00-6271b4b5fde8",
+          "ShortcutKey": "Ctrl+K,Ctrl+B",
+          "ChineseFunctionDescription": "切换侧边栏",
+          "EnglishFunctionDescription": "Toggle side bar"
+        },
+        {
+          "Id": "e66726ce-e108-4cbf-a399-617fa4c8e041",
+          "ShortcutKey": "Shift+Ctrl+P",
+          "ChineseFunctionDescription": "命令提示符",
+          "EnglishFunctionDescription": "Command prompt"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "查找/替换",
+      "EnglishCategoryName": "Find/Replace",
+      "Keys": [
+        {
+          "Id": "0a04f75b-fb4a-4bf8-84eb-23d96cafe930",
+          "ShortcutKey": "Shift+F3",
+          "ChineseFunctionDescription": "查找上一个",
+          "EnglishFunctionDescription": "Find previous"
+        },
+        {
+          "Id": "349d4627-319b-4543-8e5f-c1ba3a0d739a",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "找下一个",
+          "EnglishFunctionDescription": "Find next"
+        },
+        {
+          "Id": "755ded69-1449-4aab-bbad-45008495573b",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "查找",
+          "EnglishFunctionDescription": "Find"
+        },
+        {
+          "Id": "e2cfd54b-41de-4dbd-a1e8-b3b6b52ca8b6",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "替换",
+          "EnglishFunctionDescription": "Replace"
+        },
+        {
+          "Id": "cf06bab4-4382-46e4-a5d9-6337a15aca76",
+          "ShortcutKey": "Shift+Ctrl+F",
+          "ChineseFunctionDescription": "在文件中查找",
+          "EnglishFunctionDescription": "Find in files"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "拆分窗口",
+      "EnglishCategoryName": "Split window",
+      "Keys": [
+        {
+          "Id": "65669fc7-cbbb-42bb-a818-b300479f73a4",
+          "ShortcutKey": "Shift+Alt+2",
+          "ChineseFunctionDescription": "将视图拆分为两列",
+          "EnglishFunctionDescription": "Split view into two columns"
+        },
+        {
+          "Id": "393b1fbc-b4fb-476b-ac0c-57cc6dcdba51",
+          "ShortcutKey": "Shift+Alt+1",
+          "ChineseFunctionDescription": "将视图还原为单列",
+          "EnglishFunctionDescription": "Revert view to single column"
+        },
+        {
+          "Id": "df350a6c-46b6-4f09-a97a-11bd97166e8c",
+          "ShortcutKey": "Shift+Alt+5",
+          "ChineseFunctionDescription": "将视图设置为网格（4 组）",
+          "EnglishFunctionDescription": "Set view to grid (4 groups)"
+        },
+        {
+          "Id": "fa6b976f-6e2f-44bf-a453-baf58c8016d6",
+          "ShortcutKey": "Ctrl+2",
+          "ChineseFunctionDescription": "跳到第 2 组",
+          "EnglishFunctionDescription": "Jump to group 2"
+        },
+        {
+          "Id": "d889d7c9-fc39-40e4-af20-3fba0e575a5c",
+          "ShortcutKey": "Shift+Ctrl+2",
+          "ChineseFunctionDescription": "将文件移动到组 2",
+          "EnglishFunctionDescription": "Move file to group 2"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "文本操作",
+      "EnglishCategoryName": "Text manipulation",
+      "Keys": [
+        {
+          "Id": "02d2b3c4-638f-41ae-b662-b4a3eb51da5a",
+          "ShortcutKey": "Ctrl+K,Ctrl+L",
+          "ChineseFunctionDescription": "转换为小写",
+          "EnglishFunctionDescription": "Transform to lowercase"
+        },
+        {
+          "Id": "5b5dc5cb-ae7d-49c3-b49f-c5f3cf572638",
+          "ShortcutKey": "Ctrl+K,Ctrl+U",
+          "ChineseFunctionDescription": "",
+          "EnglishFunctionDescription": "Transform to uppercase"
+        },
+        {
+          "Id": "f8162c6c-c3eb-478d-817f-b1927ff76785",
+          "ShortcutKey": "Shift+c,Ctrl+K",
+          "ChineseFunctionDescription": "删除行",
+          "EnglishFunctionDescription": "Delete line"
+        },
+        {
+          "Id": "e467a5b0-e38d-4d4f-bb1a-7030e4df74cb",
+          "ShortcutKey": "Ctrl+Backspace",
+          "ChineseFunctionDescription": "向后删除单词",
+          "EnglishFunctionDescription": "Delete word backwords"
+        },
+        {
+          "Id": "2460090b-f338-44be-add4-797f1c915173",
+          "ShortcutKey": "Ctrl+Del",
+          "ChineseFunctionDescription": "删除单词转发",
+          "EnglishFunctionDescription": "Delete word forwards"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "文本选择",
+      "EnglishCategoryName": "Text Selection",
+      "Keys": [
+        {
+          "Id": "f45e2fdb-6a74-49b8-9dd2-9411715f2c52",
+          "ShortcutKey": "Alt+Ctrl+↓",
+          "ChineseFunctionDescription": "用光标在下面添加新行",
+          "EnglishFunctionDescription": "Add new line below with cursor"
+        },
+        {
+          "Id": "02394761-0565-43b9-b143-296d9252b227",
+          "ShortcutKey": "Ctrl+K,Ctrl+D",
+          "ChineseFunctionDescription": "跳过选择",
+          "EnglishFunctionDescription": "Skip selection"
+        },
+        {
+          "Id": "9ee3bf7c-9f30-4c9f-9ae7-1ba02cdea19c",
+          "ShortcutKey": "Shift+Ctrl+L",
+          "ChineseFunctionDescription": "将选择拆分为行",
+          "EnglishFunctionDescription": "Split selection into lines"
+        },
+        {
+          "Id": "d072e090-9fa6-4e08-a51c-df551b1e755e",
+          "ShortcutKey": "Alt+F3",
+          "ChineseFunctionDescription": "Add cursor at all occurrences of a word",
+          "EnglishFunctionDescription": "Add cursor at all occurrences of a word"
+        },
+        {
+          "Id": "1e4d84ce-0f27-4d46-9a71-eba6939763a9",
+          "ShortcutKey": "Alt+Ctrl+UP",
+          "ChineseFunctionDescription": "用光标在上面添加新行",
+          "EnglishFunctionDescription": "Add new line above with cursor"
+        },
+        {
+          "Id": "001544c2-572c-41a9-8fba-03fc292384b3",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "返回单选",
+          "EnglishFunctionDescription": "Return to single selection"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "代码折叠和标记",
+      "EnglishCategoryName": "Code Folding and Marks",
+      "Keys": [
+        {
+          "Id": "44bd59dd-8083-4fa2-af96-323b528a3f24",
+          "ShortcutKey": "Ctrl+K,Ctrl+G",
+          "ChineseFunctionDescription": "清除标记",
+          "EnglishFunctionDescription": "Clear mark"
+        },
+        {
+          "Id": "743dc49f-32ee-4a0b-8969-6e9ed9ccbb80",
+          "ShortcutKey": "Ctrl+K,Ctrl+X",
+          "ChineseFunctionDescription": "用标记切换位置",
+          "EnglishFunctionDescription": "Switch location with mark"
+        },
+        {
+          "Id": "824d699c-1987-4078-89ea-09e90b9cf438",
+          "ShortcutKey": "Ctrl+K,Ctrl+A",
+          "ChineseFunctionDescription": "选择标记",
+          "EnglishFunctionDescription": "Select to mark"
+        },
+        {
+          "Id": "05829512-efe0-4322-9611-a9f72ed9a111",
+          "ShortcutKey": "Ctrl+K,Ctrl+Space",
+          "ChineseFunctionDescription": "设置标记",
+          "EnglishFunctionDescription": "Set mark"
+        },
+        {
+          "Id": "6d953dcd-d3d0-448d-b21e-091d367c22b4",
+          "ShortcutKey": "Ctrl+K,Ctrl+J",
+          "ChineseFunctionDescription": "展开全部",
+          "EnglishFunctionDescription": "Unfold all"
+        },
+        {
+          "Id": "14598a7b-3246-4ee4-8114-e0f43ccb4204",
+          "ShortcutKey": "Shift+Ctrl+]",
+          "ChineseFunctionDescription": "展开代码",
+          "EnglishFunctionDescription": "Unfold code"
+        },
+        {
+          "Id": "a9399c4c-b70a-48e0-86e9-a1b8777f885c",
+          "ShortcutKey": "Shift+Ctrl+[",
+          "ChineseFunctionDescription": "折叠代码",
+          "EnglishFunctionDescription": "Fold code"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "书签",
+      "EnglishCategoryName": "Bookmarks",
+      "Keys": [
+        {
+          "Id": "a49107ae-7528-4db5-ac49-881e3a57419d",
+          "ShortcutKey": "Alt+F2",
+          "ChineseFunctionDescription": "选择所有书签",
+          "EnglishFunctionDescription": "Select all bookmarks"
+        },
+        {
+          "Id": "2721c01a-6fe2-4aa7-8c53-182f6d2c5e5d",
+          "ShortcutKey": "Shift+F2",
+          "ChineseFunctionDescription": "上一个书签",
+          "EnglishFunctionDescription": "Previous bookmark"
+        },
+        {
+          "Id": "cbc50c9f-4bd0-452e-ba28-fa561c9edaad",
+          "ShortcutKey": "F2",
+          "ChineseFunctionDescription": "下一个书签",
+          "EnglishFunctionDescription": "Next bookmark"
+        },
+        {
+          "Id": "0092f01d-f2d4-441b-a79b-826d945745c8",
+          "ShortcutKey": "Ctrl+F2",
+          "ChineseFunctionDescription": "切换书签",
+          "EnglishFunctionDescription": "Toggle bookmark"
+        }
+      ]
+    }
+  ]
+}

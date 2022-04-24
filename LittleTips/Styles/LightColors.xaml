@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <SolidColorBrush x:Key="KeyGroupTitleColor" Color="Gray" />
+  <SolidColorBrush x:Key="ContentBackground" Color="#77FFFFFF" />
+  <SolidColorBrush x:Key="ListBoxItem1" Color="#77FFFFFF" />
+  <SolidColorBrush x:Key="ListBoxItem2" Color="#77F6F7F8" />
+  <SolidColorBrush x:Key="BorderColor" Color="LightGray" />
+  <SolidColorBrush x:Key="KeyColor" Color="Black" />
+  <SolidColorBrush x:Key="DescColor" Color="Gray" />
+  <SolidColorBrush x:Key="ScrollBarBackground" Color="#77F2F2F2" />
+  <SolidColorBrush x:Key="ThumbColor1" Color="#77808080" />
+  <SolidColorBrush x:Key="ThumbColor2" Color="#77A9A9A9" />
+  <SolidColorBrush x:Key="StarBorder" Color="#D3D3D3"/>
+</ResourceDictionary>

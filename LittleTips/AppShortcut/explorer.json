@@ -1,0 +1,679 @@
+{
+  "Id": "explorer",
+  "AppName": "Windows",
+  "AppIcon": "icons8-windows-11-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "复制、粘贴及其他常规的键盘快捷方式",
+      "EnglishCategoryName": "Copy, paste, and other general keyboard shortcuts",
+      "Keys": [
+        {
+          "Id": "6fcc15f7-31ce-4512-bbfe-321020e4eca1",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "剪切选定项",
+          "EnglishFunctionDescription": "Cut the selected item"
+        },
+        {
+          "Id": "cf15c48b-e399-4ecb-97f4-67e83f88a8ab",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制选定项",
+          "EnglishFunctionDescription": "Copy the selected item"
+        },
+        {
+          "Id": "aa4e52df-aa65-407d-b490-9866cd4e5e3c",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴选定项",
+          "EnglishFunctionDescription": "Paste the selected item"
+        },
+        {
+          "Id": "5c2c3691-2851-4fa8-81f4-cd2761632457",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消操作",
+          "EnglishFunctionDescription": "Undo an action"
+        },
+        {
+          "Id": "38c56cac-ca6f-4696-88a5-94300e7d095a",
+          "ShortcutKey": "Alt+Tab",
+          "ChineseFunctionDescription": "在打开的应用之间切换",
+          "EnglishFunctionDescription": "Switch between open apps"
+        },
+        {
+          "Id": "9ea5a219-2810-46ac-95ca-5c2dd8bf876e",
+          "ShortcutKey": "Alt+F4",
+          "ChineseFunctionDescription": "关闭活动项，或者退出活动应用",
+          "EnglishFunctionDescription": "Close the active item, or exit the active app"
+        },
+        {
+          "Id": "2cdae10f-319b-431e-b09a-3f3b32fbd4e1",
+          "ShortcutKey": "F2",
+          "ChineseFunctionDescription": "重命名所选项目",
+          "EnglishFunctionDescription": "Rename the selected item"
+        },
+        {
+          "Id": "617cd905-ab27-43d3-a89d-7fd5b1af8c36",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "在文件资源管理器中搜索文件或文件夹",
+          "EnglishFunctionDescription": "Search for a file or folder in File Explorer"
+        },
+        {
+          "Id": "f02364e3-54b3-40bb-945d-8369ad523d53",
+          "ShortcutKey": "F4",
+          "ChineseFunctionDescription": "在文件资源管理器中显示地址栏列表",
+          "EnglishFunctionDescription": "Display the address bar list in File Explorer"
+        },
+        {
+          "Id": "4d2515ff-4d43-40d1-9c8d-a398f9452d06",
+          "ShortcutKey": "F5",
+          "ChineseFunctionDescription": "刷新活动窗口",
+          "EnglishFunctionDescription": "Refresh the active window"
+        },
+        {
+          "Id": "9241045a-2637-480f-9d31-02e50b5c37c1",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "循环浏览窗口中或桌面上的屏幕元素",
+          "EnglishFunctionDescription": "Cycle through screen elements in a window or on the desktop"
+        },
+        {
+          "Id": "2c6c86fd-d1b0-49d5-9666-55b44a2b2892",
+          "ShortcutKey": "F10",
+          "ChineseFunctionDescription": "激活活动应用中的菜单栏",
+          "EnglishFunctionDescription": "Activate the Menu bar in the active app"
+        },
+        {
+          "Id": "6b541196-c305-48a8-acb1-2ff4dc15aea1",
+          "ShortcutKey": "Alt+F8",
+          "ChineseFunctionDescription": "在登录屏幕上显示你的密码",
+          "EnglishFunctionDescription": "Show your password on the sign-in screen"
+        },
+        {
+          "Id": "522e06ee-b5ee-4bbe-af51-43e6a209df25",
+          "ShortcutKey": "Alt+Esc",
+          "ChineseFunctionDescription": "按项目打开顺序循环浏览",
+          "EnglishFunctionDescription": "Cycle through items in the order in which they were opened"
+        },
+        {
+          "Id": "78c8e4db-160c-4150-8d33-15e049e05871",
+          "ShortcutKey": "Alt+underlined letter",
+          "ChineseFunctionDescription": "执行该字母相关的命令",
+          "EnglishFunctionDescription": "Perform the command for that letter"
+        },
+        {
+          "Id": "84a320c0-ef0d-4365-b4e0-5c1acad52d4f",
+          "ShortcutKey": "Alt+Enter",
+          "ChineseFunctionDescription": "显示所选项目的属性",
+          "EnglishFunctionDescription": "Display properties for the selected item"
+        },
+        {
+          "Id": "dd167f11-2fe6-4770-b18a-a595b6384f03",
+          "ShortcutKey": "Alt+Space",
+          "ChineseFunctionDescription": "打开活动窗口的快捷菜单",
+          "EnglishFunctionDescription": "Open the shortcut menu for the active window"
+        },
+        {
+          "Id": "a4d525eb-bcd4-47c8-bbe2-54803645d1a5",
+          "ShortcutKey": "Alt+←",
+          "ChineseFunctionDescription": "返回",
+          "EnglishFunctionDescription": "Go back"
+        },
+        {
+          "Id": "1cb68e11-473d-4a4d-941e-d05e6a52adda",
+          "ShortcutKey": "Alt+→",
+          "ChineseFunctionDescription": "前进",
+          "EnglishFunctionDescription": "Go forward"
+        },
+        {
+          "Id": "2b9d47d9-b41e-4752-b4dd-374aaa8d9cae",
+          "ShortcutKey": "Alt+Page Up",
+          "ChineseFunctionDescription": "向上移动一个屏幕",
+          "EnglishFunctionDescription": "Move up one screen"
+        },
+        {
+          "Id": "87a807f3-8c53-48c1-997a-b31985a698f3",
+          "ShortcutKey": "Alt+Page Down",
+          "ChineseFunctionDescription": "向下移动一个屏幕",
+          "EnglishFunctionDescription": "Move down one screen"
+        },
+        {
+          "Id": "0e42b844-586b-44eb-8e76-b66565f6823b",
+          "ShortcutKey": "Ctrl+F4",
+          "ChineseFunctionDescription": "关闭活动文档",
+          "EnglishFunctionDescription": "Close the active document"
+        },
+        {
+          "Id": "303c21d2-0d15-408e-a5c9-559cd3fc35d7",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "选择文档或窗口中的所有项目",
+          "EnglishFunctionDescription": "Select all items in a document or window"
+        },
+        {
+          "Id": "06cc71ce-903b-4d27-83a9-62e6b561b908",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "删除选定项，将其移至回收站",
+          "EnglishFunctionDescription": "Delete the selected item and move it to the Recycle Bin"
+        },
+        {
+          "Id": "b8277af8-f953-4801-937a-fce66af6bf1d",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "打开搜索",
+          "EnglishFunctionDescription": "Open Search"
+        },
+        {
+          "Id": "6849f2f1-0bdf-4a5b-ae3e-a0bb6d3a3716",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "刷新活动窗口",
+          "EnglishFunctionDescription": "Refresh the active window"
+        },
+        {
+          "Id": "436896b8-e163-407f-91a8-6c33d244d46a",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "恢复操作",
+          "EnglishFunctionDescription": "Redo an action"
+        },
+        {
+          "Id": "f51487f4-f56d-47ec-8673-1f4e48b2661d",
+          "ShortcutKey": "Ctrl+→",
+          "ChineseFunctionDescription": "将光标移动到下一个字词的起始处",
+          "EnglishFunctionDescription": "Move the cursor to the beginning of the next word"
+        },
+        {
+          "Id": "038a7baf-23c7-4b4a-91b2-2c2447d72bcf",
+          "ShortcutKey": "Ctrl+←",
+          "ChineseFunctionDescription": "将光标移动到上一个字词的起始处",
+          "EnglishFunctionDescription": "Move the cursor to the beginning of the previous word"
+        },
+        {
+          "Id": "4cbf28c0-fec4-4bed-8312-bcc97052023e",
+          "ShortcutKey": "Ctrl+↓",
+          "ChineseFunctionDescription": "将光标移动到下一段落的起始处",
+          "EnglishFunctionDescription": "Move the cursor to the beginning of the next paragraph"
+        },
+        {
+          "Id": "6801e044-8a89-4f44-9d18-4984ffb59994",
+          "ShortcutKey": "Ctrl+↑",
+          "ChineseFunctionDescription": "将光标移动到上一段落的起始处",
+          "EnglishFunctionDescription": "Move the cursor to the beginning of the previous paragraph"
+        },
+        {
+          "Id": "a97b6572-9720-4e8d-b271-40b0590a0c31",
+          "ShortcutKey": "Ctrl+Alt+Tab",
+          "ChineseFunctionDescription": "使用箭头键在所有打开的应用之间进行切换",
+          "EnglishFunctionDescription": "Use the arrow keys to switch between all open apps"
+        },
+        {
+          "Id": "6cfa259e-024d-44b0-b530-d62af4516d42",
+          "ShortcutKey": "Alt+Shift+arrow keys",
+          "ChineseFunctionDescription": "当组或磁贴的焦点放在“开始”菜单上时，可将其朝指定方向移动",
+          "EnglishFunctionDescription": "When a group or tile is in focus on the Start menu, move it in the direction specified"
+        },
+        {
+          "Id": "b1df8f10-7470-4c8a-8112-a9b4095cab23",
+          "ShortcutKey": "Ctrl+Shift+arrow keys",
+          "ChineseFunctionDescription": "当磁贴的焦点放在“开始”菜单上时，将其移到另一个磁贴即可创建一个文件夹",
+          "EnglishFunctionDescription": "When a tile is in focus on the Start menu, move it into another tile to create a folder"
+        },
+        {
+          "Id": "793df2de-9067-4f6f-9f67-f649db696fe1",
+          "ShortcutKey": "Ctrl+arrow keys",
+          "ChineseFunctionDescription": "打开“开始”菜单后调整其大小",
+          "EnglishFunctionDescription": "Resize the Start menu when it's open"
+        },
+        {
+          "Id": "1a9ee571-9cf7-4ee5-a941-4f51d6456bf1",
+          "ShortcutKey": "Ctrl+arrow key+Space",
+          "ChineseFunctionDescription": "选择窗口中或桌面上的多个单独项目",
+          "EnglishFunctionDescription": "Select multiple individual items in a window or on the desktop"
+        },
+        {
+          "Id": "abb15ad3-af6a-47f2-b0a4-e507afc086d7",
+          "ShortcutKey": "Ctrl+Esc",
+          "ChineseFunctionDescription": "打开“开始”菜单",
+          "EnglishFunctionDescription": "Open Start"
+        },
+        {
+          "Id": "e8bd3236-2619-41ba-8a57-3766ee6878a7",
+          "ShortcutKey": "Ctrl+Shift+Esc",
+          "ChineseFunctionDescription": "打开任务管理器",
+          "EnglishFunctionDescription": "Open Task Manager"
+        },
+        {
+          "Id": "049907f6-bf20-4437-9830-1b62501a9a74",
+          "ShortcutKey": "Ctrl+Shift",
+          "ChineseFunctionDescription": "如果多种键盘布局可用，则可切换键盘布局",
+          "EnglishFunctionDescription": "Switch the keyboard layout when multiple keyboard layouts are available"
+        },
+        {
+          "Id": "63380fc6-0884-4017-8235-c42efc066f3b",
+          "ShortcutKey": "Ctrl+Space",
+          "ChineseFunctionDescription": "打开或关闭中文输入法编辑器",
+          "EnglishFunctionDescription": "Turn the Chinese input method editor (IME) on or off."
+        },
+        {
+          "Id": "6917a18f-2765-416e-8946-7f5be221ef5f",
+          "ShortcutKey": "Shift+F10",
+          "ChineseFunctionDescription": "显示选定项的快捷菜单",
+          "EnglishFunctionDescription": "Display the shortcut menu for the selected item"
+        },
+        {
+          "Id": "fd2b2aa5-8d44-477c-827e-a093b2efc4b0",
+          "ShortcutKey": "Shift+arrow key",
+          "ChineseFunctionDescription": "在窗口中或桌面上选择多个项目，或在文档中选择文本",
+          "EnglishFunctionDescription": "Select more than one item in a window or on the desktop, or select text in a document."
+        },
+        {
+          "Id": "ecae226a-ab21-4411-aa1b-9abc4dca4303",
+          "ShortcutKey": "Shift+Delete",
+          "ChineseFunctionDescription": "删除选定项，无需先移动到回收站",
+          "EnglishFunctionDescription": "Delete the selected item without moving it to the Recycle Bin first"
+        },
+        {
+          "Id": "96b656eb-cbcf-493c-b04c-243e091c4952",
+          "ShortcutKey": "→",
+          "ChineseFunctionDescription": "打开右侧的下一个菜单，或打开子菜单",
+          "EnglishFunctionDescription": "Open the next menu to the right, or open a submenu"
+        },
+        {
+          "Id": "fb22662e-bb2a-43ca-ae42-766f11caaeee",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "打开左侧的下一个菜单，或关闭子菜单",
+          "EnglishFunctionDescription": "Open the next menu to the left, or close a submenu"
+        },
+        {
+          "Id": "b12ebf9d-0efe-4e32-8405-7beb02f1c611",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "停止或离开当前任务",
+          "EnglishFunctionDescription": "Stop or leave the current task"
+        },
+        {
+          "Id": "5c2a65fc-19c1-47b6-8e1e-ddceecb04c1e",
+          "ShortcutKey": "PrtScn",
+          "ChineseFunctionDescription": "捕获整个屏幕的屏幕截图并将其复制到剪贴板",
+          "EnglishFunctionDescription": "Take a screenshot of your whole screen and copy it to the clipboard"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "Windows徽标键键盘快捷方式",
+      "EnglishCategoryName": "Windows logo key keyboard shortcuts",
+      "Keys": [
+        {
+          "Id": "c69f0506-bc26-4649-95b1-5f7487d31005",
+          "ShortcutKey": "Windows",
+          "ChineseFunctionDescription": "打开或关闭“开始”菜单",
+          "EnglishFunctionDescription": "Open or close Start"
+        },
+        {
+          "Id": "d9c31f6b-f001-47fd-a846-b89c501e38b1",
+          "ShortcutKey": "Windows+A",
+          "ChineseFunctionDescription": "打开快速设置",
+          "EnglishFunctionDescription": "Open Quick Settings"
+        },
+        {
+          "Id": "86711e49-ccb2-4937-a94e-67241808f99a",
+          "ShortcutKey": "Windows+B",
+          "ChineseFunctionDescription": "将焦点设置为任务栏角落的第一个图标",
+          "EnglishFunctionDescription": "Set focus to the first icon in the Taskbar corner"
+        },
+        {
+          "Id": "d8ac78f7-c1fc-4a5c-9a61-d85cc0582dd6",
+          "ShortcutKey": "Windows+C",
+          "ChineseFunctionDescription": "从 Microsoft Teams 打开聊天",
+          "EnglishFunctionDescription": "Open Chat from Microsoft Teams"
+        },
+        {
+          "Id": "2e68338b-647c-4201-8443-eebeef2885af",
+          "ShortcutKey": "Windows+Shift+C",
+          "ChineseFunctionDescription": "打开超级按钮菜单",
+          "EnglishFunctionDescription": "Open the charms menu"
+        },
+        {
+          "Id": "11298687-9033-48fc-b954-d6c8e9a4f2b6",
+          "ShortcutKey": "Windows+Ctrl+C",
+          "ChineseFunctionDescription": "打开颜色筛选器",
+          "EnglishFunctionDescription": "Turn on color filters"
+        },
+        {
+          "Id": "9e7c37c7-8918-431c-a72a-a063ff8d3f69",
+          "ShortcutKey": "Windows+D",
+          "ChineseFunctionDescription": "显示和隐藏桌面",
+          "EnglishFunctionDescription": "Display and hide the desktop"
+        },
+        {
+          "Id": "8008e29a-b605-451e-9f1e-e817dd23c687",
+          "ShortcutKey": "Windows+E",
+          "ChineseFunctionDescription": "打开文件资源管理器",
+          "EnglishFunctionDescription": "Open File Explorer"
+        },
+        {
+          "Id": "abaf4fd8-1e08-49f4-a1c4-818b90e25db8",
+          "ShortcutKey": "Windows+F",
+          "ChineseFunctionDescription": "打开反馈中心并获取屏幕截图",
+          "EnglishFunctionDescription": "Open Feedback Hub and take a screenshot"
+        },
+        {
+          "Id": "87ae9bcd-1623-472e-b49c-998d5eb21817",
+          "ShortcutKey": "Windows+G",
+          "ChineseFunctionDescription": "打开 Xbox Game Bar",
+          "EnglishFunctionDescription": "Open Xbox Game Bar when a game is open"
+        },
+        {
+          "Id": "13c4f3e2-a827-49d7-baaa-174dbe58075c",
+          "ShortcutKey": "Windows+Alt+B",
+          "ChineseFunctionDescription": "打开或关闭 HDR",
+          "EnglishFunctionDescription": "Turn HDR on or off"
+        },
+        {
+          "Id": "f45ab875-06a2-4b0e-8d6e-2b2bbfddaf58",
+          "ShortcutKey": "Windows+H",
+          "ChineseFunctionDescription": "启动语音键入",
+          "EnglishFunctionDescription": "Launch voice typing"
+        },
+        {
+          "Id": "1663b661-1a0c-4eec-83e5-727ad5d7e021",
+          "ShortcutKey": "Windows+I",
+          "ChineseFunctionDescription": "打开设置",
+          "EnglishFunctionDescription": "Open Settings"
+        },
+        {
+          "Id": "5050ab1f-4f2d-4ec0-b629-f2cedd8694a2",
+          "ShortcutKey": "Windows+J",
+          "ChineseFunctionDescription": "请将焦点设置到可用的 Windows 提示",
+          "EnglishFunctionDescription": "Set focus to a Windows tip when one is available"
+        },
+        {
+          "Id": "09d54b93-9f11-41b0-944c-b5bb123d6c76",
+          "ShortcutKey": "Windows+K",
+          "ChineseFunctionDescription": "从“快速设置”打开“投放”",
+          "EnglishFunctionDescription": "Open Cast from Quick Settings"
+        },
+        {
+          "Id": "b087d85b-884f-4974-8f92-6b377df7ae49",
+          "ShortcutKey": "Windows+L",
+          "ChineseFunctionDescription": "锁定你的电脑或切换帐户",
+          "EnglishFunctionDescription": "Lock your PC"
+        },
+        {
+          "Id": "28fdeae1-39c2-421b-83cc-c97b4ab3637a",
+          "ShortcutKey": "Windows+M",
+          "ChineseFunctionDescription": "最小化所有窗口",
+          "EnglishFunctionDescription": "Minimize all windows"
+        },
+        {
+          "Id": "d3d98303-5fbf-49f7-997a-81200f10ad3c",
+          "ShortcutKey": "Windows+Shift+M",
+          "ChineseFunctionDescription": "还原桌面上的最小化窗口",
+          "EnglishFunctionDescription": "Restore minimized windows on the desktop"
+        },
+        {
+          "Id": "548aea3f-7b4f-4db9-954c-8e0792a79946",
+          "ShortcutKey": "Windows+N",
+          "ChineseFunctionDescription": "打开通知中心和日历",
+          "EnglishFunctionDescription": "Open notification center and calendar"
+        },
+        {
+          "Id": "d354a9dc-7796-495b-9e6f-0d35a7248945",
+          "ShortcutKey": "Windows+O",
+          "ChineseFunctionDescription": "锁定设备方向",
+          "EnglishFunctionDescription": "Lock device orientation"
+        },
+        {
+          "Id": "7a6c9850-0c7e-45fe-9394-5cc2c067f920",
+          "ShortcutKey": "Windows+P",
+          "ChineseFunctionDescription": "选择演示显示模式",
+          "EnglishFunctionDescription": "Choose a presentation display mode"
+        },
+        {
+          "Id": "f559c826-9f73-4623-ada9-1f6aeba9b207",
+          "ShortcutKey": "Windows+Ctrl+Q",
+          "ChineseFunctionDescription": "打开快速助手",
+          "EnglishFunctionDescription": "Open Quick Assist"
+        },
+        {
+          "Id": "245f2d9e-bbca-4ba5-95af-0152e461b538",
+          "ShortcutKey": "Windows+R",
+          "ChineseFunctionDescription": "打开“运行”对话框",
+          "EnglishFunctionDescription": "Open the Run dialog box"
+        },
+        {
+          "Id": "74dbeab8-d9d4-4037-bad1-31128ef0e428",
+          "ShortcutKey": "Windows+Alt+R",
+          "ChineseFunctionDescription": "在焦点中录制游戏窗口的视频",
+          "EnglishFunctionDescription": "Record video of game window in focus"
+        },
+        {
+          "Id": "1fcd3112-e805-4eb3-9e0e-814125073203",
+          "ShortcutKey": "Windows+S",
+          "ChineseFunctionDescription": "打开搜素",
+          "EnglishFunctionDescription": "Open search"
+        },
+        {
+          "Id": "5aa6c1e1-df7a-4da6-88d9-bcba7aa48e6f",
+          "ShortcutKey": "Windows+Shift+S",
+          "ChineseFunctionDescription": "获取部分屏幕的屏幕截图",
+          "EnglishFunctionDescription": "Take a screenshot of part of your screen"
+        },
+        {
+          "Id": "5b44228a-e570-4294-943e-f697094a8132",
+          "ShortcutKey": "Windows+T",
+          "ChineseFunctionDescription": "循环浏览任务栏上的应用",
+          "EnglishFunctionDescription": "Cycle through apps on the taskbar"
+        },
+        {
+          "Id": "ff768b16-c6d7-4a08-9897-679820b2405b",
+          "ShortcutKey": "Windows+U",
+          "ChineseFunctionDescription": "打开辅助功能设置",
+          "EnglishFunctionDescription": "Open Accessibility Settings"
+        },
+        {
+          "Id": "79fe5f16-2f53-4c36-9bad-1f8e31ab6563",
+          "ShortcutKey": "Windows+V",
+          "ChineseFunctionDescription": "打开剪贴板历史记录",
+          "EnglishFunctionDescription": "Open the clipboard history"
+        },
+        {
+          "Id": "ec9b783e-3aef-4d48-920f-f6106ab9f223",
+          "ShortcutKey": "Windows+Shift+V",
+          "ChineseFunctionDescription": "将焦点设置到通知",
+          "EnglishFunctionDescription": "Set focus to a notification"
+        },
+        {
+          "Id": "e886698d-9d28-49c7-9180-37541a77ff3a",
+          "ShortcutKey": "Windows+W",
+          "ChineseFunctionDescription": "打开小组件",
+          "EnglishFunctionDescription": "Open Widgets"
+        },
+        {
+          "Id": "fa606873-84af-4096-8617-9c29996b9929",
+          "ShortcutKey": "Windows+X",
+          "ChineseFunctionDescription": "打开“快速链接”菜单",
+          "EnglishFunctionDescription": "Open the Quick Link menu"
+        },
+        {
+          "Id": "3275c8b3-190c-4584-b11a-9a322eafad79",
+          "ShortcutKey": "Windows+Y",
+          "ChineseFunctionDescription": "在 Windows Mixed Reality 与桌面之间切换输入",
+          "EnglishFunctionDescription": "Switch input between Windows Mixed Reality and your desktop"
+        },
+        {
+          "Id": "12d6a4d8-62f2-4653-88ad-85239b652d2d",
+          "ShortcutKey": "Windows+Z",
+          "ChineseFunctionDescription": "打开对齐布局",
+          "EnglishFunctionDescription": "Open the snap layouts"
+        },
+        {
+          "Id": "821a9d07-543b-4ba3-b9d0-fbff1c2b91c5",
+          "ShortcutKey": "Windows+;",
+          "ChineseFunctionDescription": "打开表情符号面板",
+          "EnglishFunctionDescription": "Open emoji panel"
+        },
+        {
+          "Id": "a9c54a87-94ea-471d-8608-632f4c9a9063",
+          "ShortcutKey": "Windows+,",
+          "ChineseFunctionDescription": "临时速览桌面",
+          "EnglishFunctionDescription": "Temporarily peek at the desktop"
+        },
+        {
+          "Id": "5ead97f3-78cc-4186-ace9-9dc7a5ccbc42",
+          "ShortcutKey": "Windows+Pause",
+          "ChineseFunctionDescription": "打开设置 > 系统 > 关于",
+          "EnglishFunctionDescription": "Opens Settings > System  > About"
+        },
+        {
+          "Id": "708869e5-b6db-4850-8bf0-de7adf21592f",
+          "ShortcutKey": "Windows+Ctrl+F",
+          "ChineseFunctionDescription": "搜索电脑",
+          "EnglishFunctionDescription": "Search for PCs"
+        },
+        {
+          "Id": "28bb170d-093b-45f0-8356-ffc903afa770",
+          "ShortcutKey": "Windows+Number",
+          "ChineseFunctionDescription": "打开桌面，然后启动固定到任务栏的应用",
+          "EnglishFunctionDescription": "Open the desktop and start the app pinned to the taskbar"
+        },
+        {
+          "Id": "ff821a0f-c358-4cc1-8f24-e5a9d7c0e52f",
+          "ShortcutKey": "Windows+Shift+Number",
+          "ChineseFunctionDescription": "打开桌面，然后启动固定到任务栏的应用新实例",
+          "EnglishFunctionDescription": "Open the desktop and start a new instance of the app pinned to the taskbar"
+        },
+        {
+          "Id": "80171e31-a65e-4c8d-b716-b794f1432833",
+          "ShortcutKey": "Windows+Alt+Number",
+          "ChineseFunctionDescription": "打开桌面，然后打开固定到任务栏的应用的“跳转列表”",
+          "EnglishFunctionDescription": "Open the desktop and open the Jump List for the app pinned to the taskbar"
+        },
+        {
+          "Id": "f0ef79bf-31fe-4809-8ca8-b498f5945699",
+          "ShortcutKey": "Windows+Tab",
+          "ChineseFunctionDescription": "打开任务视图",
+          "EnglishFunctionDescription": "Open Task view"
+        },
+        {
+          "Id": "27f38a01-12ad-46cc-80ae-73eea04c620b",
+          "ShortcutKey": "Windows+↑",
+          "ChineseFunctionDescription": "最大化窗口",
+          "EnglishFunctionDescription": "Maximize the window"
+        },
+        {
+          "Id": "322060ef-9a55-4209-b5da-8c87ecd9b4ff",
+          "ShortcutKey": "Windows+Alt+↑",
+          "ChineseFunctionDescription": "将焦点中的窗口贴靠到屏幕的上半部分",
+          "EnglishFunctionDescription": "Snap window in focus to top half of screen"
+        },
+        {
+          "Id": "c1ff875f-33bf-4887-93cb-19b492f01998",
+          "ShortcutKey": "Windows+↓",
+          "ChineseFunctionDescription": "删除屏幕上的当前应用并最小化桌面窗口",
+          "EnglishFunctionDescription": "Remove current app from screen or minimize the desktop window"
+        },
+        {
+          "Id": "267ee1c4-8ba9-44c2-8e98-06d26d8876dc",
+          "ShortcutKey": "Windows+Alt+↓",
+          "ChineseFunctionDescription": "将焦点窗口贴靠到屏幕下半部分",
+          "EnglishFunctionDescription": "Snap window in focus to bottom half of screen"
+        },
+        {
+          "Id": "2d66f690-734a-4632-b1d3-f5b6fc02d2b6",
+          "ShortcutKey": "Windows+←",
+          "ChineseFunctionDescription": "最大化屏幕左侧的应用或桌面窗口",
+          "EnglishFunctionDescription": "Maximize the app or desktop window to the left side of the screen"
+        },
+        {
+          "Id": "eded52a4-7d93-4b43-90e9-f1af0fe7eb43",
+          "ShortcutKey": "Windows+→",
+          "ChineseFunctionDescription": "最大化屏幕右侧的应用或桌面窗口",
+          "EnglishFunctionDescription": "Maximize the app or desktop window to the right side of the screen"
+        },
+        {
+          "Id": "d295afe8-701f-45d3-a6ee-f6ec42f8b845",
+          "ShortcutKey": "Windows+Home",
+          "ChineseFunctionDescription": "最小化活动桌面窗口之外的所有窗口",
+          "EnglishFunctionDescription": "Minimize all except the active desktop window"
+        },
+        {
+          "Id": "92bcf1cd-53e2-47a8-9206-f477fff31dcb",
+          "ShortcutKey": "Windows+Shift+↑",
+          "ChineseFunctionDescription": "将桌面窗口拉伸至屏幕顶部和底部",
+          "EnglishFunctionDescription": "Stretch the desktop window to the top and bottom of the screen"
+        },
+        {
+          "Id": "942b64e0-7e88-4e86-a921-7159ca9340ba",
+          "ShortcutKey": "Windows+Shift+↓",
+          "ChineseFunctionDescription": "在垂直方向上还原/最小化活动桌面窗口，而宽度保持不变",
+          "EnglishFunctionDescription": "Restore/minimize active desktop windows vertically, maintaining width"
+        },
+        {
+          "Id": "ea977fb3-1ff1-4a28-8916-5bae5e6d3594",
+          "ShortcutKey": "Windows+Shift+←/→",
+          "ChineseFunctionDescription": "将桌面上的应用或窗口从一台显示器移动至另一台显示器",
+          "EnglishFunctionDescription": "Move an app or window in the desktop from one monitor to another"
+        },
+        {
+          "Id": "ec207899-a23d-4066-bdae-dbaac202cfa5",
+          "ShortcutKey": "Windows+Shift+Space",
+          "ChineseFunctionDescription": "在语言和键盘布局中向后循环",
+          "EnglishFunctionDescription": "Cycle backwards through language and keyboard layout"
+        },
+        {
+          "Id": "0885ea5f-59be-4bfb-a5f8-aad2c00bd10d",
+          "ShortcutKey": "Windows+Space",
+          "ChineseFunctionDescription": "切换输入语言和键盘布局",
+          "EnglishFunctionDescription": "Switch input language and keyboard layout"
+        },
+        {
+          "Id": "ba61a4f6-9635-41a1-b1bc-a4a4a6d31c4c",
+          "ShortcutKey": "Windows+Ctrl+Space",
+          "ChineseFunctionDescription": "对之前选择的输入所做的更改",
+          "EnglishFunctionDescription": "Change to a previously selected input"
+        },
+        {
+          "Id": "0e069884-65eb-4675-a51e-153927ea77e8",
+          "ShortcutKey": "Windows+Ctrl+Enter",
+          "ChineseFunctionDescription": "打开“讲述人”",
+          "EnglishFunctionDescription": "Turn on Narrator"
+        },
+        {
+          "Id": "af20995b-e7a1-4d5f-8cd7-27180192355c",
+          "ShortcutKey": "Windows+Plus",
+          "ChineseFunctionDescription": "打开放大镜并放大",
+          "EnglishFunctionDescription": "Open Magnifier and zoom in"
+        },
+        {
+          "Id": "c972f29f-cab5-4f93-8a44-bb34c41a86f3",
+          "ShortcutKey": "Windows+Minus",
+          "ChineseFunctionDescription": "缩小放大镜",
+          "EnglishFunctionDescription": "Zoom out in Magnifier"
+        },
+        {
+          "Id": "31c66863-2682-4068-ad23-1e362a2ea207",
+          "ShortcutKey": "Windows+Esc",
+          "ChineseFunctionDescription": "关闭放大镜",
+          "EnglishFunctionDescription": "Close Magnifier"
+        },
+        {
+          "Id": "2f4bf79c-8a87-4851-ab6d-2c9f0ac819e6",
+          "ShortcutKey": "Windows+/",
+          "ChineseFunctionDescription": "开始输入法复原流程",
+          "EnglishFunctionDescription": "Begin IME reconversion"
+        },
+        {
+          "Id": "7d4b2e8c-da9c-45f1-98e6-e51e14c7ba00",
+          "ShortcutKey": "Windows+Ctrl+Shift+B",
+          "ChineseFunctionDescription": "从空白或黑屏唤醒电脑",
+          "EnglishFunctionDescription": "Wake PC from blank or black screen"
+        },
+        {
+          "Id": "b651f5c7-5a0a-4d64-b731-dc29e8d16f90",
+          "ShortcutKey": "Windows+PrtScn",
+          "ChineseFunctionDescription": "将全屏屏幕截图保存到文件",
+          "EnglishFunctionDescription": "Save full screen screenshot to file"
+        },
+        {
+          "Id": "92357a28-1b25-4ee7-9777-05f9dbed35eb",
+          "ShortcutKey": "Windows+Alt+PrtScn",
+          "ChineseFunctionDescription": "将焦点中的游戏窗口的屏幕截图保存到文件",
+          "EnglishFunctionDescription": "Save screenshot of game window in focus to file"
+        }
+      ]
+    }
+  ]
+}

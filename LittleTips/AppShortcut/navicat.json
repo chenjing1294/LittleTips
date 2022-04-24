@@ -1,0 +1,589 @@
+{
+  "Id": "navicat",
+  "AppName": "Navicat",
+  "AppIcon": "navicat.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "常规",
+      "EnglishCategoryName": "Common",
+      "Keys": [
+        {
+          "Id": "ef70c1e4-32a1-47f4-ad60-350802d798aa",
+          "ShortcutKey": "Ctrl+Shift+Number",
+          "ChineseFunctionDescription": "添加到收藏夹",
+          "EnglishFunctionDescription": "Add to Favorites"
+        },
+        {
+          "Id": "508c62bd-cb69-408e-a808-5c1ebd62213f",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "Navicat 主窗口或对象选项卡",
+          "EnglishFunctionDescription": "Navicat Main Window / Objects Tab"
+        },
+        {
+          "Id": "fa57af96-c201-4909-b1b4-df70acb273a5",
+          "ShortcutKey": "Ctrl+Tab",
+          "ChineseFunctionDescription": "下一个窗口或选项卡",
+          "EnglishFunctionDescription": "Next Window / Tab"
+        },
+        {
+          "Id": "c22ebb9a-6c69-47f8-9d96-2ef12955b0a0",
+          "ShortcutKey": "Shift+Ctrl+Tab",
+          "ChineseFunctionDescription": "下一个窗口或选项卡",
+          "EnglishFunctionDescription": "Next Window / Tab"
+        },
+        {
+          "Id": "9eaf4aa3-67ba-4486-a245-153c2fc0fe26",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "新建查询",
+          "EnglishFunctionDescription": "New Query"
+        },
+        {
+          "Id": "e446f736-5709-4c71-ab97-ffade9792005",
+          "ShortcutKey": "F1",
+          "ChineseFunctionDescription": "帮助",
+          "EnglishFunctionDescription": "Help"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "Navicat 主窗口",
+      "EnglishCategoryName": "Navicat Main Window",
+      "Keys": [
+        {
+          "Id": "c445b62b-a3b2-48d6-9334-b70831c1cb19",
+          "ShortcutKey": "Ctrl+Number",
+          "ChineseFunctionDescription": "打开收藏夹链接",
+          "EnglishFunctionDescription": "Open Favorites Link"
+        },
+        {
+          "Id": "40cfcebc-2df3-4b5b-b5fd-55e9aa9fc213",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "命令列界面",
+          "EnglishFunctionDescription": "Console"
+        },
+        {
+          "Id": "046bd859-7532-4e46-a006-4966b810bcd2",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "历史日志",
+          "EnglishFunctionDescription": "History Log"
+        },
+        {
+          "Id": "bcd8bb86-820c-4b2e-9be0-0c6ed95e5a57",
+          "ShortcutKey": "F12",
+          "ChineseFunctionDescription": "仅显示活跃对象",
+          "EnglishFunctionDescription": "Show Only Active Objects"
+        },
+        {
+          "Id": "804b3d2c-2e06-4fe2-8834-146aa38bdb6b",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "新建对象",
+          "EnglishFunctionDescription": "New Object"
+        },
+        {
+          "Id": "03d11569-38a7-42e2-8f2f-19d3f14c7506",
+          "ShortcutKey": "Ctrl+Shift+F",
+          "ChineseFunctionDescription": "在数据库或模式中查找",
+          "EnglishFunctionDescription": "Find in Database/Schema"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "ER 图表视图",
+      "EnglishCategoryName": "ER Diagram View",
+      "Keys": [
+        {
+          "Id": "4e8470b8-2aac-483d-9dd5-47344a44217a",
+          "ShortcutKey": "F5",
+          "ChineseFunctionDescription": "刷新",
+          "EnglishFunctionDescription": "Refresh"
+        },
+        {
+          "Id": "c0cc9228-49a0-4eff-8152-f57388c1353f",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "选择",
+          "EnglishFunctionDescription": "Select"
+        },
+        {
+          "Id": "7b0130a8-7662-4c7d-8f9d-f4f256474bc6",
+          "ShortcutKey": "H",
+          "ChineseFunctionDescription": "移动图表",
+          "EnglishFunctionDescription": "Move Diagram"
+        },
+        {
+          "Id": "97d980c7-bfcc-47ca-bc48-afa506e4cbd0",
+          "ShortcutKey": "R",
+          "ChineseFunctionDescription": "新建外键",
+          "EnglishFunctionDescription": "New Foreign Key"
+        },
+        {
+          "Id": "01a17d49-5f0e-49f1-a90b-a87e1bcb1729",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "删除已选择的外键",
+          "EnglishFunctionDescription": "Delete Selected Foreign Key"
+        },
+        {
+          "Id": "340682a8-eade-497f-9b12-744246735157",
+          "ShortcutKey": "Ctrl+=",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom In"
+        },
+        {
+          "Id": "f0537f64-c578-4aa4-b4b6-d36db89500bf",
+          "ShortcutKey": "Ctrl+-",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom Out"
+        },
+        {
+          "Id": "1c9b858f-e4e8-4e10-8321-f055426927c6",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "重置缩放",
+          "EnglishFunctionDescription": "Reset Zoom"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "表或集合设计器",
+      "EnglishCategoryName": "Table / Collection Designer",
+      "Keys": [
+        {
+          "Id": "bcc597c5-0fa3-4a5a-a908-5c5984bc92bb",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "打开表或集合",
+          "EnglishFunctionDescription": "Open Table / Collection"
+        },
+        {
+          "Id": "c7538c62-7d8d-46b0-8153-fa46590ee599",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "查找字段",
+          "EnglishFunctionDescription": "Find Field"
+        },
+        {
+          "Id": "d515923a-3bdd-4aca-a6c2-675a0a6d3899",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "查找下一个字段",
+          "EnglishFunctionDescription": "Find Next Field"
+        },
+        {
+          "Id": "5edbdddf-1e7b-4599-b965-7e1463afcd54",
+          "ShortcutKey": "Shift+F3",
+          "ChineseFunctionDescription": "查找上一个字段",
+          "EnglishFunctionDescription": "Find Previous Field"
+        },
+        {
+          "Id": "5b97e0c9-6799-40b4-a540-5c0ec6ffe40d",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "设计对象（表、集合、视图、实体化视图）",
+          "EnglishFunctionDescription": "Design Object (Table, Collection, View, Materialized View)"
+        },
+        {
+          "Id": "3112e7b0-2df6-45f0-80a7-0c34aaa5df07",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "查询对象（表、集合、视图、实体化视图）",
+          "EnglishFunctionDescription": "Query Object (Table, Collection, View, Materialized View)"
+        },
+        {
+          "Id": "33a3e956-3aaa-45a7-bb91-f43606f5684d",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "查找文本",
+          "EnglishFunctionDescription": "Find Text"
+        },
+        {
+          "Id": "324804b5-8910-47dc-8e60-66a2b0829da5",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "查找下一个文本",
+          "EnglishFunctionDescription": "Find Next Text"
+        },
+        {
+          "Id": "dc88033a-ad23-4692-9f13-cf9f739f47c7",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "前往行",
+          "EnglishFunctionDescription": "Go to Row"
+        },
+        {
+          "Id": "70d18d95-c59e-4040-a0bb-c4d92cc203ed",
+          "ShortcutKey": "Ctrl+←",
+          "ChineseFunctionDescription": "移动到当前记录的第一列",
+          "EnglishFunctionDescription": "Move to First Column of Current Record\n"
+        },
+        {
+          "Id": "b5376845-3a5a-4197-b678-8117736be8b3",
+          "ShortcutKey": "Ctrl+→",
+          "ChineseFunctionDescription": "移动到当前记录的最后一列",
+          "EnglishFunctionDescription": "Move to Last Column of Current Record"
+        },
+        {
+          "Id": "b7b0ef57-89b2-4dd3-8f32-a33f9bf54084",
+          "ShortcutKey": "Ctrl+HOME",
+          "ChineseFunctionDescription": "移动到当前列的第一行",
+          "EnglishFunctionDescription": "Move to First Row of Current Column"
+        },
+        {
+          "Id": "e93cbe80-db6a-453a-80cb-481c7e378190",
+          "ShortcutKey": "Ctrl+END",
+          "ChineseFunctionDescription": "移动到当前列的最后一行",
+          "EnglishFunctionDescription": "Move to Last Row of Current Column"
+        },
+        {
+          "Id": "bdc7d811-aaf9-4f56-96d7-451976510005",
+          "ShortcutKey": "Ctrl+PAGE UP or Ctrl+↑",
+          "ChineseFunctionDescription": "移动到当前页面的第一行",
+          "EnglishFunctionDescription": "Move to First Row of Current Page"
+        },
+        {
+          "Id": "f3315be9-205a-4062-83ff-2857e9fa9e71",
+          "ShortcutKey": "Ctrl+PAGE DOWN or Ctrl+↓",
+          "ChineseFunctionDescription": "移动到当前页面的最后一行",
+          "EnglishFunctionDescription": "Move to Last Row of Current Page"
+        },
+        {
+          "Id": "2449a930-292a-4fa1-a83f-f5928e506a3e",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "应用筛选或应用排序",
+          "EnglishFunctionDescription": "Apply Filter / Apply Sort"
+        },
+        {
+          "Id": "c1085754-61aa-4370-a650-125f0e768ff4",
+          "ShortcutKey": "Shift+Arrow",
+          "ChineseFunctionDescription": "选择单元格",
+          "EnglishFunctionDescription": "Select Cells"
+        },
+        {
+          "Id": "1004dd4f-dd77-46f3-9332-515f0b7328ce",
+          "ShortcutKey": "Ctrl+Enter",
+          "ChineseFunctionDescription": "打开编辑器来编辑数据",
+          "EnglishFunctionDescription": "Edit Data with Opening Editor"
+        },
+        {
+          "Id": "2829068d-841c-4741-a0e0-de73f0ce2142",
+          "ShortcutKey": "Insert or Ctrl+N",
+          "ChineseFunctionDescription": "添加记录",
+          "EnglishFunctionDescription": "Add Record"
+        },
+        {
+          "Id": "8575aeef-236f-4656-a302-7c05ce96bf96",
+          "ShortcutKey": "Ctrl+Delete",
+          "ChineseFunctionDescription": "删除记录",
+          "EnglishFunctionDescription": "Delete Records"
+        },
+        {
+          "Id": "769beb36-a714-4f9e-9b0e-6a97ccfb2791",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "应用记录更改",
+          "EnglishFunctionDescription": "Apply Record Changes"
+        },
+        {
+          "Id": "e8420291-3f85-4ba5-aeb5-523a4fabc270",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "放弃记录更改",
+          "EnglishFunctionDescription": "Discard Record Changes"
+        },
+        {
+          "Id": "9a2d979e-c5e4-4b8c-9c5b-7b9b8b079418",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "停止加载数据",
+          "EnglishFunctionDescription": "Stop Loading Data"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "视图或实体化视图设计器",
+      "EnglishCategoryName": "View / Materialized View Designer",
+      "Keys": [
+        {
+          "Id": "539683ad-24e0-41b6-b49b-480876ad11d8",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "导入 SQL",
+          "EnglishFunctionDescription": "Import SQL"
+        },
+        {
+          "Id": "b437b6ee-3991-4d3d-ad82-0c8b3875b757",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "切换到定义",
+          "EnglishFunctionDescription": "Switch to Definition"
+        },
+        {
+          "Id": "50a4e0bf-8b8a-4cba-8cbf-3fa47b89cbba",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "预览",
+          "EnglishFunctionDescription": "Preview"
+        },
+        {
+          "Id": "fecbf3fe-cfea-42af-93d3-0c6aec237b11",
+          "ShortcutKey": "Alt+Number",
+          "ChineseFunctionDescription": "切换到结果 1 - 9",
+          "EnglishFunctionDescription": "Switch to Result Tab"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "查询设计器",
+      "EnglishCategoryName": "Query Designer",
+      "Keys": [
+        {
+          "Id": "e41fec91-637f-466c-bd86-a4ee2efdc548",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "打开外部文件",
+          "EnglishFunctionDescription": "Open External File"
+        },
+        {
+          "Id": "3cb29afc-236c-44ae-8cbe-39211f3197fb",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "切换到查询编辑器",
+          "EnglishFunctionDescription": "Select Current Statement"
+        },
+        {
+          "Id": "cb72ec6c-bdbb-49d0-a9cd-6b896711c947",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "运行或运行已选择的",
+          "EnglishFunctionDescription": "Run / Run Selected"
+        },
+        {
+          "Id": "3af56d13-73eb-49aa-9a9a-4808b636fbe5",
+          "ShortcutKey": "Ctrl+Shift+R",
+          "ChineseFunctionDescription": "运行当前语句",
+          "EnglishFunctionDescription": "Run Current Statement"
+        },
+        {
+          "Id": "e8a7f881-2ed4-466f-8d1c-99bf52c9c81a",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "停止",
+          "EnglishFunctionDescription": "Stop"
+        },
+        {
+          "Id": "f17b8e4d-2f05-4d08-9b2c-c5b91326e4dc",
+          "ShortcutKey": "Alt+Number",
+          "ChineseFunctionDescription": "切换到结果选项卡",
+          "EnglishFunctionDescription": "Switch to Result Tab"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "查询编辑器",
+      "EnglishCategoryName": "Query Editor",
+      "Keys": [
+        {
+          "Id": "80746888-bde9-415f-898e-ab8060cb4733",
+          "ShortcutKey": "Ctrl+Shift+V",
+          "ChineseFunctionDescription": "从剪贴板堆栈粘贴",
+          "EnglishFunctionDescription": "Paste from Clipboard Stack"
+        },
+        {
+          "Id": "261c1f08-32b3-4ec2-b95a-9c024c1d604f",
+          "ShortcutKey": "Ctrl+/",
+          "ChineseFunctionDescription": "注释或取消注释行",
+          "EnglishFunctionDescription": "Comment / Uncomment Line"
+        },
+        {
+          "Id": "51bef07b-dca7-48ba-bfd8-49cfa9adb2c9",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "查找文本",
+          "EnglishFunctionDescription": "Find Text"
+        },
+        {
+          "Id": "27eb6dc3-dfb5-428d-8b66-c370df8f17cd",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "查找下一个文本",
+          "EnglishFunctionDescription": "Find Next Text"
+        },
+        {
+          "Id": "0037a07b-7188-46ac-9450-bd1b389051f3",
+          "ShortcutKey": "Ctrl+=",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom In"
+        },
+        {
+          "Id": "7255e7e7-6ca0-4b42-80d8-62be1d5071a3",
+          "ShortcutKey": "Ctrl+-",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom Out"
+        },
+        {
+          "Id": "a83a7d30-8a03-46ca-a32d-986dc20f623b",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "重置缩放",
+          "EnglishFunctionDescription": "Reset Zoom"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "SQL 创建工具",
+      "EnglishCategoryName": "SQL Builder",
+      "Keys": [
+        {
+          "Id": "02c56a73-51d4-4ce6-9c55-54615cec8563",
+          "ShortcutKey": "Ctrl+=",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom In"
+        },
+        {
+          "Id": "5ab258b9-45f9-4f57-b81d-868aa50e54f1",
+          "ShortcutKey": "Ctrl+-",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom Out"
+        },
+        {
+          "Id": "8ffc0a46-d75a-4b69-b7e5-7649f2476705",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "重置缩放",
+          "EnglishFunctionDescription": "Reset Zoom"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "调试器",
+      "EnglishCategoryName": "Debugger",
+      "Keys": [
+        {
+          "Id": "62ce2713-116d-4a17-ac55-1217b7889ded",
+          "ShortcutKey": "F9",
+          "ChineseFunctionDescription": "运行",
+          "EnglishFunctionDescription": "Run"
+        },
+        {
+          "Id": "13e83637-6ab3-4506-9098-c28994906e23",
+          "ShortcutKey": "F10",
+          "ChineseFunctionDescription": "逐过程",
+          "EnglishFunctionDescription": "Step Over"
+        },
+        {
+          "Id": "7c184dc1-0236-4f5d-aca1-c4445abcde63",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "逐语句",
+          "EnglishFunctionDescription": "Step In"
+        },
+        {
+          "Id": "ce4dec8b-ccf2-4585-b267-5b7bc69ae2ba",
+          "ShortcutKey": "Shift+F11",
+          "ChineseFunctionDescription": "跳过",
+          "EnglishFunctionDescription": "Step Out"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "模型",
+      "EnglishCategoryName": "Model",
+      "Keys": [
+        {
+          "Id": "16a39c2b-f090-47ff-8918-fabfe38b3484",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "在模型新建图表",
+          "EnglishFunctionDescription": "New Diagram in Model"
+        },
+        {
+          "Id": "4b7db47d-c48f-4971-af85-b10ce6baeb34",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打印图表",
+          "EnglishFunctionDescription": "Print Diagram"
+        },
+        {
+          "Id": "d6d76a0a-4cf9-4e4c-b537-57ee9694db3d",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "选择",
+          "EnglishFunctionDescription": "Select"
+        },
+        {
+          "Id": "2c92e490-7c63-4722-9909-86b9dc6f08f4",
+          "ShortcutKey": "H",
+          "ChineseFunctionDescription": "移动图表",
+          "EnglishFunctionDescription": "Move Diagram"
+        },
+        {
+          "Id": "dad9d7f3-2236-45fc-a670-3dfd8dd9c29b",
+          "ShortcutKey": "T",
+          "ChineseFunctionDescription": "新建表或实体",
+          "EnglishFunctionDescription": "New Table/Entity"
+        },
+        {
+          "Id": "3c019689-48e6-4c9b-b1a1-64db7b4bfd1b",
+          "ShortcutKey": "V",
+          "ChineseFunctionDescription": "新建视图",
+          "EnglishFunctionDescription": "New View"
+        },
+        {
+          "Id": "54417493-bf35-46ed-a21c-de096443faf0",
+          "ShortcutKey": "R",
+          "ChineseFunctionDescription": "新建外键或关系",
+          "EnglishFunctionDescription": "New Foreign Key/Relation"
+        },
+        {
+          "Id": "bda0b0ab-9860-4651-bb6b-d87103da9602",
+          "ShortcutKey": "A",
+          "ChineseFunctionDescription": "新建标签",
+          "EnglishFunctionDescription": "New Label"
+        },
+        {
+          "Id": "67295718-7a3d-4733-b7ec-b10aad1240eb",
+          "ShortcutKey": "N",
+          "ChineseFunctionDescription": "新建笔记",
+          "EnglishFunctionDescription": "New Note"
+        },
+        {
+          "Id": "033e2397-b528-4340-81f5-bea580a65aa0",
+          "ShortcutKey": "I",
+          "ChineseFunctionDescription": "新建图像",
+          "EnglishFunctionDescription": "New Image"
+        },
+        {
+          "Id": "9d33d46b-8450-4f2c-9cf2-3e83b51a0884",
+          "ShortcutKey": "L",
+          "ChineseFunctionDescription": "新建层",
+          "EnglishFunctionDescription": "New Layer"
+        },
+        {
+          "Id": "5e27bf43-a56f-4c04-b8eb-1e10a11c4a5b",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "设置已选择的表、实体、视图、外键或形状为粗体",
+          "EnglishFunctionDescription": "Bold Selected Table, Entity, View, Foreign Key, Relation or Shape"
+        },
+        {
+          "Id": "e7d85064-774e-411c-9de8-f2bfd0e7f810",
+          "ShortcutKey": "Ctrl+=",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom In"
+        },
+        {
+          "Id": "013d8731-d2c4-4666-b395-4818c143d632",
+          "ShortcutKey": "Ctrl+-",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom Out"
+        },
+        {
+          "Id": "5759774f-c0e1-496f-b75e-c0c81b1f8d74",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "重置缩放",
+          "EnglishFunctionDescription": "Reset Zoom"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "图表",
+      "EnglishCategoryName": "Charts",
+      "Keys": [
+        {
+          "Id": "f54e8f3b-791b-44b8-9ee9-bed682e6b0cf",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "设计对象",
+          "EnglishFunctionDescription": "Design Object"
+        },
+        {
+          "Id": "5b1e9425-d0f7-4d88-b367-76a773da596c",
+          "ShortcutKey": "F5",
+          "ChineseFunctionDescription": "刷新数据",
+          "EnglishFunctionDescription": "Refresh Data"
+        },
+        {
+          "Id": "c50377a4-81f9-431b-9c1e-1b74058ebca5",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "显示仪表板",
+          "EnglishFunctionDescription": "Present Dashboard"
+        },
+        {
+          "Id": "4402b7e2-3c3e-48de-a322-88fad2be05d8",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打印仪表板",
+          "EnglishFunctionDescription": "Print Dashboard"
+        }
+      ]
+    }
+  ]
+}

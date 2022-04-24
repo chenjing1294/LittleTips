@@ -1,0 +1,163 @@
+{
+  "Id": "postman",
+  "AppName": "Google Postman",
+  "AppIcon": "icons8-postman-api-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "通用",
+      "EnglishCategoryName": "General",
+      "Keys": [
+        {
+          "Id": "63410450-1be6-4e35-843a-e3c4013c4436",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "保存",
+          "EnglishFunctionDescription": "Save"
+        },
+        {
+          "Id": "48f9b4aa-477c-4750-adfa-6425263a7a17",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "另存为",
+          "EnglishFunctionDescription": "Save as"
+        },
+        {
+          "Id": "b6934b71-7bf6-4f9b-83e2-b7bb30cda720",
+          "ShortcutKey": "Ctrl+Enter",
+          "ChineseFunctionDescription": "发送请求",
+          "EnglishFunctionDescription": "Send request"
+        },
+        {
+          "Id": "7dc2e110-b73e-4e2a-9896-110f1cd6dd43",
+          "ShortcutKey": "Ctrl+\\",
+          "ChineseFunctionDescription": "切换侧边栏",
+          "EnglishFunctionDescription": "Toggle sidebar"
+        },
+        {
+          "Id": "1c1725e7-0eac-4a52-a6d7-8bff4ff7f9c5",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "跳转到URL栏",
+          "EnglishFunctionDescription": "Jump to URL"
+        },
+        {
+          "Id": "72de8b0a-b81f-4e6a-bed2-0a12324bccef",
+          "ShortcutKey": "Ctrl+Alt+C",
+          "ChineseFunctionDescription": "打开控制台",
+          "EnglishFunctionDescription": "Open console"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "导航",
+      "EnglishCategoryName": "Navigation",
+      "Keys": [
+        {
+          "Id": "43e9d3c8-281c-46eb-bd1b-437fec1f412c",
+          "ShortcutKey": "Ctrl+Alt+1",
+          "ChineseFunctionDescription": "侧边栏",
+          "EnglishFunctionDescription": "Focus sidebar"
+        },
+        {
+          "Id": "1f1dc271-8a00-49e0-b3ce-7cceac05dc20",
+          "ShortcutKey": "Ctrl+Alt+2",
+          "ChineseFunctionDescription": "生成器",
+          "EnglishFunctionDescription": "Focus builder"
+        },
+        {
+          "Id": "68e84d52-05f8-49f0-b7a1-b9a77d515cb2",
+          "ShortcutKey": "Ctrl+1 throw 9",
+          "ChineseFunctionDescription": "切换第 n 个选项卡",
+          "EnglishFunctionDescription": "Focus on nth tab"
+        },
+        {
+          "Id": "6404db1a-fb88-4325-a2b2-c69bd2605f7f",
+          "ShortcutKey": "Ctrl+Shift+/",
+          "ChineseFunctionDescription": "在选项卡之间切换",
+          "EnglishFunctionDescription": "Switch between tabs"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "侧边栏",
+      "EnglishCategoryName": "Sidebar",
+      "Keys": [
+        {
+          "Id": "91f2c7d4-0f78-4343-bfe8-4e3b41999111",
+          "ShortcutKey": "↓",
+          "ChineseFunctionDescription": "移至下一项",
+          "EnglishFunctionDescription": "Move to next item"
+        },
+        {
+          "Id": "33f92bd3-7b51-45c5-bc75-b7f6c3eae327",
+          "ShortcutKey": "↑",
+          "ChineseFunctionDescription": "移至上一项",
+          "EnglishFunctionDescription": "Move to previous item"
+        },
+        {
+          "Id": "082c234f-ce10-4488-a50a-4b7423bdaefa",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "收起收藏夹/文件夹",
+          "EnglishFunctionDescription": "Collapse collection / folder"
+        },
+        {
+          "Id": "4256c21c-b256-4e04-92c8-23070b948e75",
+          "ShortcutKey": "→",
+          "ChineseFunctionDescription": "展开收藏夹/文件夹",
+          "EnglishFunctionDescription": "Expand collection / folder"
+        },
+        {
+          "Id": "3ae79804-3f39-4769-9d40-40ee789ec76f",
+          "ShortcutKey": "Shift+↓",
+          "ChineseFunctionDescription": "选择当前和下一个项目",
+          "EnglishFunctionDescription": "Select current and next item"
+        },
+        {
+          "Id": "82c438d6-41f3-4843-9bfd-47a8dc7dd283",
+          "ShortcutKey": "Shift+↑",
+          "ChineseFunctionDescription": "选择当前和上一个项目",
+          "EnglishFunctionDescription": "Select current and previous item"
+        },
+        {
+          "Id": "5f8d21dc-f66a-4846-b53d-f5424195c9d7",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "搜索边栏",
+          "EnglishFunctionDescription": "Search sidebar"
+        },
+        {
+          "Id": "3790cd74-cead-41e9-b435-985f2bf66192",
+          "ShortcutKey": "Enter",
+          "ChineseFunctionDescription": "在选项卡中打开请求",
+          "EnglishFunctionDescription": "Open request in a tab"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "编辑",
+      "EnglishCategoryName": "Edit",
+      "Keys": [
+        {
+          "Id": "bdc2b849-79b1-46aa-a677-40b0d83ab545",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制",
+          "EnglishFunctionDescription": "Copy"
+        },
+        {
+          "Id": "2e7fa1cf-fd70-4b26-8b5c-cf1e997dd0fe",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴",
+          "EnglishFunctionDescription": "Paste"
+        },
+        {
+          "Id": "c74bd1b2-296e-4058-b327-7032fc4dd6a0",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "复制",
+          "EnglishFunctionDescription": "Duplicate"
+        },
+        {
+          "Id": "72450356-a346-49f7-aa75-afbf836aca5c",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "编辑/重命名",
+          "EnglishFunctionDescription": "Edit / Rename"
+        }
+      ]
+    }
+  ]
+}

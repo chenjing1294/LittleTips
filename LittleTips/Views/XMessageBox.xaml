@@ -1,0 +1,54 @@
+﻿<Window x:Class="LittleTips.Views.XMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="Height" MinHeight="200" MinWidth="450" Width="400" ResizeMode="NoResize">
+  <Grid Background="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="1*" />
+      </Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0" x:Name="NotificationIcon" FontFamily="{StaticResource Segoe}" Margin="10"
+                 Text="&#xed0c;"
+                 FontSize="40"
+                 VerticalAlignment="Center"
+                 Foreground="#1AA15F" Visibility="Visible" />
+      <TextBlock Grid.Column="0" x:Name="WarningIcon" FontFamily="{StaticResource Segoe}" Margin="10"
+                 Text="&#xe814;"
+                 FontSize="40"
+                 VerticalAlignment="Center"
+                 Foreground="#FFCD42" Visibility="Hidden" />
+      <TextBlock Grid.Column="0" x:Name="ErrorIcon" FontFamily="{StaticResource Segoe}" Margin="10"
+                 Text="&#xeb90;" FontSize="40"
+                 VerticalAlignment="Center"
+                 Foreground="#DD5044" Visibility="Hidden" />
+      <TextBlock Grid.Column="1" VerticalAlignment="Center"
+                 TextWrapping="Wrap"
+                 HorizontalAlignment="Left"
+                 Margin="20 0 10 0">
+        <Run x:Name="Msg" />
+        <TextBlock x:Name="Link">
+          <Hyperlink Click="Hyperlink_OnClick">
+            更多信息
+          </Hyperlink>
+        </TextBlock>
+      </TextBlock>
+    </Grid>
+    <Grid Grid.Row="1" Background="#F0F0F0">
+      <StackPanel Margin="10" HorizontalAlignment="Right" Orientation="Horizontal">
+        <Button x:Name="CancelButton"
+                Margin="0 0 5 0"
+                Width="70"
+                Style="{StaticResource CornerButton}" Content="取消" />
+        <Button x:Name="OkButton"
+                Margin="0 0 5 0"
+                Width="70"
+                Style="{StaticResource CornerButton}" IsDefault="True" Content="确定" />
+      </StackPanel>
+    </Grid>
+  </Grid>
+</Window>

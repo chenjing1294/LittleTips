@@ -1,0 +1,21 @@
+﻿<Application x:Class="LittleTips.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LittleTips"
+             StartupUri="Views/MainWindow.xaml">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Styles/LightColors.xaml" />
+        <ResourceDictionary Source="ControlTemplates/CustomWindowTemplate.xaml" />
+        <ResourceDictionary Source="Styles/CustomWindowStyle.xaml" />
+        <ResourceDictionary Source="Styles/CustomGroupBoxStyle.xaml" />
+        <ResourceDictionary Source="Fonts/Fonts.xaml" />
+        <ResourceDictionary Source="Styles/Buttons.xaml" />
+        <ResourceDictionary Source="ControlTemplates/CustomListBoxControlTemplate.xaml" />
+        <ResourceDictionary Source="ControlTemplates/CustomListBoxItemControlTemplate.xaml" />
+        <ResourceDictionary Source="ControlTemplates/ScrollViewer.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

@@ -1,0 +1,595 @@
+{
+  "Id": "chrome",
+  "AppName": "Chrome",
+  "AppIcon": "icons8-chrome-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "标签页和窗口快捷键",
+      "EnglishCategoryName": "Tab and window shortcuts",
+      "Keys": [
+        {
+          "Id": "28846a67-5fcf-4a70-a5f5-8be745cedd84",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "打开新窗口",
+          "EnglishFunctionDescription": "Open a new window"
+        },
+        {
+          "Id": "2299ce69-8c9a-4a68-bf83-d04bcc78c030",
+          "ShortcutKey": "Ctrl+Shift+N",
+          "ChineseFunctionDescription": "在无痕模式下打开新窗口",
+          "EnglishFunctionDescription": "Open a new window in Incognito mode"
+        },
+        {
+          "Id": "b9fa9247-632f-457a-9bd2-fcd0ea49b2e5",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "打开新的标签页，并跳转到该标签页",
+          "EnglishFunctionDescription": "Open a new tab, and jump to it"
+        },
+        {
+          "Id": "3eafaac8-4f38-43d1-ae0d-0b14d3ecdd69",
+          "ShortcutKey": "Ctrl+Shift+T",
+          "ChineseFunctionDescription": "按标签页的关闭顺序重新打开先前关闭的标签页",
+          "EnglishFunctionDescription": "Reopen previously closed tabs in the order they were closed"
+        },
+        {
+          "Id": "4dd9dd47-9b28-4126-b4b0-54e0e3b11983",
+          "ShortcutKey": "Ctrl+Tab",
+          "ChineseFunctionDescription": "跳转到下一个打开的标签页",
+          "EnglishFunctionDescription": "Jump to the next open tab"
+        },
+        {
+          "Id": "6950aac6-9529-4fcd-aeba-512eb4f905e1",
+          "ShortcutKey": "Ctrl+PgDn",
+          "ChineseFunctionDescription": "跳转到下一个打开的标签页",
+          "EnglishFunctionDescription": "Jump to the next open tab"
+        },
+        {
+          "Id": "66879d81-364e-447a-a36c-aa36f09b4992",
+          "ShortcutKey": "Ctrl+Shift+Tab",
+          "ChineseFunctionDescription": "跳转到上一个打开的标签页",
+          "EnglishFunctionDescription": "Jump to the previous open tab"
+        },
+        {
+          "Id": "01dbf4b4-bf5f-46fa-b228-f9eea7ecf4bf",
+          "ShortcutKey": "Ctrl+PgUp",
+          "ChineseFunctionDescription": "跳转到上一个打开的标签页",
+          "EnglishFunctionDescription": "Jump to the previous open tab"
+        },
+        {
+          "Id": "0103c727-174e-4049-88c1-fb9cab32bcec",
+          "ShortcutKey": "Ctrl+1 through Ctrl+8",
+          "ChineseFunctionDescription": "跳转到特定标签页",
+          "EnglishFunctionDescription": "Jump to a specific tab"
+        },
+        {
+          "Id": "17978f51-1de1-410d-bb21-12dc22c1e894",
+          "ShortcutKey": "Ctrl+9",
+          "ChineseFunctionDescription": "跳转到最右侧的那个标签页",
+          "EnglishFunctionDescription": "Jump to the rightmost tab"
+        },
+        {
+          "Id": "1dd17f81-6be2-4c78-aa5e-c0ccb8f72572",
+          "ShortcutKey": "Alt+Home",
+          "ChineseFunctionDescription": "在当前标签页中打开主页",
+          "EnglishFunctionDescription": "Open your home page in the current tab"
+        },
+        {
+          "Id": "10e65d56-1436-44dc-a1d1-5bb47ed09b51",
+          "ShortcutKey": "Alt+←",
+          "ChineseFunctionDescription": "打开当前标签页浏览记录中记录的上一个页面",
+          "EnglishFunctionDescription": "Open the previous page from your browsing history in the current tab"
+        },
+        {
+          "Id": "e45a799c-c0e1-4645-af35-bca4d36e0e2a",
+          "ShortcutKey": "Alt+→",
+          "ChineseFunctionDescription": "打开当前标签页浏览记录中记录的下一个页面",
+          "EnglishFunctionDescription": "Open the next page from your browsing history in the current tab"
+        },
+        {
+          "Id": "7d042061-da5c-407b-8f6b-7cf63e736a4e",
+          "ShortcutKey": "Ctrl+W",
+          "ChineseFunctionDescription": "关闭当前标签页",
+          "EnglishFunctionDescription": "Close the current tab"
+        },
+        {
+          "Id": "83581373-5cd3-4413-888f-7139516684d8",
+          "ShortcutKey": "Ctrl+F4",
+          "ChineseFunctionDescription": "关闭当前标签页",
+          "EnglishFunctionDescription": "Close the current tab"
+        },
+        {
+          "Id": "8225ada4-638d-498b-b440-d5b319cd1867",
+          "ShortcutKey": "Ctrl+Shift+W",
+          "ChineseFunctionDescription": "关闭当前窗口",
+          "EnglishFunctionDescription": "Close the current window"
+        },
+        {
+          "Id": "a79114c7-550e-42b5-ab09-b86cdceb189c",
+          "ShortcutKey": "Alt+F4",
+          "ChineseFunctionDescription": "关闭当前窗口",
+          "EnglishFunctionDescription": "Close the current window"
+        },
+        {
+          "Id": "4cdc1cb4-2e7e-4ea3-a30f-064d91f87158",
+          "ShortcutKey": "Alt+Space then N",
+          "ChineseFunctionDescription": "最小化当前窗口",
+          "EnglishFunctionDescription": "Minimize the current window"
+        },
+        {
+          "Id": "08c1366c-20fe-44ea-a4ea-021a95092723",
+          "ShortcutKey": "Alt+Space then X",
+          "ChineseFunctionDescription": "最大化当前窗口",
+          "EnglishFunctionDescription": "Maximize the current window"
+        },
+        {
+          "Id": "55bcb28e-e17f-476d-acd7-175694c52cf7",
+          "ShortcutKey": "Alt+F then X",
+          "ChineseFunctionDescription": "退出 Google Chrome",
+          "EnglishFunctionDescription": "Quit Google Chrome"
+        },
+        {
+          "Id": "a21a0ceb-74c6-49d1-b5bf-456a355694df",
+          "ShortcutKey": "Ctrl+→/←",
+          "ChineseFunctionDescription": "使用键盘焦点向右或向左移动标签页",
+          "EnglishFunctionDescription": "Move tabs right or left with keyboard focus"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "Google Chrome 功能快捷键",
+      "EnglishCategoryName": "Google Chrome feature shortcuts",
+      "Keys": [
+        {
+          "Id": "3cce8e78-a39d-438d-9f3e-2eb9870fd8e8",
+          "ShortcutKey": "Alt+F",
+          "ChineseFunctionDescription": "打开 Chrome 菜单",
+          "EnglishFunctionDescription": "Open the Chrome menu"
+        },
+        {
+          "Id": "5a390dd6-8e79-4b49-be35-c08b08eb2b3c",
+          "ShortcutKey": "Alt+E",
+          "ChineseFunctionDescription": "打开 Chrome 菜单",
+          "EnglishFunctionDescription": "Open the Chrome menu"
+        },
+        {
+          "Id": "a5251dee-e387-4d33-bef8-c424a736801e",
+          "ShortcutKey": "Ctrl+Shift+B",
+          "ChineseFunctionDescription": "显示或隐藏书签栏",
+          "EnglishFunctionDescription": "Show or hide the Bookmarks bar"
+        },
+        {
+          "Id": "2cccd765-23c6-4fe7-98b4-d8382ed0485c",
+          "ShortcutKey": "Ctrl+Shift+O",
+          "ChineseFunctionDescription": "打开书签管理器",
+          "EnglishFunctionDescription": "Open the Bookmarks Manager"
+        },
+        {
+          "Id": "321ea9cd-2500-4dfc-a081-2bf234132354",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "在新标签页中打开“历史记录”页",
+          "EnglishFunctionDescription": "Open the History page in a new tab"
+        },
+        {
+          "Id": "f2f45c33-2f9f-4a63-86b9-f2848b4e12dd",
+          "ShortcutKey": "Ctrl+J",
+          "ChineseFunctionDescription": "在新标签页中打开“下载内容”页",
+          "EnglishFunctionDescription": "Open the Downloads page in a new tab"
+        },
+        {
+          "Id": "ac30a901-e951-4e99-90fd-fcf847cf9e3e",
+          "ShortcutKey": "Shift+Esc",
+          "ChineseFunctionDescription": "打开 Chrome 任务管理器",
+          "EnglishFunctionDescription": "Open the Chrome Task Manager"
+        },
+        {
+          "Id": "90abf999-0b30-4d2c-a747-417fbb4b9517",
+          "ShortcutKey": "Shift+Alt+T",
+          "ChineseFunctionDescription": "将焦点放置在 Chrome 工具栏中的第一项上",
+          "EnglishFunctionDescription": "Set focus on the first item in the Chrome toolbar"
+        },
+        {
+          "Id": "99ef5322-e34c-4008-84f9-efbdf5f20ac2",
+          "ShortcutKey": "F10",
+          "ChineseFunctionDescription": "将焦点放置在 Chrome 工具栏中最右侧的那一项上",
+          "EnglishFunctionDescription": "Set focus on the rightmost item in the Chrome toolbar"
+        },
+        {
+          "Id": "473a3428-6bbf-4e3c-8bcd-2be69a580357",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "将焦点移到未聚焦的对话框（如果显示）或所有工具栏",
+          "EnglishFunctionDescription": "Switch focus to unfocused dialog (if showing) and all toolbars"
+        },
+        {
+          "Id": "f29e2b3c-bfd4-45e7-907f-a33875807ee2",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "打开查找栏搜索当前网页",
+          "EnglishFunctionDescription": "Open the Find Bar to search the current page"
+        },
+        {
+          "Id": "b0166324-03df-410b-a7cf-fe83f91b5d59",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "打开查找栏搜索当前网页",
+          "EnglishFunctionDescription": "Open the Find Bar to search the current page"
+        },
+        {
+          "Id": "45b01395-e0f5-4f1c-84a5-cddd47a98e0b",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "跳转到与查找栏中搜索字词相匹配的下一条内容",
+          "EnglishFunctionDescription": "Jump to the next match to your Find Bar search"
+        },
+        {
+          "Id": "c962b86e-ea92-444d-ba11-54919208064d",
+          "ShortcutKey": "Ctrl+Shift+G",
+          "ChineseFunctionDescription": "跳转到与查找栏中搜索字词相匹配的上一条内容",
+          "EnglishFunctionDescription": "Jump to the previous match to your Find Bar search"
+        },
+        {
+          "Id": "639d8577-42cf-4139-a1cc-7c6cf0911a0c",
+          "ShortcutKey": "Ctrl+Shift+J",
+          "ChineseFunctionDescription": "打开“开发者工具”",
+          "EnglishFunctionDescription": "Open Developer Tools"
+        },
+        {
+          "Id": "0b4fbd60-7b50-459e-8933-8d079f092183",
+          "ShortcutKey": "F12",
+          "ChineseFunctionDescription": "打开“开发者工具”",
+          "EnglishFunctionDescription": "Open Developer Tools"
+        },
+        {
+          "Id": "ed8ff737-ac1c-4c5e-b48d-3a215b01aba8",
+          "ShortcutKey": "Ctrl+Shift+Delete",
+          "ChineseFunctionDescription": "打开“清除浏览数据”选项",
+          "EnglishFunctionDescription": "Open the Clear Browsing Data options"
+        },
+        {
+          "Id": "d99297e2-64a5-424f-8eef-c4dd1d850305",
+          "ShortcutKey": "F1",
+          "ChineseFunctionDescription": "在新标签页中打开 Chrome 帮助中心",
+          "EnglishFunctionDescription": "Open the Chrome Help Center in a new tab"
+        },
+        {
+          "Id": "9c820261-754c-412d-bb58-07562259dce6",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "使用其他帐号登录或以访客身份浏览",
+          "EnglishFunctionDescription": "Log in a different user or browse as a Guest"
+        },
+        {
+          "Id": "695f882b-d2fd-4d91-ac0d-53c890782cb8",
+          "ShortcutKey": "Alt+Shift+I",
+          "ChineseFunctionDescription": "打开反馈表单",
+          "EnglishFunctionDescription": "Open a feedback form"
+        },
+        {
+          "Id": "016638d9-f7e8-4134-9d27-aade618c76e2",
+          "ShortcutKey": "F7",
+          "ChineseFunctionDescription": "开启光标浏览模式",
+          "EnglishFunctionDescription": "Turn on caret browsing"
+        },
+        {
+          "Id": "0b1360a1-5eef-44c2-a45c-9475acd64b5e",
+          "ShortcutKey": "Ctrl+F6",
+          "ChineseFunctionDescription": "跳至网页内容",
+          "EnglishFunctionDescription": "Skip to web contents"
+        },
+        {
+          "Id": "8bc7ed4c-4d8c-49d5-967e-d3d10ba90811",
+          "ShortcutKey": "Alt+Shift+A",
+          "ChineseFunctionDescription": "将焦点移到非使用中的对话框",
+          "EnglishFunctionDescription": "Focus on inactive dialogs"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "地址栏快捷键",
+      "EnglishCategoryName": "Address bar shortcuts",
+      "Keys": [
+        {
+          "Id": "98d45407-d29f-4c91-86f1-3adbd6c2a095",
+          "ShortcutKey": "Type search term+Enter",
+          "ChineseFunctionDescription": "使用默认搜索引擎进行搜索",
+          "EnglishFunctionDescription": "Search with your default search engine"
+        },
+        {
+          "Id": "1a0fc569-481d-400b-8646-b65b7bdd19e4",
+          "ShortcutKey": "Type search engine name+Tab",
+          "ChineseFunctionDescription": "使用其他搜索引擎进行搜索",
+          "EnglishFunctionDescription": "Search using a different search engine"
+        },
+        {
+          "Id": "eac4ea2f-bbbd-4548-8814-35dfb3839f2b",
+          "ShortcutKey": "Type site name+Ctrl+Enter",
+          "ChineseFunctionDescription": "为网站名称添加 www. 和 .com，然后在当前标签页中打开该网址",
+          "EnglishFunctionDescription": "Add www. and .com to a site name, and open it in the current tab"
+        },
+        {
+          "Id": "11fd131c-a538-48ef-be2b-2ccba5146541",
+          "ShortcutKey": "Type search term+Alt+Enter",
+          "ChineseFunctionDescription": "打开新的标签页并执行 Google 搜索",
+          "EnglishFunctionDescription": "Open a new tab and perform a Google search"
+        },
+        {
+          "Id": "480e981f-3549-488b-b636-64324528a29e",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "跳转到地址栏",
+          "EnglishFunctionDescription": "Jump to the address bar"
+        },
+        {
+          "Id": "b03aca90-27cf-4e5a-9f45-ac3168b458a5",
+          "ShortcutKey": "Alt+D",
+          "ChineseFunctionDescription": "跳转到地址栏",
+          "EnglishFunctionDescription": "Jump to the address bar"
+        },
+        {
+          "Id": "3465e78f-2592-4eda-bcbe-98d7a4ca371e",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "跳转到地址栏",
+          "EnglishFunctionDescription": "Jump to the address bar"
+        },
+        {
+          "Id": "fadf7638-eaff-4ae1-b15a-d2b03673ade0",
+          "ShortcutKey": "Ctrl+K",
+          "ChineseFunctionDescription": "从页面中的任意位置搜索",
+          "EnglishFunctionDescription": "Search from anywhere on the page"
+        },
+        {
+          "Id": "abf8d65f-0cb4-44b5-93c2-6905155149bb",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "从页面中的任意位置搜索",
+          "EnglishFunctionDescription": "Search from anywhere on the page"
+        },
+        {
+          "Id": "c84fe25f-3ef0-44b8-b266-92b0b83b3ebb",
+          "ShortcutKey": "↓+Shift+Delete",
+          "ChineseFunctionDescription": "从地址栏中移除联想查询内容",
+          "EnglishFunctionDescription": "Remove predictions from your address bar"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "网页快捷键",
+      "EnglishCategoryName": "Webpage shortcuts",
+      "Keys": [
+        {
+          "Id": "5bfc0f08-0b1a-49ca-9f89-2909e55b1769",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打开选项以打印当前网页",
+          "EnglishFunctionDescription": "Open options to print the current page"
+        },
+        {
+          "Id": "d8379337-8676-496d-8918-0c446a76dd4d",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "打开选项以保存当前网页",
+          "EnglishFunctionDescription": "Open options to save the current page"
+        },
+        {
+          "Id": "a2cae3be-10d9-47d4-a337-124042ea85c8",
+          "ShortcutKey": "F5 ",
+          "ChineseFunctionDescription": "重新加载当前网页",
+          "EnglishFunctionDescription": "Reload the current page"
+        },
+        {
+          "Id": "48b972fd-ead8-429b-a63b-4e8cfa2d6ab9",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "重新加载当前网页",
+          "EnglishFunctionDescription": "Reload the current page"
+        },
+        {
+          "Id": "a39fad52-39b7-4314-97de-fe537658639a",
+          "ShortcutKey": "Shift+F5",
+          "ChineseFunctionDescription": "重新加载当前网页（忽略缓存的内容）",
+          "EnglishFunctionDescription": "Reload the current page, ignoring cached content"
+        },
+        {
+          "Id": "9b18af0b-727a-4527-8d4c-894f295dd5c9",
+          "ShortcutKey": "Ctrl+Shift+R",
+          "ChineseFunctionDescription": "重新加载当前网页（忽略缓存的内容）",
+          "EnglishFunctionDescription": "Reload the current page, ignoring cached content"
+        },
+        {
+          "Id": "a9e78af0-694d-41d8-a7a4-c775f768d14e",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "停止加载网页",
+          "EnglishFunctionDescription": "Stop the page loading"
+        },
+        {
+          "Id": "faa281d9-34af-4a34-be39-e1cf6a0d6a57",
+          "ShortcutKey": "Tab",
+          "ChineseFunctionDescription": "浏览下一个可点击项",
+          "EnglishFunctionDescription": "Browse clickable items moving forward"
+        },
+        {
+          "Id": "03919dcf-99e1-4a5c-8e81-33301770518d",
+          "ShortcutKey": "Shift+Tab",
+          "ChineseFunctionDescription": "浏览上一个可点击项",
+          "EnglishFunctionDescription": "Browse clickable items moving backward"
+        },
+        {
+          "Id": "725088cc-3f13-44c0-8d83-8e04e6f952ab",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "使用 Chrome 打开计算机中的文件",
+          "EnglishFunctionDescription": "Open a file from your computer in Chrome"
+        },
+        {
+          "Id": "58cb5028-99c4-4a8f-a686-e2f09d2f3748",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "显示当前网页的 HTML 源代码（不可修改）",
+          "EnglishFunctionDescription": "Display non-editable HTML source code for the current page"
+        },
+        {
+          "Id": "edb348dc-9ad0-4c83-b4fe-fdb5a6076607",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "将当前网页保存为书签",
+          "EnglishFunctionDescription": "Save your current webpage as a bookmark"
+        },
+        {
+          "Id": "21d7a9ca-6c54-4b24-9051-05b6b452ae4e",
+          "ShortcutKey": "Ctrl+Shift+D",
+          "ChineseFunctionDescription": "将所有打开的标签页以书签的形式保存在新文件夹中",
+          "EnglishFunctionDescription": "Save all open tabs as bookmarks in a new folder"
+        },
+        {
+          "Id": "060268f1-3c1e-48fc-be57-7bb12a73d8c1",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "开启或关闭全屏模式",
+          "EnglishFunctionDescription": "Turn full-screen mode on or off"
+        },
+        {
+          "Id": "7c3a8f3c-1889-455b-bc26-a79dcacf2823",
+          "ShortcutKey": "Ctrl+Plus",
+          "ChineseFunctionDescription": "放大网页上的所有内容",
+          "EnglishFunctionDescription": "Make everything on the page bigger"
+        },
+        {
+          "Id": "0098fed4-b3ba-4010-8808-11c406a2dec0",
+          "ShortcutKey": "Ctrl+Minus",
+          "ChineseFunctionDescription": "缩小网页上的所有内容",
+          "EnglishFunctionDescription": "Make everything on the page smaller"
+        },
+        {
+          "Id": "6c09c3db-d175-403d-b37d-1ebd4aa9c385",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "将网页上的所有内容恢复到默认大小",
+          "EnglishFunctionDescription": "Return everything on the page to default size"
+        },
+        {
+          "Id": "2056a0d0-9889-4669-8519-36b027146a4a",
+          "ShortcutKey": "Space or PgDn",
+          "ChineseFunctionDescription": "向下滚动网页，一次一个屏幕",
+          "EnglishFunctionDescription": "Scroll down a webpage, a screen at a time"
+        },
+        {
+          "Id": "3b6f8cd8-bbd5-4df6-93f0-d5b597ce5070",
+          "ShortcutKey": "Shift+Space or PgUp",
+          "ChineseFunctionDescription": "向上滚动网页，一次一个屏幕",
+          "EnglishFunctionDescription": "Scroll up a webpage, a screen at a time"
+        },
+        {
+          "Id": "24114662-84fe-4e13-a147-6a98d6701a22",
+          "ShortcutKey": "Home",
+          "ChineseFunctionDescription": "转到网页顶部",
+          "EnglishFunctionDescription": "Go to the top of the page"
+        },
+        {
+          "Id": "6dad6979-7628-45ac-ac1a-ec6e15e4b2f6",
+          "ShortcutKey": "End",
+          "ChineseFunctionDescription": "转到网页底部",
+          "EnglishFunctionDescription": "Go to the bottom of the page"
+        },
+        {
+          "Id": "f588a0f0-348a-47b3-a5da-1f5609da88dd",
+          "ShortcutKey": "Shift+mousewheel",
+          "ChineseFunctionDescription": "在网页上水平滚动",
+          "EnglishFunctionDescription": "Scroll horizontally on the page"
+        },
+        {
+          "Id": "8a1e0f3b-3090-4fa7-9457-0978bc069122",
+          "ShortcutKey": "Ctrl+←",
+          "ChineseFunctionDescription": "将光标移到文本字段中的上一个字词起始处",
+          "EnglishFunctionDescription": "Move your cursor to the beginning of the previous word in a text field"
+        },
+        {
+          "Id": "92f79b74-bb7b-473a-aae8-9f0106befdb2",
+          "ShortcutKey": "Ctrl+→",
+          "ChineseFunctionDescription": "将光标移到下一个字词起始处",
+          "EnglishFunctionDescription": "Move your cursor to the next word"
+        },
+        {
+          "Id": "9e87e3de-ab9a-49b9-8339-b0895d8e4674",
+          "ShortcutKey": "Ctrl+Backspace",
+          "ChineseFunctionDescription": "删除文本字段中的上一个字词",
+          "EnglishFunctionDescription": "Delete the previous word in a text field"
+        },
+        {
+          "Id": "893908e5-363a-44cc-a7cc-4b7ecd7a10be",
+          "ShortcutKey": "Alt+Home",
+          "ChineseFunctionDescription": "在当前标签页中打开主页",
+          "EnglishFunctionDescription": "Open the Home page in the current tab"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "鼠标快捷键",
+      "EnglishCategoryName": "Mouse shortcuts",
+      "Keys": [
+        {
+          "Id": "ba78f31c-3507-4825-b3e0-ee906a6e3f46",
+          "ShortcutKey": "Drag a link to a tab",
+          "ChineseFunctionDescription": "在当前标签页中打开链接（仅限鼠标）",
+          "EnglishFunctionDescription": "Open a link in a current tab (mouse only)"
+        },
+        {
+          "Id": "4e86f7c2-51a8-4336-943f-65a65cee98ec",
+          "ShortcutKey": "Ctrl+Click a link",
+          "ChineseFunctionDescription": "在新的后台标签页中打开链接",
+          "EnglishFunctionDescription": "Open a link in new background tab"
+        },
+        {
+          "Id": "ad4fccee-6f4b-4f75-bc90-0a0937a78efa",
+          "ShortcutKey": "Ctrl+Shift+Click a link",
+          "ChineseFunctionDescription": "打开链接，并跳转到该链接",
+          "EnglishFunctionDescription": "Open a link, and jump to it"
+        },
+        {
+          "Id": "1b27ed39-69e6-49e2-abb8-9ed7739cbbdd",
+          "ShortcutKey": "Drag link to blank area",
+          "ChineseFunctionDescription": "打开链接，并跳转到该链接（仅使用鼠标）",
+          "EnglishFunctionDescription": "Open a link, and jump to it (mouse only)"
+        },
+        {
+          "Id": "62fbaf0c-cab8-4f20-b211-84c425da21e3",
+          "ShortcutKey": "Shift+Click a link",
+          "ChineseFunctionDescription": "在新窗口中打开链接",
+          "EnglishFunctionDescription": "Open a link in a new window"
+        },
+        {
+          "Id": "5fdb4e18-21b2-42d1-b302-57379ac2cbd8",
+          "ShortcutKey": "Drag tab out of the tab strip",
+          "ChineseFunctionDescription": "在新窗口中打开标签页（仅使用鼠标）",
+          "EnglishFunctionDescription": "Open a tab in a new window (mouse only)"
+        },
+        {
+          "Id": "04dc5a71-ba2d-4e5f-aed6-740607e06e63",
+          "ShortcutKey": "Drag tab into an existing window",
+          "ChineseFunctionDescription": "将标签页移至当前窗口（仅限鼠标）",
+          "EnglishFunctionDescription": "Move a tab to a current window (mouse only)"
+        },
+        {
+          "Id": "4fc6d23d-96d2-4058-b6f3-885194412c45",
+          "ShortcutKey": "Press Esc while dragging",
+          "ChineseFunctionDescription": "将标签页移回其原始位置",
+          "EnglishFunctionDescription": "Return a tab to its original position"
+        },
+        {
+          "Id": "d07ab108-cec7-4b76-b9c0-7706e38e5a80",
+          "ShortcutKey": "Drag address to the Bookmarks Bar",
+          "ChineseFunctionDescription": "将当前网页保存为书签",
+          "EnglishFunctionDescription": "Save the current webpage as a bookmark"
+        },
+        {
+          "Id": "94cd1340-23c1-43b1-9baa-918591bdb429",
+          "ShortcutKey": "Shift+mousewheel",
+          "ChineseFunctionDescription": "在网页上水平滚动",
+          "EnglishFunctionDescription": "Scroll horizontally on the page"
+        },
+        {
+          "Id": "760ab391-92c0-4072-b8c0-6e135b4fe905",
+          "ShortcutKey": "Alt+Click a link",
+          "ChineseFunctionDescription": "下载链接目标",
+          "EnglishFunctionDescription": "Download the target of a link"
+        },
+        {
+          "Id": "c16a132c-6506-488e-94fe-d75555a1fbf1",
+          "ShortcutKey": "Ctrl+Scroll mousewheel up",
+          "ChineseFunctionDescription": "放大网页上的所有内容",
+          "EnglishFunctionDescription": "Make everything on the page bigger"
+        },
+        {
+          "Id": "4bfebd8d-a009-46ed-8095-f055619d2b3d",
+          "ShortcutKey": "Ctrl+Scroll mousewheel down",
+          "ChineseFunctionDescription": "缩小网页上的所有内容",
+          "EnglishFunctionDescription": "Make everything on the page smaller"
+        }
+      ]
+    }
+  ]
+}

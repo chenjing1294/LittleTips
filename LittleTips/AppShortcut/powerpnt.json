@@ -1,0 +1,553 @@
+{
+  "Id": "powerpnt",
+  "AppName": "Microsoft PowerPoint",
+  "AppIcon": "icons8-microsoft-powerpoint-2019-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "常用快捷键",
+      "EnglishCategoryName": "Frequently used shortcuts",
+      "Keys": [
+        {
+          "Id": "7a64338f-d8e0-44d7-a635-a39cf71b5355",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "创建新演示文稿",
+          "EnglishFunctionDescription": "Create new presentation"
+        },
+        {
+          "Id": "8472a0df-d0e4-4f2f-b43d-4cf265670382",
+          "ShortcutKey": "Ctrl+M",
+          "ChineseFunctionDescription": "添加新幻灯片",
+          "EnglishFunctionDescription": "Add a new slide"
+        },
+        {
+          "Id": "767f6ae8-beca-42ea-aada-274f7d8e8ce7",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "使所选文字加粗",
+          "EnglishFunctionDescription": "Make selected text bold"
+        },
+        {
+          "Id": "b9c03cec-a1d7-42a5-95da-966bac23d6b0",
+          "ShortcutKey": "Alt+H, F, S",
+          "ChineseFunctionDescription": "更改所选文字的字号",
+          "EnglishFunctionDescription": "Change the font size for selected text"
+        },
+        {
+          "Id": "e09dfc3a-b773-40e8-946a-839f30625d73",
+          "ShortcutKey": "Alt+W, Q",
+          "ChineseFunctionDescription": "打开“缩放”对话框",
+          "EnglishFunctionDescription": "Open the Zoom dialog box"
+        },
+        {
+          "Id": "9b10c4ed-39e0-4dad-b468-5cf11bdf3c2d",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "剪切所选文字、对象或幻灯片",
+          "EnglishFunctionDescription": "Cut selected text, object, or slide"
+        },
+        {
+          "Id": "67ec1a38-7a6c-4838-8a78-ed1dec722484",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制所选文字、对象或幻灯片",
+          "EnglishFunctionDescription": "Copy selected text, object, or slide"
+        },
+        {
+          "Id": "202bb62e-0a9f-4a10-94cc-07c485d3cc8b",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴剪切或复制的文本、对象或幻灯片",
+          "EnglishFunctionDescription": "Paste cut or copied text, object, or slide"
+        },
+        {
+          "Id": "fa480834-c48a-44c1-9a52-7e9c1e1ea4fa",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消最后一个操作",
+          "EnglishFunctionDescription": "Undo the last action"
+        },
+        {
+          "Id": "72e26d5e-32ed-47b9-8127-bb85422caa4b",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "保存演示文稿",
+          "EnglishFunctionDescription": "Save the presentation"
+        },
+        {
+          "Id": "f09e784d-1bad-44e8-8f0f-943deae37d3b",
+          "ShortcutKey": "Alt+N, P, D",
+          "ChineseFunctionDescription": "插入来自设备的图片",
+          "EnglishFunctionDescription": "Insert a picture from your device"
+        },
+        {
+          "Id": "f55dcfd1-3605-4364-97c2-7763162e98fd",
+          "ShortcutKey": "Alt+N, S, H",
+          "ChineseFunctionDescription": "插入形状",
+          "EnglishFunctionDescription": "Insert a shape"
+        },
+        {
+          "Id": "8f00a55c-4025-4c03-bd92-d387b31592eb",
+          "ShortcutKey": "Alt+G, H",
+          "ChineseFunctionDescription": "选择主题",
+          "EnglishFunctionDescription": "Select a theme"
+        },
+        {
+          "Id": "bb4311a7-8b95-411a-8ffb-dc75ab725e0d",
+          "ShortcutKey": "Alt+H, L",
+          "ChineseFunctionDescription": "选择幻灯片布局",
+          "EnglishFunctionDescription": "Select a slide layout"
+        },
+        {
+          "Id": "a008b199-e5a7-4a97-ae89-633d03104c5b",
+          "ShortcutKey": "Page down",
+          "ChineseFunctionDescription": "转到下一张幻灯片",
+          "EnglishFunctionDescription": "Go to the next slide"
+        },
+        {
+          "Id": "4e1cabbe-42a6-42a7-8364-0459caf76bb8",
+          "ShortcutKey": "Page up",
+          "ChineseFunctionDescription": "转到上一张幻灯片",
+          "EnglishFunctionDescription": "Go to the previous slide"
+        },
+        {
+          "Id": "007c2919-8ace-4765-a176-a5c8d332d07e",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "转到“开始”选项卡",
+          "EnglishFunctionDescription": "Go to the Home tab"
+        },
+        {
+          "Id": "de6c3065-fe3c-4b1b-9189-d83c96549336",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "转到“插入”选项卡",
+          "EnglishFunctionDescription": "Go to the Insert tab"
+        },
+        {
+          "Id": "c37c53f0-3b28-4e5a-a7c6-bd169b77d204",
+          "ShortcutKey": "F5",
+          "ChineseFunctionDescription": "开始幻灯片放映",
+          "EnglishFunctionDescription": "Start the slide show"
+        },
+        {
+          "Id": "55e3d656-2b32-40e3-b377-ad33e586a019",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "结束幻灯片放映",
+          "EnglishFunctionDescription": "End the slide show"
+        },
+        {
+          "Id": "4d678523-a677-41b1-9c6b-8095995b14f6",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "关闭 PowerPoint",
+          "EnglishFunctionDescription": "Close PowerPoint"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "使用功能区选项卡的访问键",
+      "EnglishCategoryName": "Use the Access keys for ribbon tabs",
+      "Keys": [
+        {
+          "Id": "66150ffa-55ff-4dd0-8b3e-a244d0cdf156",
+          "ShortcutKey": "Alt+Q",
+          "ChineseFunctionDescription": "移动到功能区上的“搜索”字段，然后键入搜索词以查找帮助或帮助内容",
+          "EnglishFunctionDescription": "Move to the Tell me or Search field on the ribbon and type a search term for assistance or Help content"
+        },
+        {
+          "Id": "f803e68f-4e54-4489-a5fb-a0b7eb71eb4a",
+          "ShortcutKey": "Alt+F",
+          "ChineseFunctionDescription": "打开“文件”菜单",
+          "EnglishFunctionDescription": "Open the File menu"
+        },
+        {
+          "Id": "57c07e4e-5358-4054-9247-eea78bbda6e6",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "打开“主页”选项卡并设置幻灯片、字体、段落或绘图的格式",
+          "EnglishFunctionDescription": "Open the Home tab and format slides, fonts, paragraphs, or drawings"
+        },
+        {
+          "Id": "2923562b-495b-4ba7-99cb-aba06bd66c89",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "打开“插入”选项卡并插入幻灯片、表格、图像、插图、窗体、链接、文本、符号或媒体",
+          "EnglishFunctionDescription": "Open the Insert tab and insert slides, tables, images, illustrations, forms, links, text, symbols, or media"
+        },
+        {
+          "Id": "c6461666-6ebc-42e3-bace-8260b0d849d6",
+          "ShortcutKey": "Alt+J, I",
+          "ChineseFunctionDescription": "打开“绘图”选项卡并访问绘图工具",
+          "EnglishFunctionDescription": "Open the Draw tab and access the drawing tools"
+        },
+        {
+          "Id": "bf04d9ad-face-44fc-9c33-581de903a533",
+          "ShortcutKey": "Alt+G",
+          "ChineseFunctionDescription": "打开“设计”选项卡，应用主题并自定义幻灯片",
+          "EnglishFunctionDescription": "Open the Design tab and apply themes and customize slides"
+        },
+        {
+          "Id": "808af758-6a4b-43d3-865f-1e8de80cf6d7",
+          "ShortcutKey": "Alt+K",
+          "ChineseFunctionDescription": "打开“切换”选项卡，在幻灯片之间添加切换效果",
+          "EnglishFunctionDescription": "Open the Transitions tab and add transitions between slides"
+        },
+        {
+          "Id": "4a5b0e72-83be-45cf-97d7-820dfe17fb2d",
+          "ShortcutKey": "Alt+A",
+          "ChineseFunctionDescription": "打开“动画”选项卡，向幻灯片添加动画",
+          "EnglishFunctionDescription": "Open the Animations tab and add animations to slides"
+        },
+        {
+          "Id": "6a1ef15b-1f24-481b-bbaf-9587c239cb43",
+          "ShortcutKey": "Alt+S",
+          "ChineseFunctionDescription": "打开“幻灯片放映”选项卡，设置和播放幻灯片放映",
+          "EnglishFunctionDescription": "Open the Slide Show tab and set up and play the slide show"
+        },
+        {
+          "Id": "d3de890c-eaf7-4ed6-b2e4-8248f063d281",
+          "ShortcutKey": "Alt+R",
+          "ChineseFunctionDescription": "打开“审阅”选项卡，检查拼写和辅助功能并添加批注",
+          "EnglishFunctionDescription": "Open the Review tab and check spelling and accessibility and add comments"
+        },
+        {
+          "Id": "20caf8b2-3d2c-4025-b4a2-8cac3099a1d9",
+          "ShortcutKey": "Alt+W",
+          "ChineseFunctionDescription": "打开“视图”选项卡和预览演示文稿布局、显示和隐藏网格线和参考线、设置缩放缩放、管理窗口和查看宏",
+          "EnglishFunctionDescription": "Open the View tab and preview presentation layouts, show and hide gridlines and guides, set zoom magnification, manage windows, and view macros"
+        },
+        {
+          "Id": "fad0edb6-ee71-4eee-b7de-a1a8dd2856ff",
+          "ShortcutKey": "Alt+C",
+          "ChineseFunctionDescription": "打开“录制”选项卡，在演示文稿中管理屏幕录制、音频和视频",
+          "EnglishFunctionDescription": "Open the Recording tab and manage screen recordings, audio, and video in your presentation"
+        },
+        {
+          "Id": "8f0c5ca1-c969-4872-aec7-b96b2aa893ee",
+          "ShortcutKey": "Alt+Y, 2",
+          "ChineseFunctionDescription": "打开“帮助”选项卡并浏览 PowerPoint ，联系支持人员并留下反馈",
+          "EnglishFunctionDescription": "Open the Help tab and browse the PowerPoint, contact support, and leave feedback"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "通过键盘使用功能区",
+      "EnglishCategoryName": "Work in the ribbon with the keyboard",
+      "Keys": [
+        {
+          "Id": "3656177d-da53-4d5c-a8a5-26ccce7ca0d6",
+          "ShortcutKey": "Tab or Shift+Tab",
+          "ChineseFunctionDescription": "将焦点移动到功能区上的命令",
+          "EnglishFunctionDescription": "Move the focus to commands on the ribbon"
+        },
+        {
+          "Id": "a80bdd9d-ba62-426e-9fa1-c1bb6ba5fac9",
+          "ShortcutKey": "Arrow keys",
+          "ChineseFunctionDescription": "在功能区上分别向下、向上、向左或向右在各项之间移动",
+          "EnglishFunctionDescription": "Move down, up, left, or right, respectively, among the items on the ribbon"
+        },
+        {
+          "Id": "340ff603-6c07-4e5a-946a-db86777bfe17",
+          "ShortcutKey": "Spacebar or Enter",
+          "ChineseFunctionDescription": "激活所选按钮或控件",
+          "EnglishFunctionDescription": "Activate a selected button or control"
+        },
+        {
+          "Id": "b0776883-53fc-43fd-bdd8-e5503aaa5973",
+          "ShortcutKey": "↓",
+          "ChineseFunctionDescription": "打开所选命令的列表",
+          "EnglishFunctionDescription": "Open the list for a selected command"
+        },
+        {
+          "Id": "68f01901-eb41-4710-9d63-be66e04fdbca",
+          "ShortcutKey": "Alt+↓",
+          "ChineseFunctionDescription": "打开所选按钮的菜单",
+          "EnglishFunctionDescription": "Open the menu for a selected button"
+        },
+        {
+          "Id": "2ee7f4c5-d8c8-4240-962c-fa8b2e3f960c",
+          "ShortcutKey": "Ctrl+F1",
+          "ChineseFunctionDescription": "展开或收起功能区",
+          "EnglishFunctionDescription": "Expand or collapse the ribbon"
+        },
+        {
+          "Id": "adca44c1-0026-4a40-a079-ccbccc1b5219",
+          "ShortcutKey": "Shift+F10",
+          "ChineseFunctionDescription": "打开上下文菜单",
+          "EnglishFunctionDescription": "Open a context menu"
+        },
+        {
+          "Id": "8d700806-5f6b-424f-9c6a-1a56e0960e1f",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "当主菜单处于打开或选中状态时，移到子菜单",
+          "EnglishFunctionDescription": "Move to the submenu when a main menu is open or selected"
+        },
+        {
+          "Id": "e0a8f3ad-c0d3-4b50-a594-711a25835403",
+          "ShortcutKey": "F1",
+          "ChineseFunctionDescription": "获取有关功能区上当前所选命令或控件的帮助",
+          "EnglishFunctionDescription": "Get help on the currently selected command or control on the ribbon"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "在窗格之间移动",
+      "EnglishCategoryName": "Move between panes",
+      "Keys": [
+        {
+          "Id": "e4029123-7590-48bd-8c90-95039fc63059",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "在“普通”视图中的窗格之间顺时针循环",
+          "EnglishFunctionDescription": "Cycle clockwise through panes in the Normal view"
+        },
+        {
+          "Id": "4add2165-2862-425c-b356-4cf21dea2e10",
+          "ShortcutKey": "Shift+F6",
+          "ChineseFunctionDescription": "逆时针循环浏览“普通”视图中的窗格",
+          "EnglishFunctionDescription": "Cycle counterclockwise through panes in the Normal view"
+        },
+        {
+          "Id": "412acd8b-5e53-47c9-bec8-7cf8ab7b6d08",
+          "ShortcutKey": "Ctrl+Shift+Tab",
+          "ChineseFunctionDescription": "在“缩略图”窗格 和“大纲视图”窗格之间 切换",
+          "EnglishFunctionDescription": "Switch between the Thumbnail pane and the Outline View pane"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "在“大纲”视图中工作",
+      "EnglishCategoryName": "Work in the Outline view",
+      "Keys": [
+        {
+          "Id": "3e235702-a0a5-42bb-9556-86bb832c2448",
+          "ShortcutKey": "Alt+Shift+←",
+          "ChineseFunctionDescription": "提升段落级别",
+          "EnglishFunctionDescription": "Promote a paragraph"
+        },
+        {
+          "Id": "6f5dc375-ef2f-4300-a5b1-648db626864f",
+          "ShortcutKey": "Alt+Shift+→",
+          "ChineseFunctionDescription": "降低段落级别",
+          "EnglishFunctionDescription": "Demote a paragraph"
+        },
+        {
+          "Id": "503c4414-1bfa-4077-a2c3-beedede92af3",
+          "ShortcutKey": "Alt+Shift+↑",
+          "ChineseFunctionDescription": "上移所选段落",
+          "EnglishFunctionDescription": "Move selected paragraphs up"
+        },
+        {
+          "Id": "b62127ed-d212-4f93-8e3a-e8a64fd783a9",
+          "ShortcutKey": "Alt+Shift+↓",
+          "ChineseFunctionDescription": "下移所选段落",
+          "EnglishFunctionDescription": "Move selected paragraphs down"
+        },
+        {
+          "Id": "0d64f8b3-a256-4580-bd03-6f9f4ad8bdb9",
+          "ShortcutKey": "Alt+Shift+1",
+          "ChineseFunctionDescription": "显示级别 1 标题",
+          "EnglishFunctionDescription": "Show level 1 headings"
+        },
+        {
+          "Id": "3ef9a921-00c6-4891-9735-5b9c416f0309",
+          "ShortcutKey": "Alt+Shift+Plus",
+          "ChineseFunctionDescription": "展开标题下的文本",
+          "EnglishFunctionDescription": "Expand text below a heading"
+        },
+        {
+          "Id": "f0c8c26b-ea17-4b26-bd6b-cd08bb050276",
+          "ShortcutKey": "Alt+Shift+Minus",
+          "ChineseFunctionDescription": "折叠标题下的文本",
+          "EnglishFunctionDescription": "Collapse text below a heading"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "选择并编辑文本和对象",
+      "EnglishCategoryName": "Select and edit text and objects",
+      "Keys": [
+        {
+          "Id": "6f47389d-00c2-4fa8-9767-6aef1f12bc86",
+          "ShortcutKey": "Shift+→",
+          "ChineseFunctionDescription": "向右选择一个字符",
+          "EnglishFunctionDescription": "Select one character to the right"
+        },
+        {
+          "Id": "03f0f632-fd77-4afd-bde4-78ffa7de7059",
+          "ShortcutKey": "Shift+←",
+          "ChineseFunctionDescription": "向左选择一个字符",
+          "EnglishFunctionDescription": "Select one character to the left"
+        },
+        {
+          "Id": "e1be17b0-44b6-4dfc-b056-589dc7ac8f9d",
+          "ShortcutKey": "Ctrl+Shift+→",
+          "ChineseFunctionDescription": "选择到词尾",
+          "EnglishFunctionDescription": "Select to the end of a word"
+        },
+        {
+          "Id": "f2c21c85-8cbd-4697-93ea-d2f18bcb6fc3",
+          "ShortcutKey": "Ctrl+Shift+←",
+          "ChineseFunctionDescription": "选择到词首",
+          "EnglishFunctionDescription": "Select to the beginning of a word"
+        },
+        {
+          "Id": "7d625ba9-c3bf-4809-9b2e-21824f3ebc2d",
+          "ShortcutKey": "Shift+↑",
+          "ChineseFunctionDescription": "选择上一行（前提是光标位于行的开头）",
+          "EnglishFunctionDescription": "Select one line up (with the cursor at the beginning of a line)"
+        },
+        {
+          "Id": "8fdabccb-9159-4942-be99-9467083880c4",
+          "ShortcutKey": "Shift+↓",
+          "ChineseFunctionDescription": "选择下一行（前提是光标位于行的开头）",
+          "EnglishFunctionDescription": "Select one line down (with the cursor at the beginning of a line)"
+        },
+        {
+          "Id": "29e799c7-aa0c-4d8e-b7da-80314483c84b",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "选择对象内的文本时，选择对象",
+          "EnglishFunctionDescription": "Select an object when the text inside the object is selected"
+        },
+        {
+          "Id": "4a920135-33bd-4628-89b2-71a67ee6b9d4",
+          "ShortcutKey": "Tab or Shift+Tab",
+          "ChineseFunctionDescription": "选择一个对象时选择另一个对象",
+          "EnglishFunctionDescription": "Select another object when one object is selected"
+        },
+        {
+          "Id": "6a707557-8332-4dd1-9465-9305610f0d48",
+          "ShortcutKey": "Ctrl+[",
+          "ChineseFunctionDescription": "将对象向后发送一个位置",
+          "EnglishFunctionDescription": "Send object back one position"
+        },
+        {
+          "Id": "973a2bfd-8abf-49e1-af89-afdfd0d0cbd2",
+          "ShortcutKey": "Ctrl+]",
+          "ChineseFunctionDescription": "将对象向前发送一个位置",
+          "EnglishFunctionDescription": "Send object forward one position"
+        },
+        {
+          "Id": "04036372-dac3-4e49-b16e-be0b43050db6",
+          "ShortcutKey": "Ctrl+Shift+[",
+          "ChineseFunctionDescription": "将对象置于底层",
+          "EnglishFunctionDescription": "Send object to back"
+        },
+        {
+          "Id": "cbea8de0-ea17-4cb8-9e65-cd58bbad68d1",
+          "ShortcutKey": "Ctrl+Shift+]",
+          "ChineseFunctionDescription": "将对象发送到顶层",
+          "EnglishFunctionDescription": "Send object to front"
+        },
+        {
+          "Id": "4c76440d-cdf5-4587-9fbd-c36fc0ca319a",
+          "ShortcutKey": "Enter",
+          "ChineseFunctionDescription": "选择对象内的文本",
+          "EnglishFunctionDescription": "Select text within an object (with an object selected)"
+        },
+        {
+          "Id": "15db22dd-515d-4f1e-98ed-959fcff88c22",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "选择幻灯片上的所有对象",
+          "EnglishFunctionDescription": "Select all objects on a slide"
+        },
+        {
+          "Id": "133de148-f218-4557-8c5b-18f7720beb15",
+          "ShortcutKey": "Ctrl+Spacebar",
+          "ChineseFunctionDescription": "播放或暂停媒体",
+          "EnglishFunctionDescription": "Play or pause media"
+        },
+        {
+          "Id": "879a744b-22fe-42a5-9098-426696e7314a",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "在“幻灯片浏览”视图或缩略图窗格中选择所有幻灯片",
+          "EnglishFunctionDescription": "Select all slides in the Slide Sorter view or the thumbnail pane"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "删除和复制文本和对象",
+      "EnglishCategoryName": "Delete and copy text and objects",
+      "Keys": [
+        {
+          "Id": "0c45c577-d032-4f94-86a9-1a8cfe44f5d0",
+          "ShortcutKey": "Backspace",
+          "ChineseFunctionDescription": "向左删除一个字符",
+          "EnglishFunctionDescription": "Delete one character to the left"
+        },
+        {
+          "Id": "40180d3a-59f3-481d-8284-875eb9048906",
+          "ShortcutKey": "Ctrl+Backspace",
+          "ChineseFunctionDescription": "向左删除一个字词",
+          "EnglishFunctionDescription": "Delete one word to the left"
+        },
+        {
+          "Id": "5e1ad34c-7140-4de7-b52b-ccbf2c390ee8",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "向右删除一个字符",
+          "EnglishFunctionDescription": "Delete one character to the right"
+        },
+        {
+          "Id": "15e828f5-241c-4eb2-9520-3589ad34ec8b",
+          "ShortcutKey": "Ctrl+Delete",
+          "ChineseFunctionDescription": "在右侧位置删除(光标位于两个单词之间) ",
+          "EnglishFunctionDescription": "Delete one word to the right (with the cursor between the words)"
+        },
+        {
+          "Id": "b02cb87e-f4c4-4cc1-9efc-ecfb47213fbc",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "剪切选定的对象或文本",
+          "EnglishFunctionDescription": "Cut selected object or text"
+        },
+        {
+          "Id": "d1fe3392-c440-40fc-bd8a-b5749ca8b295",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制选定的对象或文本",
+          "EnglishFunctionDescription": "Copy selected object or text"
+        },
+        {
+          "Id": "3cb1a0ea-01a6-48be-9144-174986b98b3f",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴剪切或复制的对象或文本",
+          "EnglishFunctionDescription": "Paste cut or copied object or text"
+        },
+        {
+          "Id": "ce71750d-84e1-43db-a43b-089c1e94ae4e",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "复制对象",
+          "EnglishFunctionDescription": "Duplicate an object"
+        },
+        {
+          "Id": "aa30b81e-c3b0-4692-9c61-9de444929e35",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消最后一个操作",
+          "EnglishFunctionDescription": "Undo the last action"
+        },
+        {
+          "Id": "7fe36b14-3546-4e1f-892d-0edd110b8398",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "恢复最后一个操作",
+          "EnglishFunctionDescription": "Redo the last action"
+        },
+        {
+          "Id": "2013e406-6aac-40ab-8f85-7cea23d6cb1b",
+          "ShortcutKey": "Ctrl+Shift+C",
+          "ChineseFunctionDescription": "只复制格式",
+          "EnglishFunctionDescription": "Copy formatting only"
+        },
+        {
+          "Id": "8c5bcc4f-659a-4c32-bd92-68c3956fb8cc",
+          "ShortcutKey": "Ctrl+Shift+V",
+          "ChineseFunctionDescription": "只粘贴格式",
+          "EnglishFunctionDescription": "Paste formatting only"
+        },
+        {
+          "Id": "6b743ea0-c4f3-4218-9708-bab0d9d40632",
+          "ShortcutKey": "Alt+Shift+C",
+          "ChineseFunctionDescription": "复制动画刷",
+          "EnglishFunctionDescription": "Copy animation painter"
+        },
+        {
+          "Id": "de429a8d-10da-401b-818c-1264d5bad493",
+          "ShortcutKey": "Alt+Shift+V",
+          "ChineseFunctionDescription": "粘贴动画刷",
+          "EnglishFunctionDescription": "Paste animation painter"
+        },
+        {
+          "Id": "42d599ab-c935-4714-a854-ababeff77615",
+          "ShortcutKey": "Ctrl+Alt+V",
+          "ChineseFunctionDescription": "打开“选择性粘贴”对话框",
+          "EnglishFunctionDescription": "Open the Paste Special dialog box"
+        }
+      ]
+    }
+  ]
+}

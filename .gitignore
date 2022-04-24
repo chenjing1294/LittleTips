@@ -1,0 +1,10 @@
+bin/
+.idea/
+.vs/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+AppPackages/
+BundleArtifacts/
+**/MainWindow.xaml.cs

@@ -1,0 +1,595 @@
+{
+  "Id": "dopus",
+  "AppName": "Directory Opus",
+  "AppIcon": "directory-opus.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "显示快捷方式",
+      "EnglishCategoryName": "Display Shortcuts",
+      "Keys": [
+        {
+          "Id": "8ce30633-7680-bd78-2ca4-8dd4bdd9d5e0",
+          "ShortcutKey": "Shift+F5",
+          "ChineseFunctionDescription": "将显示刷新到我的 Happy Place",
+          "EnglishFunctionDescription": "Refreshes the display to my Happy Place (My Lister)"
+        },
+        {
+          "Id": "60595b76-ebf7-fc69-2122-0aa5802db1ef",
+          "ShortcutKey": "Ctrl+Alt+F5",
+          "ChineseFunctionDescription": "保存我的列表器并设置为“默认”列表器",
+          "EnglishFunctionDescription": "Saves My Lister and sets as the \"default\" lister"
+        },
+        {
+          "Id": "4c52e05b-e8d7-84d8-0b52-4efa9f6fbadf",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "在 Explorer 和 Dual 模式之间切换",
+          "EnglishFunctionDescription": "Toggles between Explorer and Dual modes"
+        },
+        {
+          "Id": "03287b19-8db1-174e-28d3-4e1c6fa64709",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "在水平和垂直模式之间切换",
+          "EnglishFunctionDescription": "Toggles between Horizontal and Vertical modes"
+        },
+        {
+          "Id": "7bedb279-0a7d-647b-188e-fc7c30b1a003",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "在详细信息和缩略图模式之间切换",
+          "EnglishFunctionDescription": "Switches between Details and Thumbnails modes"
+        },
+        {
+          "Id": "db405530-308e-8301-ed8a-93dd9caff259",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "像素布局",
+          "EnglishFunctionDescription": "Pix Layout (rhymes with six)"
+        },
+        {
+          "Id": "a019ba0c-9a74-cd31-4c3c-58ea6102c189",
+          "ShortcutKey": "F7",
+          "ChineseFunctionDescription": "循环浏览视图模式",
+          "EnglishFunctionDescription": "Cycles through View Modes"
+        },
+        {
+          "Id": "366f0ef1-c668-0216-b760-ba463679393b",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "切换预览窗格。",
+          "EnglishFunctionDescription": "Toggles the Preview Pane. (The 8 are the eyes in lOOk)"
+        },
+        {
+          "Id": "82c4998b-6a9f-d74e-7c0a-6c2a6a3e7dd5",
+          "ShortcutKey": "F9",
+          "ChineseFunctionDescription": "切换元数据面板",
+          "EnglishFunctionDescription": "Toggles the Metadata panel"
+        },
+        {
+          "Id": "d299ead7-1fcc-c0fa-3fd5-e806ad991393",
+          "ShortcutKey": "F10",
+          "ChineseFunctionDescription": "切换平面视图",
+          "EnglishFunctionDescription": "Toggles the Flat View"
+        },
+        {
+          "Id": "f2d93bf4-d5d2-8172-0a9d-7f4706120f0d",
+          "ShortcutKey": "Ctrl+Alt+H",
+          "ChineseFunctionDescription": "巨大的模式",
+          "EnglishFunctionDescription": "Huge Mode"
+        },
+        {
+          "Id": "21cc130e-703c-c8b8-5461-74a92f5b439a",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "将缩放级别重置为正常",
+          "EnglishFunctionDescription": "Resets the Zoom level to normal"
+        },
+        {
+          "Id": "cd4bab03-fc23-a1e7-8a75-a4f5e20cbdab",
+          "ShortcutKey": "Ctrl+Scroll Wheel",
+          "ChineseFunctionDescription": "放大或缩小文件显示的文本和缩略图",
+          "EnglishFunctionDescription": "Magnifies or shrinks the file display's text and thumbnails"
+        },
+        {
+          "Id": "7f9452fa-5c7e-278d-8127-50224462ce9e",
+          "ShortcutKey": "Ctrl+Plus / Minus",
+          "ChineseFunctionDescription": "放大或缩小文件显示的文本和缩略图",
+          "EnglishFunctionDescription": "As above, magnifies or shrinks the file display's text and thumbnails"
+        },
+        {
+          "Id": "5ed4cf0b-bf80-5493-8358-c63f0d204bd8",
+          "ShortcutKey": "Ctrl+Space",
+          "ChineseFunctionDescription": "自动调整列大小",
+          "EnglishFunctionDescription": "Autosize columns"
+        },
+        {
+          "Id": "99135aa6-7fe0-1bc6-1d95-c12aca63491d",
+          "ShortcutKey": "Ctrl+Alt+0 through 9",
+          "ChineseFunctionDescription": "更改文件颜色 (1-9)，或重置它 (0)",
+          "EnglishFunctionDescription": "Changes the file color (1-9), or resets it (0)"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "复制和移动快捷方式",
+      "EnglishCategoryName": "Copying & Moving Shortcuts",
+      "Keys": [
+        {
+          "Id": "d0e30497-9cc1-8c59-0b0f-bea13f7fb210",
+          "ShortcutKey": "Ctrl+1",
+          "ChineseFunctionDescription": "从源复制到目标",
+          "EnglishFunctionDescription": "Copies from the Source to the Destination"
+        },
+        {
+          "Id": "d064e799-0b08-d259-da93-86926e3d3a58",
+          "ShortcutKey": "Ctrl+2",
+          "ChineseFunctionDescription": "从源头移动到目的地",
+          "EnglishFunctionDescription": "Moves from the Source to the Destination"
+        },
+        {
+          "Id": "678e3116-daae-8ba2-53ff-3a2b1cd276e2",
+          "ShortcutKey": "Ctrl+/",
+          "ChineseFunctionDescription": "“Squash”：从源复制到目标并在不询问的情况下覆盖",
+          "EnglishFunctionDescription": "\"Squash\": Copies from the Source to Destination and overwrites without asking"
+        },
+        {
+          "Id": "a22f63b7-2e25-75f5-3275-932f18f417f5",
+          "ShortcutKey": "Ctrl+J",
+          "ChineseFunctionDescription": "复制（“跳转”）选定的文件或文件夹",
+          "EnglishFunctionDescription": "Duplicates (\"Jumps\") selected files or folders"
+        },
+        {
+          "Id": "3798235b-332d-5520-c1a9-840d47921e7e",
+          "ShortcutKey": "Ctrl+Shift+U",
+          "ChineseFunctionDescription": "将文件向上移动到父文件夹",
+          "EnglishFunctionDescription": "Moves files Up to the parent folder"
+        },
+        {
+          "Id": "a173409d-fe5a-d85e-c8a4-47e2211bcb83",
+          "ShortcutKey": "Ctrl+Shift+D",
+          "ChineseFunctionDescription": "将文件移动到桌面",
+          "EnglishFunctionDescription": "Moves files to the Desktop"
+        },
+        {
+          "Id": "f2b117e5-0bfe-1b7e-f3cc-77e4b5d1e3d0",
+          "ShortcutKey": "Ctrl+Shift+N",
+          "ChineseFunctionDescription": "复制所选文件的名称。 出乎意料的好用！",
+          "EnglishFunctionDescription": "Copies the Names of the selected files. Surprisingly useful!"
+        },
+        {
+          "Id": "a3eaae0b-a421-c82f-92bd-a8f38a54c2e3",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "复制所选文件的路径",
+          "EnglishFunctionDescription": "Copies the Path of the selected files"
+        },
+        {
+          "Id": "6286ccd5-856a-0d9c-f4cd-addf258bbad5",
+          "ShortcutKey": "Ctrl+Shift+5",
+          "ChineseFunctionDescription": "将文件的 MD5 哈希复制到剪贴板",
+          "EnglishFunctionDescription": "Copies a file's MD5 hash to the clipboard"
+        },
+        {
+          "Id": "8cd4223e-9b8c-2516-b0d4-d397376dea5c",
+          "ShortcutKey": "Ctrl+Shift+L",
+          "ChineseFunctionDescription": "将完整格式的 html 超链接复制到所选文件到剪贴板",
+          "EnglishFunctionDescription": "Copies a fully-formed html hyperLink to the selected files to the clipboard"
+        },
+        {
+          "Id": "c08c8af0-5303-55ea-1ffb-6e7d0d072768",
+          "ShortcutKey": "Ctrl+Shift+I",
+          "ChineseFunctionDescription": "将选定文件的 html Img 链接复制到剪贴板",
+          "EnglishFunctionDescription": "Copies an html Img link to the selected files to the clipboard"
+        },
+        {
+          "Id": "eaa9edf6-0aaf-afe2-601b-f6bc7c7c1560",
+          "ShortcutKey": "Ctrl+Shift+C",
+          "ChineseFunctionDescription": "将所选文件添加到剪贴板（不替换剪贴板中的当前文件）",
+          "EnglishFunctionDescription": "Adds the selected files to the clipboard (without replacing the current files in the clipboard)"
+        },
+        {
+          "Id": "2ed82f1c-36de-acfa-8a1e-b0ca9a0012a9",
+          "ShortcutKey": "Ctrl+Shift+V",
+          "ChineseFunctionDescription": "将剪贴板文本粘贴到选项卡（创建文本文件）时询问文件名",
+          "EnglishFunctionDescription": "Asks file name when pasting clipboard text into a tab (which creates a text file)"
+        },
+        {
+          "Id": "9f89b99a-6163-40e9-5602-1bda899eac09",
+          "ShortcutKey": "Ctrl+Alt+Shift+1",
+          "ChineseFunctionDescription": "复制为：从源复制到目标，要求一个新名称",
+          "EnglishFunctionDescription": "Copy As: copies from Source to Destination, asking for a new name"
+        },
+        {
+          "Id": "6964ed6e-ea57-f9ff-94b7-795abb5ab9e4",
+          "ShortcutKey": "Ctrl+Alt+Shift+2",
+          "ChineseFunctionDescription": "移动为：从源移动到目标，要求一个新名称",
+          "EnglishFunctionDescription": "Move As: moves from Source to Destination, asking for a new name"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "位置快捷方式",
+      "EnglishCategoryName": "Location Shortcuts",
+      "Keys": [
+        {
+          "Id": "960328af-91eb-c4ca-fbc1-c2e7653f6272",
+          "ShortcutKey": "Alt+Home",
+          "ChineseFunctionDescription": "计算机",
+          "EnglishFunctionDescription": "Computer"
+        },
+        {
+          "Id": "2b122138-cd17-b006-2b14-7a6e368046a1",
+          "ShortcutKey": "Shift+Home",
+          "ChineseFunctionDescription": "桌面。 依赖 GoExisting 脚本（将脚本文件拖放到 Prefs/Toolbars/Scripts 中）",
+          "EnglishFunctionDescription": "Desktop. Relies on the GoExisting script (drag and drop the script file into Prefs/Toolbars/Scripts)"
+        },
+        {
+          "Id": "e4307eb6-1bf7-b99a-c373-76a3c8b7ef73",
+          "ShortcutKey": "Alt+Delete",
+          "ChineseFunctionDescription": "回收站。 依赖 GoExisting 脚本（将脚本文件拖放到 Prefs/Toolbars/Scripts 中）",
+          "EnglishFunctionDescription": "Recycle Bin. Relies on the GoExisting script (drag and drop the script file into Prefs/Toolbars/Scripts)"
+        },
+        {
+          "Id": "8e1a70aa-68c1-a3d4-d138-91bb9df44287",
+          "ShortcutKey": "Alt+Page Up",
+          "ChineseFunctionDescription": "选项卡的原始文件夹",
+          "EnglishFunctionDescription": "The tab's original folder"
+        },
+        {
+          "Id": "13c03b4f-b6e3-bdd2-4cb2-af9c42a4b8b5",
+          "ShortcutKey": "Alt+Page Down",
+          "ChineseFunctionDescription": "打开选定文件的文件夹（在集合和平面视图中很有用）",
+          "EnglishFunctionDescription": "Opens the selected file's folder (useful in collections and flat view)"
+        },
+        {
+          "Id": "8b84f63f-49ce-b5d0-b503-768fa0df61d9",
+          "ShortcutKey": "Alt+Backspace or Backspace",
+          "ChineseFunctionDescription": "转到父文件夹",
+          "EnglishFunctionDescription": "Goes up to the parent folder"
+        },
+        {
+          "Id": "844c114b-41ab-d5a2-d565-a58811f9677e",
+          "ShortcutKey": "Alt+A through Z",
+          "ChineseFunctionDescription": "转到驱动器 A-Z",
+          "EnglishFunctionDescription": "Go to Drive A-Z"
+        },
+        {
+          "Id": "fa27cb57-e1ed-2dd2-8056-3421fca5f327",
+          "ShortcutKey": "Alt+2",
+          "ChineseFunctionDescription": "System 32",
+          "EnglishFunctionDescription": "System 32"
+        },
+        {
+          "Id": "7bb71950-a525-c821-d82a-4696965eb820",
+          "ShortcutKey": "Alt+6",
+          "ChineseFunctionDescription": "Programs x86",
+          "EnglishFunctionDescription": "Programs x86"
+        },
+        {
+          "Id": "8ec8abbb-13a6-e0ff-f5d5-76d54612c01c",
+          "ShortcutKey": "Alt+4",
+          "ChineseFunctionDescription": "Programs",
+          "EnglishFunctionDescription": "Programs (think 64-bit)"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "重命名快捷方式",
+      "EnglishCategoryName": "Renaming Shortcuts",
+      "Keys": [
+        {
+          "Id": "0d7059b5-a12d-7f63-9860-aa9c5cafa786",
+          "ShortcutKey": "Shift+F2",
+          "ChineseFunctionDescription": "打开重命名面板",
+          "EnglishFunctionDescription": "Opens the Rename panel"
+        },
+        {
+          "Id": "db450202-be72-2760-2b2b-ca85cb118a50",
+          "ShortcutKey": "Ctrl+Alt+L",
+          "ChineseFunctionDescription": "将文件名转换为小写",
+          "EnglishFunctionDescription": "Converts file names to Lower case"
+        },
+        {
+          "Id": "dad286b1-a704-d6ed-bab0-4c59bc28379e",
+          "ShortcutKey": "Ctrl+Alt+U",
+          "ChineseFunctionDescription": "将文件名转换为大写",
+          "EnglishFunctionDescription": "Converts file names to Upper case"
+        },
+        {
+          "Id": "f143df95-2735-f432-d942-d154038e38cc",
+          "ShortcutKey": "Ctrl+Alt+S",
+          "ChineseFunctionDescription": "将文件名转换为句子大小写",
+          "EnglishFunctionDescription": "Converts file names to Sentence case"
+        },
+        {
+          "Id": "b4f8f558-01bc-0b85-ae76-20982cf8780f",
+          "ShortcutKey": "Ctrl+Alt+C",
+          "ChineseFunctionDescription": "将文件名的第一个单词大写",
+          "EnglishFunctionDescription": "Capitalizes first word of the file name"
+        },
+        {
+          "Id": "c123c391-0db1-ae1c-d8de-864e513c675a",
+          "ShortcutKey": "Ctrl+Alt+W",
+          "ChineseFunctionDescription": "将文件名转换为 Web 安全大小写",
+          "EnglishFunctionDescription": "Converts file names to Web-safe case"
+        },
+        {
+          "Id": "7c2fa84b-1fbc-f6e3-0372-892c8c9d8ba6",
+          "ShortcutKey": "Ctrl+Alt+.",
+          "ChineseFunctionDescription": "将点转换为空格",
+          "EnglishFunctionDescription": "Converts dots to spaces"
+        },
+        {
+          "Id": "44ff1a80-77f6-33a7-a9ff-b07b538edcb9",
+          "ShortcutKey": "Ctrl+Alt+-",
+          "ChineseFunctionDescription": "将破折号转换为空格",
+          "EnglishFunctionDescription": "Converts dashes to spaces"
+        },
+        {
+          "Id": "3538862b-a9fb-135b-6a9c-c0f802db4345",
+          "ShortcutKey": "Ctrl+Alt+_",
+          "ChineseFunctionDescription": "将下划线转换为空格",
+          "EnglishFunctionDescription": "Converts underscores to spaces"
+        },
+        {
+          "Id": "04d601f0-e979-9509-9454-c465a0accc7f",
+          "ShortcutKey": "Ctrl+Alt+Spacebar",
+          "ChineseFunctionDescription": "删除空格",
+          "EnglishFunctionDescription": "Removes spaces"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "选项卡快捷方式",
+      "EnglishCategoryName": "Tab Shortcuts",
+      "Keys": [
+        {
+          "Id": "2c75244f-770d-07ba-ee3a-0c451e6a25d7",
+          "ShortcutKey": "Shift+T",
+          "ChineseFunctionDescription": "新标签",
+          "EnglishFunctionDescription": "New Tab"
+        },
+        {
+          "Id": "ef9f6019-613b-91d0-f142-94599798cc20",
+          "ShortcutKey": "Ctrl+Shift+T",
+          "ChineseFunctionDescription": "撤消关闭选项卡",
+          "EnglishFunctionDescription": "Undo Close Tab"
+        },
+        {
+          "Id": "424042d3-4308-e214-8c36-e3cbaaf02755",
+          "ShortcutKey": "Ctrl+←/→",
+          "ChineseFunctionDescription": "在源显示中向左或向右移动到下一个选项卡",
+          "EnglishFunctionDescription": "Shift to the next tab to the left or right in the source display"
+        },
+        {
+          "Id": "ec434e4b-f9c7-dbb6-1dbd-5242a84b9047",
+          "ShortcutKey": "Ctrl+Shift+←/→",
+          "ChineseFunctionDescription": "在目标显示中移动到左侧或右侧的下一个选项卡",
+          "EnglishFunctionDescription": "Shift to the next tab to the left or right in the destination display"
+        },
+        {
+          "Id": "84fdc46b-166e-6ed6-8bd7-8e2371e23618",
+          "ShortcutKey": "Ctrl+Shift+1",
+          "ChineseFunctionDescription": "将当前选项卡复制到另一侧",
+          "EnglishFunctionDescription": "Duplicate Current Tab to the other side"
+        },
+        {
+          "Id": "3a5ab428-b68d-1c05-2b0a-1bdc9d5fc538",
+          "ShortcutKey": "Ctrl+Shift+2",
+          "ChineseFunctionDescription": "将当前选项卡移动到另一侧",
+          "EnglishFunctionDescription": "Move Current Tab to the other side"
+        },
+        {
+          "Id": "45b9941d-85cc-97f4-0b26-f05fcbd83e9a",
+          "ShortcutKey": "Ctrl+K",
+          "ChineseFunctionDescription": "切换锁定或解锁选项卡的格式",
+          "EnglishFunctionDescription": "Toggles locKing or unlocking the tab's format"
+        },
+        {
+          "Id": "633fb89b-144c-d543-8e83-d087b07807ab",
+          "ShortcutKey": "Ctrl+Shift+K",
+          "ChineseFunctionDescription": "切换导航锁定",
+          "EnglishFunctionDescription": "Toggles Navigation Lock"
+        },
+        {
+          "Id": "1b229552-4a0b-d665-ce62-9d5c86600caf",
+          "ShortcutKey": "Ctrl+Alt+Shift+K",
+          "ChineseFunctionDescription": "切换从属选项卡（“超级导航锁”）",
+          "EnglishFunctionDescription": "Toggles Slave Tabs (\"super navlock\")"
+        },
+        {
+          "Id": "f7b99d9b-e74e-ab59-3fc5-70d334566e4a",
+          "ShortcutKey": "Ctrl+Alt+Shift+L",
+          "ChineseFunctionDescription": "切换链接活动选项卡",
+          "EnglishFunctionDescription": "Toggles Linking the active tabs"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "选择快捷键",
+      "EnglishCategoryName": "Selection Shortcuts",
+      "Keys": [
+        {
+          "Id": "e0ec4854-a594-2731-7ecb-c7860a8c86d4",
+          "ShortcutKey": "F4",
+          "ChineseFunctionDescription": "将光标移动到路径栏",
+          "EnglishFunctionDescription": "Moves cursor to the Path Bar"
+        },
+        {
+          "Id": "359c0a9f-f9e2-722b-b7d7-2c06ff8db87b",
+          "ShortcutKey": "Shift+Space",
+          "ChineseFunctionDescription": "在左右（或上下）列表器之间切换焦点",
+          "EnglishFunctionDescription": "Toggles focus between the left and right (or up and down) listers"
+        },
+        {
+          "Id": "dd79c77c-8e04-7395-3c17-7be3eb414ad9",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "取消选择",
+          "EnglishFunctionDescription": "Deselects"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "网页快捷方式",
+      "EnglishCategoryName": "Web Shortcuts",
+      "Keys": [
+        {
+          "Id": "1582c676-8d21-13c3-b0b8-12e3bddda907",
+          "ShortcutKey": "Ctrl+F1",
+          "ChineseFunctionDescription": "开放作品论坛",
+          "EnglishFunctionDescription": "Open Opus Forum"
+        },
+        {
+          "Id": "4cfdb12d-be49-855f-e474-c70f9caa217c",
+          "ShortcutKey": "Ctrl+Shift+G",
+          "ChineseFunctionDescription": "用谷歌搜索",
+          "EnglishFunctionDescription": "Search with Google"
+        },
+        {
+          "Id": "3d02ecc8-e1f5-372d-b675-7da687e48535",
+          "ShortcutKey": "Ctrl+Alt+Shift+G",
+          "ChineseFunctionDescription": "使用 Google 图片搜索",
+          "EnglishFunctionDescription": "Search with Google Images"
+        },
+        {
+          "Id": "1450233a-78c1-6d32-d1ab-8edfc8110f25",
+          "ShortcutKey": "Ctrl+Shift+W",
+          "ChineseFunctionDescription": "用维基百科搜索",
+          "EnglishFunctionDescription": "Search with Wikipedia"
+        },
+        {
+          "Id": "491ffd8e-f99f-c1c9-9d0a-f41cc866f66c",
+          "ShortcutKey": "Ctrl+Shift+Y",
+          "ChineseFunctionDescription": "使用 YouTube 搜索",
+          "EnglishFunctionDescription": "Search with YouTube"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "脚本相关的快捷方式",
+      "EnglishCategoryName": "Script-Dependent Shortcuts",
+      "Keys": [
+        {
+          "Id": "459e10f0-cf57-3a4e-56f9-85945eb8cf8a",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "在显示详细信息和缩略图模式之间切换，保留当前选择。 依赖这个脚本",
+          "EnglishFunctionDescription": "Toggles between Showing Details and Thumbnails mode, preserving the current selection. Relies on this script"
+        },
+        {
+          "Id": "435d97f1-9cd8-b89e-f5b6-87c0118b5ada",
+          "ShortcutKey": "Alt+Del",
+          "ChineseFunctionDescription": "前往回收站。 依赖 GoExisting 脚本",
+          "EnglishFunctionDescription": "Go to the Recycle Bin. Relies on the GoExisting script"
+        },
+        {
+          "Id": "374d0357-9e46-bbf1-d9a7-246a1ad7d4ba",
+          "ShortcutKey": "Ctrl+Shift+Del",
+          "ChineseFunctionDescription": "清空回收站。 依赖 GoExisting 脚本",
+          "EnglishFunctionDescription": "Empty the Recycle Bin. Relies on the GoExisting script"
+        },
+        {
+          "Id": "56d12d89-99d2-aa70-64a8-30d5be0fdb05",
+          "ShortcutKey": "Shift+Home",
+          "ChineseFunctionDescription": "桌面。 依赖 GoExisting 脚本",
+          "EnglishFunctionDescription": "Desktop. Relies on the GoExisting script"
+        },
+        {
+          "Id": "2a08b6ed-b70b-4d63-54fc-4bee6a7ce9a8",
+          "ShortcutKey": "Ctrl+I",
+          "ChineseFunctionDescription": "为当前电影启动 IMDB。 依赖电影数据库脚本",
+          "EnglishFunctionDescription": "Launch IMDB for the current movie. Relies on the movie database script"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "更多的快捷键",
+      "EnglishCategoryName": "More Great Opus Shortcuts",
+      "Keys": [
+        {
+          "Id": "71f7537d-74fa-d4a5-db82-3b7ab110e87a",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "通过电子邮件发送此文件",
+          "EnglishFunctionDescription": "Email this File"
+        },
+        {
+          "Id": "b5eaad5c-4419-45b6-4c46-5eec3a1e8f4f",
+          "ShortcutKey": "Shift+F11",
+          "ChineseFunctionDescription": "通过电子邮件发送此文件，压缩",
+          "EnglishFunctionDescription": "Email this File, zipped"
+        },
+        {
+          "Id": "9d15a1bd-de60-839e-0182-ef3ce2413430",
+          "ShortcutKey": "Ctrl+Shift+X",
+          "ChineseFunctionDescription": "清除快速过滤器",
+          "EnglishFunctionDescription": "Clears the Quick Filter"
+        },
+        {
+          "Id": "bd38b171-1a7c-c694-9020-a009f26eec6d",
+          "ShortcutKey": "Ctrl+Shift+R",
+          "ChineseFunctionDescription": "在当前文件夹中打开命令提示符",
+          "EnglishFunctionDescription": "Opens a Command Prompt in the current folder"
+        },
+        {
+          "Id": "cbddd33f-d4c6-dab1-5031-adf9cf587c88",
+          "ShortcutKey": "Ctrl+Alt+Shift+R",
+          "ChineseFunctionDescription": "命令行解释器（“超级运行”）",
+          "EnglishFunctionDescription": "Command Line Interpreter (\"super Run\")"
+        },
+        {
+          "Id": "3d4b245c-d28b-08c5-d429-8e8837aa29db",
+          "ShortcutKey": "Ctrl+\\",
+          "ChineseFunctionDescription": "创建符号链接（“超级快捷方式”）",
+          "EnglishFunctionDescription": "Creates a Symbolic link (\"super shortcut\")"
+        },
+        {
+          "Id": "81d50ec6-77d4-8e2a-934e-32f8a5d7f19a",
+          "ShortcutKey": "Alt+Enter",
+          "ChineseFunctionDescription": "文件属性",
+          "EnglishFunctionDescription": "File Properties"
+        },
+        {
+          "Id": "ce2b9304-4a8d-1b06-1982-e00a2bb21d49",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "文件属性",
+          "EnglishFunctionDescription": "File attriButes"
+        },
+        {
+          "Id": "b753e490-d9f8-2f21-f1dd-c6d85dc636a3",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "编辑文件描述",
+          "EnglishFunctionDescription": "Edit file descriPtion"
+        },
+        {
+          "Id": "ef57fea3-e584-0f4c-ecfa-d2dc397069c9",
+          "ShortcutKey": "Ctrl+M",
+          "ChineseFunctionDescription": "编辑文件元数据",
+          "EnglishFunctionDescription": "Edit file Metadata"
+        },
+        {
+          "Id": "e6cc1a23-8f8f-f014-61fa-67336b3ef4ae",
+          "ShortcutKey": "Ctrl+Alt+L",
+          "ChineseFunctionDescription": "向左旋转图片",
+          "EnglishFunctionDescription": "Rotate Picture Left"
+        },
+        {
+          "Id": "0b2ec340-07ce-349c-89b6-f2b90f4ece16",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "FTP 快速连接",
+          "EnglishFunctionDescription": "FTP Quick connect"
+        },
+        {
+          "Id": "d9f3bbd4-c244-d8e6-0aef-f9092522e748",
+          "ShortcutKey": "Ctrl+Alt+Q",
+          "ChineseFunctionDescription": "编辑 FTP 快速连接通讯录",
+          "EnglishFunctionDescription": "Edit FTP Quick connect address book"
+        },
+        {
+          "Id": "7e758bfc-1075-ad14-bbe1-3fb64a8809bd",
+          "ShortcutKey": "Windows+O",
+          "ChineseFunctionDescription": "打开一个新的列表器",
+          "EnglishFunctionDescription": "Opens a new lister"
+        },
+        {
+          "Id": "618be515-6c9f-87eb-4dee-d8efe60f160c",
+          "ShortcutKey": "Shift+Escape",
+          "ChineseFunctionDescription": "关闭当前列表器",
+          "EnglishFunctionDescription": "Close the current lister"
+        }
+      ]
+    }
+  ]
+}

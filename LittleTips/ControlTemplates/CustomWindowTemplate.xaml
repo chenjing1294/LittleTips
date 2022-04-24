@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ControlTemplate x:Key="CustomWindowTemplate" TargetType="{x:Type Window}">
+    <Border Background="{TemplateBinding Background}" BorderBrush="LightGray" CornerRadius="0" BorderThickness="0"
+            SnapsToDevicePixels="True">
+      <AdornerDecorator>
+        <ContentPresenter />
+      </AdornerDecorator>
+    </Border>
+  </ControlTemplate>
+</ResourceDictionary>

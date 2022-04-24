@@ -1,0 +1,667 @@
+{
+  "Id": "word",
+  "AppName": "Microsoft Word",
+  "AppIcon": "icons8-microsoft-word-2019-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "常用快捷键",
+      "EnglishCategoryName": "Frequently used shortcuts",
+      "Keys": [
+        {
+          "Id": "313da33c-a9cc-4dc1-9ae8-cc8bf719589a",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "打开文档",
+          "EnglishFunctionDescription": "Open a document"
+        },
+        {
+          "Id": "b34911e7-35ec-4d2a-9ef6-e5e461f66d78",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "创建新文档",
+          "EnglishFunctionDescription": "Create a new document"
+        },
+        {
+          "Id": "08aaeb48-1f0f-42d0-8df6-c45c3a088829",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "保存文档",
+          "EnglishFunctionDescription": "Save the document"
+        },
+        {
+          "Id": "856696ef-2bbb-425e-811d-d3a5faef586e",
+          "ShortcutKey": "Ctrl+W",
+          "ChineseFunctionDescription": "关闭文档",
+          "EnglishFunctionDescription": "Close the document"
+        },
+        {
+          "Id": "f3ed544b-b3b6-4f3d-85a1-9fa8f706282e",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "将所选内容剪切到剪贴板",
+          "EnglishFunctionDescription": "Cut the selected content to the Clipboard"
+        },
+        {
+          "Id": "fe66e760-cbea-476b-94df-89e8e096669c",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "将所选内容复制到剪贴板",
+          "EnglishFunctionDescription": "Copy the selected content to the Clipboard"
+        },
+        {
+          "Id": "f5886fa6-18c5-47a4-8de2-23f76fb4d628",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴剪贴板的内容",
+          "EnglishFunctionDescription": "Paste the contents of the Clipboard"
+        },
+        {
+          "Id": "aa0d65d0-ad78-4529-a926-6ac5d10312fc",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "选择所有文档内容",
+          "EnglishFunctionDescription": "Select all document content"
+        },
+        {
+          "Id": "286c0589-b013-440c-b5f1-3175e55a7d99",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "对文本应用加粗格式",
+          "EnglishFunctionDescription": "Apply bold formatting to text"
+        },
+        {
+          "Id": "6c251a50-8830-4ae6-9ef7-538d8ee1722c",
+          "ShortcutKey": "Ctrl+I",
+          "ChineseFunctionDescription": "对文本应用italic格式",
+          "EnglishFunctionDescription": "Apply italic formatting to text"
+        },
+        {
+          "Id": "3a1ad0d1-190c-4b46-aa3a-522bb24ac571",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "对文本应用下划线格式",
+          "EnglishFunctionDescription": "Apply underline formatting to text"
+        },
+        {
+          "Id": "38e4c94c-6cdc-4b15-9855-d35cf5575817",
+          "ShortcutKey": "Ctrl+[",
+          "ChineseFunctionDescription": "逐磅减小字号",
+          "EnglishFunctionDescription": "Decrease the font size by 1 point"
+        },
+        {
+          "Id": "ec313b5c-4e20-4066-af29-8d153dc08c8a",
+          "ShortcutKey": "Ctrl+]",
+          "ChineseFunctionDescription": "逐磅增大字号",
+          "EnglishFunctionDescription": "Center the text"
+        },
+        {
+          "Id": "a409ffac-cae4-4e00-9336-e741aeca003d",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "将文本左对齐",
+          "EnglishFunctionDescription": "Align the text to the left"
+        },
+        {
+          "Id": "65f52c16-4779-4c6c-bc8d-01c3060e6676",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "使文本居中",
+          "EnglishFunctionDescription": "Center the text"
+        },
+        {
+          "Id": "87340f15-db29-4d04-911d-1dbef8517c0b",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "将文本右对齐",
+          "EnglishFunctionDescription": "Align the text to the right"
+        },
+        {
+          "Id": "d111886e-9110-4914-aea3-2480d31f7765",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "取消命令",
+          "EnglishFunctionDescription": "Cancel a command"
+        },
+        {
+          "Id": "479e3414-14b9-4419-9823-37b358a7f321",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消上一操作",
+          "EnglishFunctionDescription": "Undo the previous action"
+        },
+        {
+          "Id": "67b2caff-9669-47dd-be0e-4dd265eda4e3",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "如果可能，请恢复上一操作",
+          "EnglishFunctionDescription": "Redo the previous action, if possible"
+        },
+        {
+          "Id": "13e3222d-d2e9-402f-ac51-706e06d2d173",
+          "ShortcutKey": "Ctrl+Alt+S",
+          "ChineseFunctionDescription": "拆分文档窗口",
+          "EnglishFunctionDescription": "Split the document window"
+        },
+        {
+          "Id": "044204f7-7ee5-4687-b76a-4fe3c8603d24",
+          "ShortcutKey": "Alt+Shift+C",
+          "ChineseFunctionDescription": "撤消拆分文档窗口",
+          "EnglishFunctionDescription": "Remove the document window split"
+        },
+        {
+          "Id": "7d3d3314-19be-4e3c-946a-1e98d034ee05",
+          "ShortcutKey": "Ctrl+Alt+S",
+          "ChineseFunctionDescription": "撤消拆分文档窗口",
+          "EnglishFunctionDescription": "Remove the document window split"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "使用功能区选项卡的访问键",
+      "EnglishCategoryName": "Use the Access Keys for ribbon tabs",
+      "Keys": [
+        {
+          "Id": "93817ab2-b42e-4ace-bbe4-c3067f98c53c",
+          "ShortcutKey": "Alt+Q",
+          "ChineseFunctionDescription": "移动到功能区上的“告诉我搜索”或“搜索”字段以搜索帮助或帮助内容",
+          "EnglishFunctionDescription": "Move to the Tell Me or Search field on the Ribbon to search for assistance or Help content"
+        },
+        {
+          "Id": "6b1462ea-91c7-48e3-ab99-4e6de27bf165",
+          "ShortcutKey": "Alt+F",
+          "ChineseFunctionDescription": "打开“文件”页以使用 Backstage 视图",
+          "EnglishFunctionDescription": "Open the File page to use Backstage view"
+        },
+        {
+          "Id": "da8825e7-4f9e-49f2-85b9-8cc0f22dee29",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "打开“开始”选项卡，使用常见的格式命令、段落样式和“查找”工具",
+          "EnglishFunctionDescription": "Open the Home tab to use common formatting commands, paragraph styles, and the Find tool"
+        },
+        {
+          "Id": "cf71f2f1-0887-49a1-8fb2-11c17c777ad6",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "打开“插入”选项卡以插入表格、图片和形状、页眉或文本框",
+          "EnglishFunctionDescription": "Open the Insert tab to insert tables, pictures and shapes, headers, or text boxes"
+        },
+        {
+          "Id": "bb499e12-341f-453d-9d5a-d36d81d1b315",
+          "ShortcutKey": "Alt+G",
+          "ChineseFunctionDescription": "打开“设计”选项卡以使用主题、颜色和效果，如页面边框",
+          "EnglishFunctionDescription": "Open the Design tab to use themes, colors, and effects, such as page borders"
+        },
+        {
+          "Id": "1363a300-508d-4faa-965f-343c9de1cdd0",
+          "ShortcutKey": "Alt+P",
+          "ChineseFunctionDescription": "打开“布局”选项卡以使用页边距、页面方向、缩进和间距",
+          "EnglishFunctionDescription": "Open the Layout tab to work with page margins, page orientation, indentation, and spacing"
+        },
+        {
+          "Id": "e2e6a72d-a3b2-4629-8d22-e11edebe6001",
+          "ShortcutKey": "Alt+S",
+          "ChineseFunctionDescription": "打开“引用”选项卡，添加目录、脚注或引文表",
+          "EnglishFunctionDescription": "Open the References tab to add a table of contents, footnotes, or a table of citations"
+        },
+        {
+          "Id": "8bea532a-00d0-4ffb-84cb-7febf1284a4f",
+          "ShortcutKey": "Alt+M",
+          "ChineseFunctionDescription": "打开“邮件”选项卡以管理邮件合并任务以及处理信封和标签",
+          "EnglishFunctionDescription": "Open the Mailings tab to manage Mail Merge tasks and to work with envelopes and labels"
+        },
+        {
+          "Id": "5b6bffbf-c2ef-4ba5-81fe-e729bfa95291",
+          "ShortcutKey": "Alt+R",
+          "ChineseFunctionDescription": "打开“审阅”选项卡以使用拼写检查、设置校对语言，以及跟踪和审阅对文档的更改",
+          "EnglishFunctionDescription": "Open the Review tab to use Spell Check, set proofing languages, and to track and review changes to your document"
+        },
+        {
+          "Id": "c454623a-3059-4bd0-adf3-ab61f80830d2",
+          "ShortcutKey": "Alt+W",
+          "ChineseFunctionDescription": "打开“视图”选项卡以选择文档视图或模式，例如阅读模式或大纲视图。 还可以设置缩放缩放和管理多个文档窗口",
+          "EnglishFunctionDescription": "Open the View tab to choose a document view or mode, such as Read Mode or Outline view. You can also set the zoom magnification and manage multiple document windows"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "通过键盘使用功能区",
+      "EnglishCategoryName": "Work in the ribbon with the keyboard",
+      "Keys": [
+        {
+          "Id": "19458556-700a-476b-ad5c-23f0ce1daa5d",
+          "ShortcutKey": "Alt or F10",
+          "ChineseFunctionDescription": "选择功能区的活动选项卡并激活访问键",
+          "EnglishFunctionDescription": "Select the active tab on the ribbon, and activate the access keys"
+        },
+        {
+          "Id": "308942af-0761-46b4-962e-4c7d3b4c87ba",
+          "ShortcutKey": "Tab or Shift+Tab",
+          "ChineseFunctionDescription": "将焦点移动到功能区上的命令",
+          "EnglishFunctionDescription": "Move the focus to commands on the ribbon"
+        },
+        {
+          "Id": "d64ee88a-ab5e-45a7-9818-b4dc56fd48bb",
+          "ShortcutKey": "Ctrl+←/→",
+          "ChineseFunctionDescription": "在功能区上的命令分组之间移动",
+          "EnglishFunctionDescription": "Move between command groupings on the ribbon"
+        },
+        {
+          "Id": "1ecebfc2-fbbd-478f-b9aa-efbcb4f34a7b",
+          "ShortcutKey": "Arrow keys",
+          "ChineseFunctionDescription": "在功能区上的项目之间移动",
+          "EnglishFunctionDescription": "Move among the items on the Ribbon"
+        },
+        {
+          "Id": "c19082b8-43be-4f9f-838b-d0ac1aea63a1",
+          "ShortcutKey": "Spacebar or Enter",
+          "ChineseFunctionDescription": "激活所选按钮",
+          "EnglishFunctionDescription": "Activate the selected button"
+        },
+        {
+          "Id": "cd9be436-0799-42c3-8a5a-8ed4730d2d78",
+          "ShortcutKey": "↓",
+          "ChineseFunctionDescription": "打开所选命令的列表",
+          "EnglishFunctionDescription": "Open the list for the selected command"
+        },
+        {
+          "Id": "ccda1a9f-dcd6-452a-8c76-ec00f1da6316",
+          "ShortcutKey": "Alt+↓",
+          "ChineseFunctionDescription": "打开所选按钮的菜单",
+          "EnglishFunctionDescription": "Open the menu for the selected button"
+        },
+        {
+          "Id": "ad6b5038-53b4-415c-8db1-6f8d10e13443",
+          "ShortcutKey": "Ctrl+F1",
+          "ChineseFunctionDescription": "展开或收起功能区",
+          "EnglishFunctionDescription": "Expand or collapse the ribbon"
+        },
+        {
+          "Id": "b223d5c7-4d29-4a82-9b18-bb7655d9ad16",
+          "ShortcutKey": "Shift+F10",
+          "ChineseFunctionDescription": "打开上下文菜单",
+          "EnglishFunctionDescription": "Open the context menu"
+        },
+        {
+          "Id": "8ef2f24f-e4ca-4c7b-9c13-cebd1edc2365",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "当主菜单处于打开或选中状态时，移到子菜单",
+          "EnglishFunctionDescription": "Move to the submenu when a main menu is open or selected"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "导航文档",
+      "EnglishCategoryName": "Navigate the document",
+      "Keys": [
+        {
+          "Id": "03e1d78a-1e9c-421c-945d-11bd79943639",
+          "ShortcutKey": "Ctrl+←",
+          "ChineseFunctionDescription": "将光标向左移动一个字词",
+          "EnglishFunctionDescription": "Move the cursor one word to the left"
+        },
+        {
+          "Id": "e8add523-4671-4057-a4c2-79f686cbf40d",
+          "ShortcutKey": "Ctrl+→",
+          "ChineseFunctionDescription": "将光标向右移动一个字词",
+          "EnglishFunctionDescription": "Move the cursor one word to the right"
+        },
+        {
+          "Id": "5a5157da-fe93-4dba-aaee-39d573b32404",
+          "ShortcutKey": "Ctrl+↑",
+          "ChineseFunctionDescription": "将光标向上移动一个段落",
+          "EnglishFunctionDescription": "Move the cursor up by one paragraph"
+        },
+        {
+          "Id": "92eb8bf5-369a-4b58-8b26-7d49188e7623",
+          "ShortcutKey": "Ctrl+↓",
+          "ChineseFunctionDescription": "将光标向下移动一个段落",
+          "EnglishFunctionDescription": "Move the cursor down by one paragraph"
+        },
+        {
+          "Id": "7307c43c-23f2-45f7-971a-9213eea0b826",
+          "ShortcutKey": "End",
+          "ChineseFunctionDescription": "将光标移动到当前行的末尾",
+          "EnglishFunctionDescription": "Move the cursor to the end of the current line"
+        },
+        {
+          "Id": "1eaa8154-b777-4ac1-9087-da0a5a3ef6c1",
+          "ShortcutKey": "Home",
+          "ChineseFunctionDescription": "将光标移动到当前行的开头",
+          "EnglishFunctionDescription": "Move the cursor to the beginning the current line"
+        },
+        {
+          "Id": "db3a3721-14f9-492a-a01f-0988bdced8d7",
+          "ShortcutKey": "Ctrl+Alt+Page up",
+          "ChineseFunctionDescription": "将光标移动到屏幕顶部",
+          "EnglishFunctionDescription": "Move the cursor to the top of the screen"
+        },
+        {
+          "Id": "ebfbecd3-eb46-43c2-9709-3d7a591ab563",
+          "ShortcutKey": "Ctrl+Alt+Page down",
+          "ChineseFunctionDescription": "将光标移动到屏幕底部",
+          "EnglishFunctionDescription": "Move the cursor to the bottom of the screen"
+        },
+        {
+          "Id": "f4610889-c4f2-453e-8c34-059af1e781c6",
+          "ShortcutKey": "Page up",
+          "ChineseFunctionDescription": "将文档视图向上滚动一个屏幕来移动光标",
+          "EnglishFunctionDescription": "Move the cursor by scrolling the document view up by one screen"
+        },
+        {
+          "Id": "164b7ea5-c5a8-439d-ac54-476798aa4b3b",
+          "ShortcutKey": "Page down",
+          "ChineseFunctionDescription": "将文档视图向下滚动一个屏幕来移动光标",
+          "EnglishFunctionDescription": "Move the cursor by scrolling the document view down by one screen"
+        },
+        {
+          "Id": "c54cfb37-085f-4d63-ab02-b536e4993c82",
+          "ShortcutKey": "Ctrl+Page down",
+          "ChineseFunctionDescription": "将光标移动到下一页的顶部",
+          "EnglishFunctionDescription": "Move the cursor to the top of the next page"
+        },
+        {
+          "Id": "66e6b8be-5f36-462b-905a-5b8722e7aab9",
+          "ShortcutKey": "Ctrl+Page up",
+          "ChineseFunctionDescription": "将光标移动到上一页的顶部",
+          "EnglishFunctionDescription": "Move the cursor to the top of the previous page"
+        },
+        {
+          "Id": "5b53e99e-c88e-49cc-bba5-7974f6469d70",
+          "ShortcutKey": "Ctrl+End",
+          "ChineseFunctionDescription": "将光标移动到文档末尾",
+          "EnglishFunctionDescription": "Move the cursor to the end of the document"
+        },
+        {
+          "Id": "b4627751-c51c-4e0d-97f4-d3e64deb3c4f",
+          "ShortcutKey": "Ctrl+Home",
+          "ChineseFunctionDescription": "将光标移动到文档的开头",
+          "EnglishFunctionDescription": "Move the cursor to the beginning of the document"
+        },
+        {
+          "Id": "980440ff-c3bc-495c-b04a-da6d1b90fb8b",
+          "ShortcutKey": "Shift+F5",
+          "ChineseFunctionDescription": "将光标移动到上一修订的位置",
+          "EnglishFunctionDescription": "Move the cursor to the location of the previous revision"
+        },
+        {
+          "Id": "8c5a6eb7-ba4d-45b9-9242-05260967e279",
+          "ShortcutKey": "Ctrl+Alt+5",
+          "ChineseFunctionDescription": "环绕文本框或图像等浮动形状",
+          "EnglishFunctionDescription": "Cycle through floating shapes, such as text boxes or images"
+        },
+        {
+          "Id": "64b0fb4f-35d1-49ca-9363-b886adc1ade2",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "退出浮动形状导航并返回普通导航",
+          "EnglishFunctionDescription": "Exit the floating shape navigation and return to the normal navigation"
+        },
+        {
+          "Id": "0887a279-dbee-4f6a-a76a-97dcaf8d092a",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "显示“导航”任务窗格，在文档内容中搜索",
+          "EnglishFunctionDescription": "Display the Navigation task pane, to search within the document content"
+        },
+        {
+          "Id": "9ccc9f86-7115-4725-be51-30c331527520",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "显示“定位”对话框，导航到特定页面、书签、脚注、表格、批注、图形或其他位置",
+          "EnglishFunctionDescription": "Display the Go To dialog box, to navigate to a specific page, bookmark, footnote, table, comment, graphic, or other location"
+        },
+        {
+          "Id": "8b36fc72-bad7-404e-8424-95b0cadea490",
+          "ShortcutKey": "Ctrl+Alt+Z",
+          "ChineseFunctionDescription": "循环浏览之前对文档所做的更改的四个位置",
+          "EnglishFunctionDescription": "Cycle through the locations of the four previous changes made to the document"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "预览和打印文档",
+      "EnglishCategoryName": "Preview and print documents",
+      "Keys": [
+        {
+          "Id": "7eb213b2-7766-4b8c-85b1-6045f8ada15d",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打印文档",
+          "EnglishFunctionDescription": "Print the document"
+        },
+        {
+          "Id": "04e0eba4-ed49-458f-aa31-30ff29144c6e",
+          "ShortcutKey": "Ctrl+Alt+I",
+          "ChineseFunctionDescription": "切换到打印预览",
+          "EnglishFunctionDescription": "Switch to print preview"
+        },
+        {
+          "Id": "cf2a3b0c-64f4-452e-bf89-2cbc09c37061",
+          "ShortcutKey": "Arrow keys",
+          "ChineseFunctionDescription": "在放大的预览页上移动",
+          "EnglishFunctionDescription": "Move around the preview page when zoomed in"
+        },
+        {
+          "Id": "0d5b49d7-324f-46d2-9143-3e03263d73f7",
+          "ShortcutKey": "Page up or Page down",
+          "ChineseFunctionDescription": "在缩小显示比例时逐页翻阅预览页",
+          "EnglishFunctionDescription": "Move by one preview page when zoomed out"
+        },
+        {
+          "Id": "5de47ae3-eb67-445d-90ad-5acaa54a19f2",
+          "ShortcutKey": "Ctrl+Home",
+          "ChineseFunctionDescription": "在缩小显示比例时移至预览首页",
+          "EnglishFunctionDescription": "Move to the first preview page when zoomed out"
+        },
+        {
+          "Id": "aff716e8-201d-4987-ad5a-84d61904d1a0",
+          "ShortcutKey": "Ctrl+End",
+          "ChineseFunctionDescription": "在缩小显示比例时移至最后一张预览页",
+          "EnglishFunctionDescription": "Move to the last preview page when zoomed out"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "选定文字和图形",
+      "EnglishCategoryName": "Select text and graphics",
+      "Keys": [
+        {
+          "Id": "1180466d-58e4-4c57-89f5-8e83f0e35ebc",
+          "ShortcutKey": "Shift+Arrow keys",
+          "ChineseFunctionDescription": "选择文本",
+          "EnglishFunctionDescription": "Select text"
+        },
+        {
+          "Id": "5a3866d5-98df-41f0-bbaa-8979d569f8b4",
+          "ShortcutKey": "Ctrl+Shift+←",
+          "ChineseFunctionDescription": "选择左侧的单词",
+          "EnglishFunctionDescription": "Select the word to the left"
+        },
+        {
+          "Id": "c4c2acf7-1156-4df3-937a-39358ba6be56",
+          "ShortcutKey": "Ctrl+Shift+→",
+          "ChineseFunctionDescription": "选择右侧单词",
+          "EnglishFunctionDescription": "Select the word to the right"
+        },
+        {
+          "Id": "ae87c837-7250-41c4-ae81-0558a1a287de",
+          "ShortcutKey": "Shift+Home",
+          "ChineseFunctionDescription": "从当前位置选择到当前行的开头",
+          "EnglishFunctionDescription": "Select from the current position to the beginning of the current line"
+        },
+        {
+          "Id": "5c1b5198-2efd-4b98-816a-2a25391688b0",
+          "ShortcutKey": "Shift+End",
+          "ChineseFunctionDescription": "从当前位置选择到当前行的末尾",
+          "EnglishFunctionDescription": "Select from the current position to the end of the current line"
+        },
+        {
+          "Id": "10d4dc95-d8f9-4aae-b94b-eef2d3d72bf4",
+          "ShortcutKey": "Ctrl+Shift+↑",
+          "ChineseFunctionDescription": "从当前位置选择到当前段落的开头",
+          "EnglishFunctionDescription": "Select from the current position to the beginning of the current paragraph"
+        },
+        {
+          "Id": "e6dae94b-d270-449a-9d49-3ac33528ae4e",
+          "ShortcutKey": "Ctrl+Shift+↓",
+          "ChineseFunctionDescription": "从当前位置选择到当前段落的末尾",
+          "EnglishFunctionDescription": "Select from the current position to the end of the current paragraph"
+        },
+        {
+          "Id": "5312d55d-0b6d-4e59-a05d-04d9fe4ce1ec",
+          "ShortcutKey": "Shift+Page up",
+          "ChineseFunctionDescription": "从当前位置选择到屏幕顶部",
+          "EnglishFunctionDescription": "Select from the current position to the top of the screen"
+        },
+        {
+          "Id": "505d03c0-6e45-4fab-a774-0de47cd25d50",
+          "ShortcutKey": "Shift+Page down",
+          "ChineseFunctionDescription": "从当前位置选择到屏幕底部",
+          "EnglishFunctionDescription": "Select from the current position to the bottom of the screen"
+        },
+        {
+          "Id": "394b6d64-3342-41b0-8681-e8ab9cb6f152",
+          "ShortcutKey": "Ctrl+Shift+Home",
+          "ChineseFunctionDescription": "从当前位置选择文档开头",
+          "EnglishFunctionDescription": "Select from the current position to the beginning of the document"
+        },
+        {
+          "Id": "d94d6915-6d4a-4ed1-8358-c3ef6982877b",
+          "ShortcutKey": "Ctrl+Shift+End",
+          "ChineseFunctionDescription": "从文档的当前位置选择到结尾",
+          "EnglishFunctionDescription": "Select from the current position to the end of the document"
+        },
+        {
+          "Id": "61940ce0-9e19-43e2-a5d6-d365187326a2",
+          "ShortcutKey": "Ctrl+Alt+Shift+Page down",
+          "ChineseFunctionDescription": "从当前位置选择窗口底部",
+          "EnglishFunctionDescription": "Select from the current position to the bottom of the window"
+        },
+        {
+          "Id": "036add09-64a0-4f96-b3e3-e6e8a393cb88",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "选择所有文档内容",
+          "EnglishFunctionDescription": "Select all document content"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "扩展所选内容",
+      "EnglishCategoryName": "Extend a selection",
+      "Keys": [
+        {
+          "Id": "b737dede-8400-44dd-9831-08ea54e7c990",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "开始扩展所选内容",
+          "EnglishFunctionDescription": "Start extending the selection"
+        },
+        {
+          "Id": "0f88ad36-04d2-4a4b-b117-85d4405f3285",
+          "ShortcutKey": "F8, ←/→",
+          "ChineseFunctionDescription": "向左或向右选择最近的字符",
+          "EnglishFunctionDescription": "Select the nearest character to the left or right"
+        },
+        {
+          "Id": "86f921c0-7f14-4ef5-9116-b6bc2559018a",
+          "ShortcutKey": "Shift+F8",
+          "ChineseFunctionDescription": "减少选择",
+          "EnglishFunctionDescription": "Reduce the selection"
+        },
+        {
+          "Id": "afcf1833-af1b-4879-9268-e6692e83741d",
+          "ShortcutKey": "Ctrl+Shift+F8,arrow keys",
+          "ChineseFunctionDescription": "纵向选择文字块",
+          "EnglishFunctionDescription": "Select a vertical block of text."
+        },
+        {
+          "Id": "af23839c-e37a-4619-a8a6-4358a41474a2",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "停止扩展所选内容",
+          "EnglishFunctionDescription": "Stop extending the selection"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "编辑文本和图形",
+      "EnglishCategoryName": "Edit text and graphics",
+      "Keys": [
+        {
+          "Id": "8ca477fd-e87d-433c-a38b-542238f6b471",
+          "ShortcutKey": "Ctrl+Backspace",
+          "ChineseFunctionDescription": "向左删除一个字词",
+          "EnglishFunctionDescription": "Delete one word to the left"
+        },
+        {
+          "Id": "e730e331-5a53-45f4-a784-655390f30081",
+          "ShortcutKey": "Ctrl+Delete",
+          "ChineseFunctionDescription": "向右删除一个字词",
+          "EnglishFunctionDescription": "Delete one word to the right"
+        },
+        {
+          "Id": "3ceb417c-0e44-4385-8e9c-8ec92f0a0b89",
+          "ShortcutKey": "Alt+H, F, O",
+          "ChineseFunctionDescription": "打开剪贴板任务窗格，从而允许在应用之间复制和粘贴 Microsoft Office 内容",
+          "EnglishFunctionDescription": "Open the Clipboard task pane and enable the Office Clipboard, which allows you to copy and paste content between Microsoft Office apps"
+        },
+        {
+          "Id": "000652ba-f101-4928-9408-73b952bf980a",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "将所选内容剪切到剪贴板",
+          "EnglishFunctionDescription": "Cut the selected content to the Clipboard"
+        },
+        {
+          "Id": "1f47142c-eba4-4816-af02-e0704943640e",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "将所选内容复制到剪贴板",
+          "EnglishFunctionDescription": "Copy the selected content to the Clipboard"
+        },
+        {
+          "Id": "0a528353-1213-4700-a20e-e1dc82d411d0",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴剪贴板的内容",
+          "EnglishFunctionDescription": "Paste the contents of the Clipboard"
+        },
+        {
+          "Id": "b13f4ce6-3fbf-4c89-b508-2a3dac4e0a63",
+          "ShortcutKey": "Alt+F3",
+          "ChineseFunctionDescription": "使用所选内容定义自动图文集块",
+          "EnglishFunctionDescription": "Define an AutoText block with the selected content"
+        },
+        {
+          "Id": "182f15ee-98da-419a-b658-fb717244fa0b",
+          "ShortcutKey": "Ctrl+F3",
+          "ChineseFunctionDescription": "将所选内容剪切到“峰值”",
+          "EnglishFunctionDescription": "Cut the selected content to the Spike"
+        },
+        {
+          "Id": "c382907f-a24e-41b0-9fcd-d40c8fa7135b",
+          "ShortcutKey": "Ctrl+Shift+F3",
+          "ChineseFunctionDescription": "粘贴 Spike 的内容",
+          "EnglishFunctionDescription": "Paste the contents of the Spike"
+        },
+        {
+          "Id": "a5c8ba58-d365-42a8-bd78-777a6d876553",
+          "ShortcutKey": "Ctrl+Shift+C",
+          "ChineseFunctionDescription": "复制所选格式",
+          "EnglishFunctionDescription": "Copy the selected formatting"
+        },
+        {
+          "Id": "b873221a-c238-495d-8b07-f4d4b8972a5d",
+          "ShortcutKey": "Ctrl+Shift+V",
+          "ChineseFunctionDescription": "粘贴所选格式",
+          "EnglishFunctionDescription": "Paste the selected formatting"
+        },
+        {
+          "Id": "d0c6e639-a8a5-4109-aaaf-0c02064f0bd9",
+          "ShortcutKey": "Alt+Shift+R",
+          "ChineseFunctionDescription": "复制文档中上一节所使用的页眉或页脚",
+          "EnglishFunctionDescription": "Copy the header or footer used in the previous section of the document"
+        },
+        {
+          "Id": "711056d1-2f2e-4345-88ce-c9c3d32b1b6a",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "显示“替换”对话框，查找和替换文本、特定格式或特殊项目",
+          "EnglishFunctionDescription": "Display the Replace dialog box, to find and replace text, specific formatting, or special items"
+        },
+        {
+          "Id": "ea0d041f-67c8-4bb2-b66b-9a36f33825ff",
+          "ShortcutKey": "Alt+N, J, J",
+          "ChineseFunctionDescription": "显示“对象”对话框，将文件对象插入文档",
+          "EnglishFunctionDescription": "Display the Object dialog box, to insert a file object into the document"
+        },
+        {
+          "Id": "e1fcb31f-e48c-4188-8c6a-69901bc01be5",
+          "ShortcutKey": "Alt+N, M",
+          "ChineseFunctionDescription": "插入SmartArt图形",
+          "EnglishFunctionDescription": "Insert a SmartArt graphic"
+        },
+        {
+          "Id": "f859f0d8-da2e-49c5-b6dd-721417349874",
+          "ShortcutKey": "Alt+N, W",
+          "ChineseFunctionDescription": "插入艺术字图形",
+          "EnglishFunctionDescription": "Insert a WordArt graphic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+﻿<Window x:Class="LittleTips.Views.TipsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prop="clr-namespace:LittleTips.Properties"
+        xmlns:selector="clr-namespace:LittleTips.CustomStyleSelector"
+        xmlns:converters="clr-namespace:LittleTips.Converters"
+        xmlns:vm="clr-namespace:LittleTips.ViewModels"
+        x:Name="Window"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        KeyDown="NotAdaptedWindow_OnKeyDown"
+        Title="TipsWindow" Width="800" Height="928">
+  <Window.Resources>
+    <Style x:Key="DefaultListboxItemStyle" TargetType="{x:Type ListBoxItem}">
+      <Setter Property="SnapsToDevicePixels" Value="True" />
+      <Setter Property="VerticalContentAlignment" Value="Stretch" />
+      <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+      <Setter Property="HorizontalAlignment" Value="Stretch" />
+      <Setter Property="VerticalAlignment" Value="Stretch" />
+      <Setter Property="Padding" Value="0" />
+      <Setter Property="Margin" Value="0" />
+
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type ListBoxItem}">
+            <Border x:Name="Bd" Padding="{TemplateBinding Margin}" BorderThickness="0" SnapsToDevicePixels="True" Background="{DynamicResource ListBoxItem1}">
+              <ContentPresenter />
+            </Border>
+
+            <ControlTemplate.Triggers>
+              <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource ListBoxItem2}" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="CategoryListboxItemStyle" TargetType="{x:Type ListBoxItem}">
+      <Setter Property="SnapsToDevicePixels" Value="True" />
+      <Setter Property="VerticalContentAlignment" Value="Stretch" />
+      <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+      <Setter Property="HorizontalAlignment" Value="Stretch" />
+      <Setter Property="VerticalAlignment" Value="Stretch" />
+      <Setter Property="Padding" Value="0" />
+      <Setter Property="Margin" Value="0" />
+
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type ListBoxItem}">
+            <Border x:Name="Bd" Padding="{TemplateBinding Margin}" BorderThickness="0" SnapsToDevicePixels="True" Background="{DynamicResource ListBoxItem1}">
+              <ContentPresenter />
+            </Border>
+
+            <ControlTemplate.Triggers>
+              <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource ListBoxItem2}" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <DataTemplate x:Key="DefaultListBoxItemDataTemplate">
+      <Grid Background="Transparent" x:Name="Grid" Margin="0 6">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="1.5*" />
+          <ColumnDefinition Width="32" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0"
+                   Text="{Binding Path=ShortcutKey, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                   Foreground="{DynamicResource KeyColor}"
+                   Margin="8 0 0 0"
+                   FontSize="13"
+                   FontFamily="{StaticResource JetBrainsMono}"
+                   HorizontalAlignment="Left"
+                   SnapsToDevicePixels="True"
+                   VerticalAlignment="Center" />
+        <TextBlock Grid.Column="1"
+                   Text="{Binding Path=FunctionDescription, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                   FontSize="12"
+                   TextWrapping="Wrap"
+                   Foreground="{DynamicResource DescColor}"
+                   FontFamily="{StaticResource JetBrainsMono}"
+                   HorizontalAlignment="Left"
+                   SnapsToDevicePixels="True"
+                   VerticalAlignment="Center" />
+        <ToggleButton Grid.Column="2"
+                      x:Name="StarButton"
+                      Click="StarButton_OnClick"
+                      IsChecked="{Binding IsFavorite, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                      Tag="{Binding Path=Id, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                      FontSize="13"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Center"
+                      Style="{StaticResource StarButton}" />
+      </Grid>
+    </DataTemplate>
+    <DataTemplate x:Key="CategoryListBoxItemDataTemplate">
+      <Grid Background="Transparent" x:Name="Grid" Margin="0 10">
+        <TextBlock Text="{Binding Path=Category, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                   Foreground="{DynamicResource KeyColor}"
+                   FontSize="20"
+                   FontFamily="{StaticResource JetBrainsMono}"
+                   HorizontalAlignment="Center"
+                   SnapsToDevicePixels="True"
+                   VerticalAlignment="Center" />
+      </Grid>
+    </DataTemplate>
+  </Window.Resources>
+  <Window.Style>
+    <StaticResource ResourceKey="CustomWindowChrome" />
+  </Window.Style>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+    <Border Grid.Row="0" BorderBrush="{DynamicResource BorderColor}" BorderThickness="0 0 0 0" Background="#11FFFFFF">
+      <Grid Margin="0 5">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+          <Image Grid.Column="0" Width="50px" VerticalAlignment="Center" HorizontalAlignment="Center" Source="{Binding AppIcon, Mode=OneWay}" />
+          <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="{Binding AppName, Mode=OneWay}" FontFamily="{StaticResource JetBrainsMono}"
+                     Margin="10 0 0 0" FontSize="25" />
+        </Grid>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+          <ToggleButton IsChecked="{Binding Source={x:Static prop:Settings.Default}, Path=LightMode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="23"
+                        Margin="10 0 0 0"
+                        ToolTip="Light/Dark Mode"
+                        x:Name="ModeButton"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Click="ModeButton_OnClick"
+                        Style="{StaticResource ModeButton}" />
+          <ToggleButton IsChecked="{Binding Source={x:Static prop:Settings.Default}, Path=ChineseMode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="20"
+                        Margin="10 0 0 0"
+                        x:Name="LanguageButton"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Click="LanguageButton_OnClick"
+                        Style="{StaticResource ChineseButton}" />
+        </StackPanel>
+      </Grid>
+    </Border>
+    <Grid Grid.Row="1" Background="{DynamicResource ContentBackground}">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="1*" />
+        <RowDefinition Height="2" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Border Grid.Row="0" BorderThickness="0" SnapsToDevicePixels="True">
+        <ListBox BorderThickness="0"
+                 SelectionMode="Single"
+                 Background="Transparent"
+                 VirtualizingStackPanel.IsVirtualizing="True"
+                 VirtualizingStackPanel.VirtualizationMode="Recycling"
+                 VirtualizingStackPanel.ScrollUnit="Pixel"
+                 Template="{StaticResource CustomListBoxControlTemplate}"
+                 ItemsSource="{Binding Path=Shortcuts, Mode=OneWay}">
+          <ListBox.ItemContainerStyleSelector>
+            <selector:ListBoxItemStyleSelector DefaultListboxItemStyle="{StaticResource DefaultListboxItemStyle}"
+                                               CategoryListboxItemStyle="{StaticResource CategoryListboxItemStyle}" />
+          </ListBox.ItemContainerStyleSelector>
+          <ListBox.ItemTemplateSelector>
+            <selector:ListBoxItemDataTemplateSelector DefaultListBoxItemDataTemplate="{StaticResource DefaultListBoxItemDataTemplate}"
+                                                      CategoryListBoxItemDataTemplate="{StaticResource CategoryListBoxItemDataTemplate}" />
+          </ListBox.ItemTemplateSelector>
+          <ListBox.Style>
+            <Style TargetType="{x:Type ListBox}">
+              <Setter Property="AlternationCount" Value="2" />
+            </Style>
+          </ListBox.Style>
+        </ListBox>
+      </Border>
+
+      <GridSplitter Grid.Row="1" Height="2" SnapsToDevicePixels="True" Background="Transparent"
+                    VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+
+      <Grid Grid.Row="2">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Padding="0 10" Background="#11FFFFFF">
+          <TextBlock Text="{Binding FavoritesString, Mode=OneWay}"
+                     Foreground="{DynamicResource KeyColor}"
+                     FontSize="20"
+                     FontFamily="{StaticResource JetBrainsMono}"
+                     HorizontalAlignment="Center"
+                     SnapsToDevicePixels="True"
+                     VerticalAlignment="Center" />
+        </Border>
+        <Border Grid.Row="1" BorderThickness="0" SnapsToDevicePixels="True">
+          <ListBox BorderThickness="0"
+                   SelectionMode="Single"
+                   Background="Transparent"
+                   VirtualizingStackPanel.IsVirtualizing="True"
+                   VirtualizingStackPanel.VirtualizationMode="Recycling"
+                   VirtualizingStackPanel.ScrollUnit="Pixel"
+                   Template="{StaticResource CustomListBoxControlTemplate}"
+                   ItemsSource="{Binding Path=Favorites, Mode=OneWay}">
+            <ListBox.ItemContainerStyleSelector>
+              <selector:ListBoxItemStyleSelector DefaultListboxItemStyle="{StaticResource DefaultListboxItemStyle}"
+                                                 CategoryListboxItemStyle="{StaticResource CategoryListboxItemStyle}" />
+            </ListBox.ItemContainerStyleSelector>
+            <ListBox.ItemTemplateSelector>
+              <selector:ListBoxItemDataTemplateSelector DefaultListBoxItemDataTemplate="{StaticResource DefaultListBoxItemDataTemplate}"
+                                                        CategoryListBoxItemDataTemplate="{StaticResource CategoryListBoxItemDataTemplate}" />
+            </ListBox.ItemTemplateSelector>
+            <ListBox.Style>
+              <Style TargetType="{x:Type ListBox}">
+                <Setter Property="AlternationCount" Value="2" />
+              </Style>
+            </ListBox.Style>
+          </ListBox>
+        </Border>
+      </Grid>
+    </Grid>
+  </Grid>
+</Window>

@@ -1,0 +1,469 @@
+{
+  "Id": "edge",
+  "AppName": "Edge",
+  "AppIcon": "icons8-microsoft-edge-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "通用",
+      "EnglishCategoryName": "General",
+      "Keys": [
+        {
+          "Id": "bc653404-226c-417c-acfe-ca4eeaa0958f",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "将当前站点添加到收藏夹或阅读列表",
+          "EnglishFunctionDescription": "Add current site to favorites or reading list"
+        },
+        {
+          "Id": "98d3ece8-c54d-4110-b1f9-92639d161b7c",
+          "ShortcutKey": "Ctrl+I",
+          "ChineseFunctionDescription": "打开“收藏夹”窗格",
+          "EnglishFunctionDescription": "Open favorites pane"
+        },
+        {
+          "Id": "ac092151-d7da-44de-af5c-fee20aba1180",
+          "ShortcutKey": "Ctrl+J",
+          "ChineseFunctionDescription": "打开“下载”窗格",
+          "EnglishFunctionDescription": "Open downloads pane"
+        },
+        {
+          "Id": "75d8bd0c-6158-46f1-9005-39ea7df0a8bf",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "打开“历史记录”窗格",
+          "EnglishFunctionDescription": "Open history pane"
+        },
+        {
+          "Id": "488257c2-426b-4615-a292-2bffc259b063",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打印当前页面",
+          "EnglishFunctionDescription": "Print the current page"
+        },
+        {
+          "Id": "0159c004-d3af-49be-9550-c53abf2c2f2f",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "在页面上查找",
+          "EnglishFunctionDescription": "Find on page"
+        },
+        {
+          "Id": "ec7ea9b0-ba5a-4194-89a2-e574f35cf58f",
+          "ShortcutKey": "Alt+C",
+          "ChineseFunctionDescription": "打开 Cortana",
+          "EnglishFunctionDescription": "Open Cortana"
+        },
+        {
+          "Id": "5fcaf539-0bb7-4b8d-8209-cc582556096c",
+          "ShortcutKey": "Ctrl+Shift+R",
+          "ChineseFunctionDescription": "进入阅读视图",
+          "EnglishFunctionDescription": "Enter reading view"
+        },
+        {
+          "Id": "a97b6f7b-8c05-4079-bcf5-ca7fe768ba5b",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "打开一个新选项卡",
+          "EnglishFunctionDescription": "Open a new tab"
+        },
+        {
+          "Id": "4d370852-9831-490c-853c-dec7299bf5f4",
+          "ShortcutKey": "Ctrl+Shift+T",
+          "ChineseFunctionDescription": "重新打开最近关闭的选项卡",
+          "EnglishFunctionDescription": "Reopen the last closed tab"
+        },
+        {
+          "Id": "43d2047c-3e0d-4a75-817b-83b05cc1d6dc",
+          "ShortcutKey": "Ctrl+W",
+          "ChineseFunctionDescription": "关闭活动选项卡",
+          "EnglishFunctionDescription": "Close the active tab"
+        },
+        {
+          "Id": "dd4d2a28-9d22-4861-af15-20b80799bcd3",
+          "ShortcutKey": "Ctrl+F4",
+          "ChineseFunctionDescription": "关闭活动选项卡",
+          "EnglishFunctionDescription": "Close the active tab"
+        },
+        {
+          "Id": "f2a57836-ebce-426a-8aa6-fb90edc0ce07",
+          "ShortcutKey": "Ctrl+K",
+          "ChineseFunctionDescription": "复制选项卡",
+          "EnglishFunctionDescription": "Duplicate tab"
+        },
+        {
+          "Id": "0f392942-2f78-4a2f-a096-09cd1b7cd6ae",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "打开新窗口",
+          "EnglishFunctionDescription": "Open a new window"
+        },
+        {
+          "Id": "c0c1b769-e25c-4e27-944c-b99fbbad2a28",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "打开新的 InPrivate 浏览窗口",
+          "EnglishFunctionDescription": "Open a new InPrivate Browsing window"
+        },
+        {
+          "Id": "d077a22e-65dc-4ef2-ab28-57309517adfc",
+          "ShortcutKey": "Ctrl+Tab",
+          "ChineseFunctionDescription": "切换到下一个选项卡",
+          "EnglishFunctionDescription": "Switch to the next tab"
+        },
+        {
+          "Id": "b327fed5-094f-44bf-9de9-afc03f12e6d6",
+          "ShortcutKey": "Ctrl+Shift+Tab",
+          "ChineseFunctionDescription": "切换到上一个选项卡",
+          "EnglishFunctionDescription": "Switch to the previous tab"
+        },
+        {
+          "Id": "2a8ac946-c6ff-4357-a992-4ba7b2a54da0",
+          "ShortcutKey": "Ctrl+1 throw 8",
+          "ChineseFunctionDescription": "切换到特定选项卡号",
+          "EnglishFunctionDescription": "Switch to a specific tab number"
+        },
+        {
+          "Id": "3f05a9ac-4ed4-46f0-8493-b149874f16c9",
+          "ShortcutKey": "Ctrl+9",
+          "ChineseFunctionDescription": "切换到最后一个选项卡",
+          "EnglishFunctionDescription": "Switch to the last tab"
+        },
+        {
+          "Id": "8cc4e516-1029-4daf-af06-994bfa349074",
+          "ShortcutKey": "Ctrl+Plus",
+          "ChineseFunctionDescription": "放大 (25%)",
+          "EnglishFunctionDescription": "Zoom in (25%)"
+        },
+        {
+          "Id": "dbb82d3a-97ee-4d8f-821b-475903d56ecb",
+          "ShortcutKey": "Ctrl+Minus",
+          "ChineseFunctionDescription": "缩小 (25%)",
+          "EnglishFunctionDescription": "Zoom out (25%)"
+        },
+        {
+          "Id": "7749888b-6f0d-4960-a78d-2c84239f94cc",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "重置缩放级别",
+          "EnglishFunctionDescription": "Reset zoom level"
+        },
+        {
+          "Id": "0e395563-44fb-4841-acc8-7b66cb469b73",
+          "ShortcutKey": "Backspace",
+          "ChineseFunctionDescription": "返回",
+          "EnglishFunctionDescription": "Go back"
+        },
+        {
+          "Id": "da602dea-11b3-40df-8d21-fef6ea7591d2",
+          "ShortcutKey": "Alt+←",
+          "ChineseFunctionDescription": "返回",
+          "EnglishFunctionDescription": "Go back"
+        },
+        {
+          "Id": "9c118777-b45e-4efe-9179-d86d82f7ab35",
+          "ShortcutKey": "Alt+→",
+          "ChineseFunctionDescription": "前进",
+          "EnglishFunctionDescription": "Go forward"
+        },
+        {
+          "Id": "93358bb7-7258-44be-8cdb-1e52ac06a059",
+          "ShortcutKey": "F5",
+          "ChineseFunctionDescription": "刷新页面",
+          "EnglishFunctionDescription": "Refresh the page"
+        },
+        {
+          "Id": "ea5ba781-95e1-44f5-b9ec-c247afcea76f",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "刷新页面",
+          "EnglishFunctionDescription": "Refresh the page"
+        },
+        {
+          "Id": "2e54c368-94b0-4227-99b8-9f520f0a79e5",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "停止加载页面",
+          "EnglishFunctionDescription": "Stop loading the page"
+        },
+        {
+          "Id": "54265086-9b0c-4145-b7ef-43613aeb2629",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "选择地址栏中的 URL 以进行编辑",
+          "EnglishFunctionDescription": "Select the URL in the address bar to edit"
+        },
+        {
+          "Id": "038e88f6-269a-4c48-8400-c1ccee86ada6",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "选择地址栏中的 URL 以进行编辑",
+          "EnglishFunctionDescription": "Select the URL in the address bar to edit"
+        },
+        {
+          "Id": "35495721-e244-44ae-82a9-011dc6bf669b",
+          "ShortcutKey": "Ctrl+Shift+L",
+          "ChineseFunctionDescription": "在新选项卡中打开地址栏查询",
+          "EnglishFunctionDescription": "Open address bar query in a new tab"
+        },
+        {
+          "Id": "b2755a8b-a6b1-4258-80d7-d3358d423ca1",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "在地址栏中打开搜索查询",
+          "EnglishFunctionDescription": "Open a search query in the address bar"
+        },
+        {
+          "Id": "d164aad9-7614-4f22-9383-7cb69fe66312",
+          "ShortcutKey": "Ctrl+Enter",
+          "ChineseFunctionDescription": "为网站名称添加 www. 和 .com",
+          "EnglishFunctionDescription": "Add www. to the beginning and .com to the end of text typed in the address bar"
+        },
+        {
+          "Id": "37776700-e41e-4e69-8a96-f4c49b739232",
+          "ShortcutKey": "Ctrl+click",
+          "ChineseFunctionDescription": "在新选项卡中打开链接",
+          "EnglishFunctionDescription": "Open link in a new tab"
+        },
+        {
+          "Id": "1d3463a1-58a5-4408-8e68-f8aa66658129",
+          "ShortcutKey": "Ctrl+Shift+click",
+          "ChineseFunctionDescription": "在新选项卡中打开链接并切换到该选项卡",
+          "EnglishFunctionDescription": "Open link in a new tab and switch to that tab"
+        },
+        {
+          "Id": "3e65ddd5-8ef1-4aac-8dae-91e18ce4e5cb",
+          "ShortcutKey": "Alt+Shift+click",
+          "ChineseFunctionDescription": "在新窗口中打开链接",
+          "EnglishFunctionDescription": "Open link in a new window"
+        },
+        {
+          "Id": "4b8fa1c1-36dd-48d2-a276-cc723c399577",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "开始创建 Web 笔记",
+          "EnglishFunctionDescription": "Start creating web notes"
+        },
+        {
+          "Id": "00099531-6836-4704-9b62-408548fdffd5",
+          "ShortcutKey": "Ctrl+Alt+M",
+          "ChineseFunctionDescription": "将所选内容复制到 Web 笔记中",
+          "EnglishFunctionDescription": "Copy selected content into a web note"
+        },
+        {
+          "Id": "a1dcadf6-0aa9-462e-929c-0666461008e7",
+          "ShortcutKey": "F12",
+          "ChineseFunctionDescription": "打开开发人员工具",
+          "EnglishFunctionDescription": "Open Developer Tools"
+        },
+        {
+          "Id": "d63d961a-22f0-4be4-9fdb-aa2e8e4c8ff1",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "查看源",
+          "EnglishFunctionDescription": "View source"
+        },
+        {
+          "Id": "9255d95a-ffc9-454e-8238-6d0230d92cd8",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "在网页内容和地址栏之间切换焦点",
+          "EnglishFunctionDescription": "Toggle focus between webpage content and the address bar"
+        },
+        {
+          "Id": "a610f244-3cc3-4724-813a-7411d21ced52",
+          "ShortcutKey": "F7",
+          "ChineseFunctionDescription": "为活动选项卡打开“插入光标浏览”",
+          "EnglishFunctionDescription": "Turn caret browsing on for the active tab"
+        },
+        {
+          "Id": "8989b01d-dd4a-424a-96ff-97dede0b9135",
+          "ShortcutKey": "Ctrl+Shift+Delete",
+          "ChineseFunctionDescription": "显示用于清除浏览数据的控件",
+          "EnglishFunctionDescription": "Show controls to clear browsing data"
+        },
+        {
+          "Id": "b3580212-d194-48ba-9d56-6efdaaf5e966",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "将焦点移动到“通知”或“下载”",
+          "EnglishFunctionDescription": "Move focus to notification or download"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "在 Microsoft Edge 中阅读书籍时",
+      "EnglishCategoryName": "Reading books in Microsoft Edge",
+      "Keys": [
+        {
+          "Id": "7255e14f-b2b6-4c07-bccd-5f0489de5b36",
+          "ShortcutKey": "Alt+T",
+          "ChineseFunctionDescription": "打开或关闭目录",
+          "EnglishFunctionDescription": "Open or close the table of contents"
+        },
+        {
+          "Id": "134b9e0b-2de9-4f66-a501-65e07ab56f24",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "打开或关闭书签列表",
+          "EnglishFunctionDescription": "Open or close your list of bookmarks"
+        },
+        {
+          "Id": "07fde873-3478-4578-b841-fdf089de8ec7",
+          "ShortcutKey": "Ctrl+Shift+D",
+          "ChineseFunctionDescription": "添加或删除书签",
+          "EnglishFunctionDescription": "Add or remove a bookmark"
+        },
+        {
+          "Id": "4f1ba38c-ba16-4683-bef6-7793452ff026",
+          "ShortcutKey": "Ctrl+Shift+O",
+          "ChineseFunctionDescription": "打开或关闭选项",
+          "EnglishFunctionDescription": "Open or close Options"
+        },
+        {
+          "Id": "fb75a824-069b-4a3e-93fe-f67ffafdcf34",
+          "ShortcutKey": "Ctrl+Shift+Y",
+          "ChineseFunctionDescription": "打开或关闭阅读栏",
+          "EnglishFunctionDescription": "Open or close the reading bar"
+        },
+        {
+          "Id": "dd597dd6-71f7-43ea-ac86-0480107dff03",
+          "ShortcutKey": "Ctrl+Shift+U",
+          "ChineseFunctionDescription": "在中心中打开书籍",
+          "EnglishFunctionDescription": "Open Books in the Hub"
+        },
+        {
+          "Id": "fd9bcd47-6caa-450b-a0ad-711d94316958",
+          "ShortcutKey": "Ctrl+Shift+G",
+          "ChineseFunctionDescription": "开始朗读",
+          "EnglishFunctionDescription": "Start read aloud"
+        },
+        {
+          "Id": "70dc53d1-f5ed-4f69-9094-43b8f6960b66",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "进入或退出全屏阅读",
+          "EnglishFunctionDescription": "Enter or exit full-screen reading"
+        },
+        {
+          "Id": "3adec3c7-a0d9-48d8-9337-5ec51ee52f14",
+          "ShortcutKey": "← or ↑ or PageUp",
+          "ChineseFunctionDescription": "转到下一页",
+          "EnglishFunctionDescription": "Go to next page"
+        },
+        {
+          "Id": "ae860a05-5e04-4630-b3bc-57e8a524c96c",
+          "ShortcutKey": "→ or ↓ or PageDown",
+          "ChineseFunctionDescription": "转到上一页",
+          "EnglishFunctionDescription": "Go to previous page"
+        },
+        {
+          "Id": "619f5a32-fbe3-42aa-b204-830943f4f682",
+          "ShortcutKey": "Home",
+          "ChineseFunctionDescription": "转到书籍开头",
+          "EnglishFunctionDescription": "Go to beginning of book"
+        },
+        {
+          "Id": "7a8b8a03-5fb3-4333-91b0-5b8918f40aa6",
+          "ShortcutKey": "End",
+          "ChineseFunctionDescription": "转到书籍末尾",
+          "EnglishFunctionDescription": "Go to end of book"
+        },
+        {
+          "Id": "2d799ae3-f7ba-45cc-ac45-0f50ec325ba9",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "搜索书籍",
+          "EnglishFunctionDescription": "Search the book"
+        },
+        {
+          "Id": "eba8684b-c1f2-4799-ba4d-6ddb38bde503",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "在本地保存书籍",
+          "EnglishFunctionDescription": "Save the book locally"
+        },
+        {
+          "Id": "644ed69f-7009-414c-83a5-5362a5ff4157",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "转到页面",
+          "EnglishFunctionDescription": "Go to page"
+        },
+        {
+          "Id": "226114dd-ed32-4091-8d51-86229fc7eb84",
+          "ShortcutKey": "Alt+A",
+          "ChineseFunctionDescription": "打开注释面板",
+          "EnglishFunctionDescription": "Open the Notes panel"
+        },
+        {
+          "Id": "f95c6195-93b4-45cc-8cc6-9b966a0a97fb",
+          "ShortcutKey": "Ctrl+Shift+A",
+          "ChineseFunctionDescription": "在“根据宽度调整”和“根据页面调整”布局之间切换",
+          "EnglishFunctionDescription": "Toggle between \"fit to width\" and \"fit to page\" layout"
+        },
+        {
+          "Id": "1e5dabda-0c87-4c0f-8d5c-62d031dcbfb8",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "在单页和双页布局之间切换",
+          "EnglishFunctionDescription": "Toggle between one-page and two-page layouts"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "在 Microsoft Edge 中阅读 PDF 文档时",
+      "EnglishCategoryName": "Reading books in Microsoft Edge",
+      "Keys": [
+        {
+          "Id": "527f4311-8f8a-46bc-8c1e-1e0b8e594b69",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "转到特定页码",
+          "EnglishFunctionDescription": "Go to a specific page number"
+        },
+        {
+          "Id": "36c569bd-84c9-4abf-b15e-50608af46bb0",
+          "ShortcutKey": "Alt+T",
+          "ChineseFunctionDescription": "打开或关闭目录",
+          "EnglishFunctionDescription": "Open or close the table of contents"
+        },
+        {
+          "Id": "e433f4a6-e645-4484-bf01-1ad783824450",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "搜索文档",
+          "EnglishFunctionDescription": "Search the document"
+        },
+        {
+          "Id": "828d32ce-cbe0-4e1c-a636-9c38660a43c0",
+          "ShortcutKey": "Ctrl+Plus",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom in"
+        },
+        {
+          "Id": "871fd5b1-f32f-4a7b-9475-30e9636e6423",
+          "ShortcutKey": "Ctrl+Minus ",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom out"
+        },
+        {
+          "Id": "b111300e-b89b-498f-a5f8-5e05e7d097f7",
+          "ShortcutKey": "Ctrl+Shift+A",
+          "ChineseFunctionDescription": "在“根据宽度调整”和“根据页面调整”布局之间切换",
+          "EnglishFunctionDescription": "Toggle between \"fit to width\" and \"fit to page\" layout"
+        },
+        {
+          "Id": "564ba8a6-d8e7-40a6-8eab-42d193bc1a4d",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "在单页和双页布局之间切换",
+          "EnglishFunctionDescription": "Toggle between one-page and two-page layouts"
+        },
+        {
+          "Id": "fe7358bc-16e0-4373-8e7c-76e10d0f0238",
+          "ShortcutKey": "F9",
+          "ChineseFunctionDescription": "旋转 PDF",
+          "EnglishFunctionDescription": "Rotate PDF"
+        },
+        {
+          "Id": "1b9a3cfc-da35-420e-9b3a-c017d81d7f3c",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "进入或退出全屏阅读",
+          "EnglishFunctionDescription": "Enter or exit full-screen reading"
+        },
+        {
+          "Id": "93d7aaec-11b1-44ad-a6c7-6e291ab2868f",
+          "ShortcutKey": "Ctrl+Shift+G",
+          "ChineseFunctionDescription": "开始朗读",
+          "EnglishFunctionDescription": "Start read aloud"
+        },
+        {
+          "Id": "bb8c2951-3d35-43fb-95e4-9dc343855a9d",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "向 PDF 书籍添加注释",
+          "EnglishFunctionDescription": "Add notes to PDF books"
+        },
+        {
+          "Id": "6730fe8b-7797-4a61-bf79-dd8eed30ea81",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "保存 PDF 文档的副本",
+          "EnglishFunctionDescription": "Save a copy of the PDF document"
+        }
+      ]
+    }
+  ]
+}

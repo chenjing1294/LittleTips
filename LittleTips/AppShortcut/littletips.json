@@ -1,0 +1,19 @@
+{
+  "Id": "littletips",
+  "AppName": "Little Tips",
+  "AppIcon": "icons8-memory-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "通用",
+      "EnglishCategoryName": "General",
+      "Keys": [
+        {
+          "Id": "46664ff8-a593-11ec-859e-00ffd0778ed8",
+          "ShortcutKey": "Ctrl+`",
+          "ChineseFunctionDescription": "显示活动窗口的快捷键列表",
+          "EnglishFunctionDescription": "Displays a list of shortcut keys for the active window"
+        }
+      ]
+    }
+  ]
+}

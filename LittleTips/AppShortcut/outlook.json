@@ -1,0 +1,643 @@
+{
+  "Id": "outlook",
+  "AppName": "Microsoft Outlook",
+  "AppIcon": "icons8-microsoft-outlook-2019-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "常用快捷键",
+      "EnglishCategoryName": "Frequently used shortcuts",
+      "Keys": [
+        {
+          "Id": "038c23a9-2101-4e8e-9dae-5e79c3ecd728",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "关闭窗口或菜单",
+          "EnglishFunctionDescription": "Close a window or a menu"
+        },
+        {
+          "Id": "2ad87c71-7625-4504-a05e-b2df80161bdc",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "转到“开始”选项卡",
+          "EnglishFunctionDescription": "Go to the Home tab"
+        },
+        {
+          "Id": "47ae8bd7-8b4a-4d62-bb08-3f20969d867f",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "新建邮件",
+          "EnglishFunctionDescription": "Create a new message"
+        },
+        {
+          "Id": "5ecd1bd3-3390-4e80-9df0-8ac9ba6c28ee",
+          "ShortcutKey": "Alt+S",
+          "ChineseFunctionDescription": "发送邮件",
+          "EnglishFunctionDescription": "Send a message"
+        },
+        {
+          "Id": "03337295-2274-4f67-91c0-bdd8ddc3f5fa",
+          "ShortcutKey": "Alt+N, A, F",
+          "ChineseFunctionDescription": "插入文件",
+          "EnglishFunctionDescription": "Insert a file"
+        },
+        {
+          "Id": "0c62a70c-9531-4396-8fc9-41da7ba35072",
+          "ShortcutKey": "Ctrl+Shift+K",
+          "ChineseFunctionDescription": "新建任务",
+          "EnglishFunctionDescription": "New task"
+        },
+        {
+          "Id": "4b036acd-1e40-4a49-a235-79ac74f05877",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "在选择、任务或会议时删除项目",
+          "EnglishFunctionDescription": "Delete an item (when a message, task, or meeting is selected)"
+        },
+        {
+          "Id": "b5a04598-6d66-4048-8066-1009d542c08c",
+          "ShortcutKey": "Ctrl+E or F3",
+          "ChineseFunctionDescription": "搜索项目",
+          "EnglishFunctionDescription": "Search for an item"
+        },
+        {
+          "Id": "47c4f2ed-6d86-479e-89e0-4f7f81461fcf",
+          "ShortcutKey": "Alt+H, R, P",
+          "ChineseFunctionDescription": "答复邮件",
+          "EnglishFunctionDescription": "Reply to a message"
+        },
+        {
+          "Id": "78a8d397-23ce-44ce-92eb-c14ac9830298",
+          "ShortcutKey": "Alt+H, F, W",
+          "ChineseFunctionDescription": "转发邮件",
+          "EnglishFunctionDescription": "Forward a message"
+        },
+        {
+          "Id": "d68bf6a1-f22e-4ce7-92a7-a8ccb52bb7d0",
+          "ShortcutKey": "Alt+H, R, A",
+          "ChineseFunctionDescription": "选择“全部答复”选项",
+          "EnglishFunctionDescription": "Select the Reply All option"
+        },
+        {
+          "Id": "9e6c6ef5-19a1-4d1c-a5c7-a3cbcc5b408e",
+          "ShortcutKey": "Ctrl+C or Ctrl+Insert",
+          "ChineseFunctionDescription": "复制项目",
+          "EnglishFunctionDescription": "Copy an item"
+        },
+        {
+          "Id": "52c06c1b-81df-4b3e-9648-28237d9348a5",
+          "ShortcutKey": "Alt+J, S",
+          "ChineseFunctionDescription": "转到“发送/接收”选项卡",
+          "EnglishFunctionDescription": "Go to the Send/Receive tab"
+        },
+        {
+          "Id": "4f896fdb-3e62-46b3-8ce8-c8e495790998",
+          "ShortcutKey": "Ctrl+2",
+          "ChineseFunctionDescription": "转到“日历”",
+          "EnglishFunctionDescription": "Go to Calendar"
+        },
+        {
+          "Id": "2b961121-e846-4352-8397-7f469d9ca947",
+          "ShortcutKey": "Ctrl+Shift+A",
+          "ChineseFunctionDescription": "创建约会",
+          "EnglishFunctionDescription": "Create an appointment"
+        },
+        {
+          "Id": "2212851c-2f6b-4a39-a6f9-0546595ac7c2",
+          "ShortcutKey": "Alt+J, A, 2, A, V",
+          "ChineseFunctionDescription": "将项目移动到文件夹",
+          "EnglishFunctionDescription": "Open the Save As dialog box on the Attachment tab"
+        },
+        {
+          "Id": "a95c1c65-0c7c-41ec-9c79-e9d32c3a8980",
+          "ShortcutKey": "Ctrl+M or F9",
+          "ChineseFunctionDescription": "检查新邮件",
+          "EnglishFunctionDescription": "Check for new messages"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "基本导航的快捷方式",
+      "EnglishCategoryName": "Shortcuts for basic navigation",
+      "Keys": [
+        {
+          "Id": "289a3b26-a643-4278-9c72-d4516af167f5",
+          "ShortcutKey": "Ctrl+1",
+          "ChineseFunctionDescription": "切换到“邮件”视图",
+          "EnglishFunctionDescription": "Switch to the Mail view"
+        },
+        {
+          "Id": "e8947fb3-0e52-4c69-9271-bcfdac1460c0",
+          "ShortcutKey": "Ctrl+2",
+          "ChineseFunctionDescription": "切换到“日历”视图",
+          "EnglishFunctionDescription": "Switch to the Calendar view"
+        },
+        {
+          "Id": "14cca5c4-4103-4934-987f-ce137185b3cc",
+          "ShortcutKey": "Ctrl+3",
+          "ChineseFunctionDescription": "切换到“联系人”视图",
+          "EnglishFunctionDescription": "Switch to the Contacts view"
+        },
+        {
+          "Id": "dc8a2164-f34b-4f63-ac0b-d1f360fff0e4",
+          "ShortcutKey": "Ctrl+4",
+          "ChineseFunctionDescription": "切换到“任务”视图",
+          "EnglishFunctionDescription": "Switch to the Tasks view"
+        },
+        {
+          "Id": "3ff1bbe1-b6a2-4d17-b7be-644f84208b93",
+          "ShortcutKey": "Ctrl+5",
+          "ChineseFunctionDescription": "切换到“备注”",
+          "EnglishFunctionDescription": "Switch to the Notes"
+        },
+        {
+          "Id": "cbf418a2-2954-4580-9fb4-17f6ebab4257",
+          "ShortcutKey": "Ctrl+6",
+          "ChineseFunctionDescription": "切换到“文件夹”窗格中的“文件夹”列表",
+          "EnglishFunctionDescription": "Switch to the Folder list in the Folder pane"
+        },
+        {
+          "Id": "3873aa60-c7d5-4bb5-b000-fe8ebedf61aa",
+          "ShortcutKey": "Ctrl+7",
+          "ChineseFunctionDescription": "切换到“快捷方式”",
+          "EnglishFunctionDescription": "Switch to Shortcuts"
+        },
+        {
+          "Id": "14e524e0-eada-45f1-8cfd-d609a9fcc116",
+          "ShortcutKey": "Ctrl+8",
+          "ChineseFunctionDescription": "打开日记",
+          "EnglishFunctionDescription": "Open Journal"
+        },
+        {
+          "Id": "c63294e6-0afc-4db4-b9d6-1f359a6a606b",
+          "ShortcutKey": "Ctrl+Shift+B",
+          "ChineseFunctionDescription": "打开通讯簿",
+          "EnglishFunctionDescription": "Open the Address Book"
+        },
+        {
+          "Id": "260950ff-a6ec-498d-b8f7-80111dab190c",
+          "ShortcutKey": "Alt+B or Alt+←",
+          "ChineseFunctionDescription": "返回到上一视图",
+          "EnglishFunctionDescription": "Go back to previous view"
+        },
+        {
+          "Id": "501df312-bcf1-48eb-9e98-e6cc8bb43c53",
+          "ShortcutKey": "Alt+→",
+          "ChineseFunctionDescription": "前进到下一个视图",
+          "EnglishFunctionDescription": "Go forward to next view"
+        },
+        {
+          "Id": "8ef93776-861b-47d9-a3c4-40f7286c4376",
+          "ShortcutKey": "Ctrl+.",
+          "ChineseFunctionDescription": "切换到下一条打开的邮件",
+          "EnglishFunctionDescription": "Switch to next open message"
+        },
+        {
+          "Id": "8ab0489b-e447-407d-a74a-76df0e5ea9a0",
+          "ShortcutKey": "Ctrl+,",
+          "ChineseFunctionDescription": "切换到上一个打开的邮件",
+          "EnglishFunctionDescription": "Switch to previous open message"
+        },
+        {
+          "Id": "436f0f72-2002-4f8c-ad3f-3d5cdd3941bf",
+          "ShortcutKey": "Ctrl+Shift+Tab or Shift+Tab",
+          "ChineseFunctionDescription": "在文件夹窗格、主 Outlook 窗口、阅读窗格和阅读微软待办栏之间移动。",
+          "EnglishFunctionDescription": "Move between the Folder pane, the main Outlook window, the Reading pane, and the To-Do bar"
+        },
+        {
+          "Id": "5a4313c6-2d93-4a77-880b-6978a930d924",
+          "ShortcutKey": "Tab or F6",
+          "ChineseFunctionDescription": "在Outlook 窗口、文件夹窗格中的较小窗格、阅读窗格和阅读栏微软待办之间移动",
+          "EnglishFunctionDescription": "Move between the Outlook window, the smaller panes in the Folder pane, the Reading pane, and the sections in the To-Do bar"
+        },
+        {
+          "Id": "b044e5e6-5069-4cd3-bed6-f23c242e1f44",
+          "ShortcutKey": "F6",
+          "ChineseFunctionDescription": "在功能区与日历之间移动",
+          "EnglishFunctionDescription": "Move between the ribbon and the calendar"
+        },
+        {
+          "Id": "1e8cc02d-bc92-415b-abb8-b29c13d061f7",
+          "ShortcutKey": "Alt or F6",
+          "ChineseFunctionDescription": "显示功能区中的访问键",
+          "EnglishFunctionDescription": "Show the access keys in the ribbon"
+        },
+        {
+          "Id": "5829f2ce-a71c-49af-afcf-3ea7b882a31b",
+          "ShortcutKey": "Ctrl+Tab",
+          "ChineseFunctionDescription": "在导航窗格和日历之间移动",
+          "EnglishFunctionDescription": "Move around message header lines in the Folder pane or an open message"
+        },
+        {
+          "Id": "2568ea87-78a0-4f61-9b03-0bd509c6c921",
+          "ShortcutKey": "Arrow keys",
+          "ChineseFunctionDescription": "在文件夹窗格中移动 。",
+          "EnglishFunctionDescription": "Move around within the Folder pane"
+        },
+        {
+          "Id": "63361c0e-c253-401c-9399-782f9ba86f1a",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "前往另一文件夹",
+          "EnglishFunctionDescription": "Go to a different folder"
+        },
+        {
+          "Id": "2173cd54-eeeb-4453-a79c-b38863a3a9ee",
+          "ShortcutKey": "F3 or Ctrl+E",
+          "ChineseFunctionDescription": "转至搜索框",
+          "EnglishFunctionDescription": "Go to the Search box"
+        },
+        {
+          "Id": "03f5a0ca-556e-41ca-9a5a-1b07716a28ba",
+          "ShortcutKey": "Alt+↑",
+          "ChineseFunctionDescription": "在阅读窗格中，转到上一封邮件",
+          "EnglishFunctionDescription": "In the Reading pane, go to the previous message"
+        },
+        {
+          "Id": "ec613e61-2308-4495-9611-e858361f1fb7",
+          "ShortcutKey": "Spacebar",
+          "ChineseFunctionDescription": "在阅读窗格中，向下浏览文本",
+          "EnglishFunctionDescription": "In the Reading pane, page down through the text"
+        },
+        {
+          "Id": "1d8e3f35-0a66-4025-8f18-18a21faca713",
+          "ShortcutKey": "Shift+Spacebar",
+          "ChineseFunctionDescription": "在阅读窗格中，向上分页浏览文本",
+          "EnglishFunctionDescription": "In the Reading pane, page up through the text"
+        },
+        {
+          "Id": "8fec1c33-ed40-4d78-80fd-8ee31772710c",
+          "ShortcutKey": "←/→",
+          "ChineseFunctionDescription": "折叠或展开电子邮件列表中的组",
+          "EnglishFunctionDescription": "Collapse or expand a group in the email message list"
+        },
+        {
+          "Id": "ea8862b6-e6fd-418c-8ea0-52e3bf644fa2",
+          "ShortcutKey": "Alt+B or Alt+←",
+          "ChineseFunctionDescription": "返回到主视图窗口中的上一 Outlook 视图",
+          "EnglishFunctionDescription": "Go back to previous view in the main Outlook window."
+        },
+        {
+          "Id": "9b58f87e-64f9-442d-9ede-a144f9814d36",
+          "ShortcutKey": "Alt+→",
+          "ChineseFunctionDescription": "转到主视图窗口中的下一 Outlook 视图",
+          "EnglishFunctionDescription": "Go forward to next view in the main Outlook window."
+        },
+        {
+          "Id": "c6098962-a81a-4ff8-bb29-428ccf1edc38",
+          "ShortcutKey": "Ctrl+Shift+W",
+          "ChineseFunctionDescription": "选择信息栏，如果可用，显示命令菜单",
+          "EnglishFunctionDescription": "Select the InfoBar and, if available, show the menu of commands"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "导航到功能区",
+      "EnglishCategoryName": "Navigate to the ribbon",
+      "Keys": [
+        {
+          "Id": "26967c50-0bb4-4d0b-b5da-1c26f26a71e8",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "打开主页选项卡",
+          "EnglishFunctionDescription": "Open the Home tab"
+        },
+        {
+          "Id": "dab74a16-733b-45ca-b48a-36f0aa133c64",
+          "ShortcutKey": "Alt+F",
+          "ChineseFunctionDescription": "打开文件菜单",
+          "EnglishFunctionDescription": "Open the File menu"
+        },
+        {
+          "Id": "2c9606c7-b034-47fa-9167-366a58876316",
+          "ShortcutKey": "Alt+J, S",
+          "ChineseFunctionDescription": "打开发送/接收选项卡",
+          "EnglishFunctionDescription": "Open the Send/Receive tab"
+        },
+        {
+          "Id": "37128520-2952-457b-89ea-762ccde36542",
+          "ShortcutKey": "Alt+O",
+          "ChineseFunctionDescription": "打开文件夹选项卡",
+          "EnglishFunctionDescription": "Open the Folder tab"
+        },
+        {
+          "Id": "a6d22191-5787-43fb-b5bc-d2fc1df9fb18",
+          "ShortcutKey": "Alt+V",
+          "ChineseFunctionDescription": "打开视图选项卡",
+          "EnglishFunctionDescription": "Open the View tab"
+        },
+        {
+          "Id": "37b842c5-6b31-460b-b076-ce0b998735f8",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "打开搜索选项卡",
+          "EnglishFunctionDescription": "Open the Search tab"
+        },
+        {
+          "Id": "a7183e7b-ac80-46e9-927f-ff14cb197ab6",
+          "ShortcutKey": "Alt+Q",
+          "ChineseFunctionDescription": "转到告诉我搜索字段",
+          "EnglishFunctionDescription": "Go to the Tell Me search field"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "创建项目或文件",
+      "EnglishCategoryName": "Create an item or file",
+      "Keys": [
+        {
+          "Id": "68269282-5672-4adf-ab8e-b359ca4dc4cb",
+          "ShortcutKey": "Ctrl+Shift+A",
+          "ChineseFunctionDescription": "创建约会",
+          "EnglishFunctionDescription": "Create an appointment"
+        },
+        {
+          "Id": "2b8b55c4-ac36-46d2-80e4-986ce974038f",
+          "ShortcutKey": "Ctrl+Shift+C",
+          "ChineseFunctionDescription": "创建联系人",
+          "EnglishFunctionDescription": "Create a contact"
+        },
+        {
+          "Id": "7824e09a-a7c1-4f07-a20c-8f6f1c6cdd75",
+          "ShortcutKey": "Ctrl+Shift+L",
+          "ChineseFunctionDescription": "创建联系人组",
+          "EnglishFunctionDescription": "Create a contact group"
+        },
+        {
+          "Id": "7285314a-9d2d-493d-9039-c7b8f7910398",
+          "ShortcutKey": "Ctrl+Shift+X",
+          "ChineseFunctionDescription": "创建传真",
+          "EnglishFunctionDescription": "Create a fax"
+        },
+        {
+          "Id": "bcfc4fe2-92b1-4161-8db6-a8365ffe8d57",
+          "ShortcutKey": "Ctrl+Shift+E",
+          "ChineseFunctionDescription": "创建文件夹",
+          "EnglishFunctionDescription": "Create a folder"
+        },
+        {
+          "Id": "b612784b-3aca-4376-83e7-ee72ca9d95f2",
+          "ShortcutKey": "Ctrl+Shift+Q",
+          "ChineseFunctionDescription": "创建会议请求",
+          "EnglishFunctionDescription": "Create a meeting request"
+        },
+        {
+          "Id": "d7dccac7-cd6a-4935-8b89-4c7c9e4465bb",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "创建邮件",
+          "EnglishFunctionDescription": "Create a message"
+        },
+        {
+          "Id": "f685e378-4be0-4399-b09e-5cb071faeaff",
+          "ShortcutKey": "Ctrl+Shift+N",
+          "ChineseFunctionDescription": "创建便笺",
+          "EnglishFunctionDescription": "Create a note"
+        },
+        {
+          "Id": "d991c50e-6336-4c02-9619-e46fdf61ce92",
+          "ShortcutKey": "Ctrl+Shift+H",
+          "ChineseFunctionDescription": "创建Microsoft Office文档",
+          "EnglishFunctionDescription": "Create a Microsoft Office document"
+        },
+        {
+          "Id": "58a4f991-7bb0-4f76-bc5b-693bf21487ed",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "发布到所选文件夹",
+          "EnglishFunctionDescription": "Post to the selected folder"
+        },
+        {
+          "Id": "b1d51e6f-ee62-41fb-94ae-f9ba98dc2103",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "在所选文件夹中发布答复",
+          "EnglishFunctionDescription": "Post a reply in the selected folder"
+        },
+        {
+          "Id": "c9ff8db5-558a-437c-b082-ff77884f04ac",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "创建搜索文件夹",
+          "EnglishFunctionDescription": "Create a Search folder"
+        },
+        {
+          "Id": "42a994a6-a05d-492e-932d-337adf7cd346",
+          "ShortcutKey": "Ctrl+Shift+K",
+          "ChineseFunctionDescription": "创建任务",
+          "EnglishFunctionDescription": "Create a task"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "设置文本格式",
+      "EnglishCategoryName": "Format text",
+      "Keys": [
+        {
+          "Id": "21759596-616f-4045-914e-45d90090ee0b",
+          "ShortcutKey": "Alt+O",
+          "ChineseFunctionDescription": "在功能 区上显示设置文本格式选项卡",
+          "EnglishFunctionDescription": "Display the Format Text tab on the ribbon"
+        },
+        {
+          "Id": "2f7e8ea0-ecac-4d77-a2ff-d945038ac973",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "显示字体对话框",
+          "EnglishFunctionDescription": "Display the Font dialog box"
+        },
+        {
+          "Id": "3fda097c-248e-4215-a1c2-c73607d1f248",
+          "ShortcutKey": "Shift+F3",
+          "ChineseFunctionDescription": "切换所选单词或行中第一个字母的大小写",
+          "EnglishFunctionDescription": "Switch the case of the first letter in a selected word or line"
+        },
+        {
+          "Id": "735b08a1-c1e6-4c4c-b908-0525e1a3297f",
+          "ShortcutKey": "Ctrl+Shift+K",
+          "ChineseFunctionDescription": "在小号大写字母和全部大写字母之间切换所选文本的大小写",
+          "EnglishFunctionDescription": "Toggle the case of the selected text between small caps and all caps"
+        },
+        {
+          "Id": "c69297c4-25bb-4225-93b9-8b17f72a0457",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "应用加粗格式",
+          "EnglishFunctionDescription": "Apply bold formatting"
+        },
+        {
+          "Id": "2ebe3f1c-9746-4687-b674-6fbc3228c14b",
+          "ShortcutKey": "Ctrl+Shift+L",
+          "ChineseFunctionDescription": "添加项目符号列表",
+          "EnglishFunctionDescription": "Add a bulleted list"
+        },
+        {
+          "Id": "e21fafb9-baab-40b9-914a-95f02f325aea",
+          "ShortcutKey": "Ctrl+I",
+          "ChineseFunctionDescription": "应用倾斜格式",
+          "EnglishFunctionDescription": "Apply italic formatting"
+        },
+        {
+          "Id": "e47cc497-ea05-4961-bb0a-f3e14a574d98",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "增加缩进量",
+          "EnglishFunctionDescription": "Increase indent"
+        },
+        {
+          "Id": "3cd328da-f039-44df-ac83-82a2f5cb6f9b",
+          "ShortcutKey": "Ctrl+Shift+T",
+          "ChineseFunctionDescription": "减少缩进量",
+          "EnglishFunctionDescription": "Decrease indent"
+        },
+        {
+          "Id": "b9dc9045-8bfd-4a05-b8a4-2123317f2070",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "文本居中对齐",
+          "EnglishFunctionDescription": "Center text"
+        },
+        {
+          "Id": "3fbf87df-ee9a-47bd-90f4-2dd69574c405",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "给文字添加下划线",
+          "EnglishFunctionDescription": "Underline text"
+        },
+        {
+          "Id": "54bd7efe-86cc-4cc3-b967-747bfba6a589",
+          "ShortcutKey": "Ctrl+] or Ctrl+Shift+>",
+          "ChineseFunctionDescription": "增大字号",
+          "EnglishFunctionDescription": "Increase the font size"
+        },
+        {
+          "Id": "2e9f3dec-729e-43c9-b9e6-1db6ac656885",
+          "ShortcutKey": "Ctrl+[ or Ctrl+Shift+<",
+          "ChineseFunctionDescription": "减小字号",
+          "EnglishFunctionDescription": "Decrease the font size"
+        },
+        {
+          "Id": "fd215ee2-ab31-4a5b-9400-d91338c46422",
+          "ShortcutKey": "Ctrl+X or Shift+Delete",
+          "ChineseFunctionDescription": "剪切所选内容",
+          "EnglishFunctionDescription": "Cut a selection"
+        },
+        {
+          "Id": "c42762ee-9f09-4165-b895-27a82df0a6e0",
+          "ShortcutKey": "Ctrl+C or Ctrl+Insert",
+          "ChineseFunctionDescription": "复制所选内容",
+          "EnglishFunctionDescription": "Copy a selection"
+        },
+        {
+          "Id": "4b0511b7-46b4-4e47-adb9-9eb2f9db97af",
+          "ShortcutKey": "Ctrl+V or Shift+Insert",
+          "ChineseFunctionDescription": "粘贴复制或剪切的所选内容",
+          "EnglishFunctionDescription": "Paste the copied or cut selection"
+        },
+        {
+          "Id": "1fae2e9a-daaf-4d33-a267-4aaacfd9209f",
+          "ShortcutKey": "Ctrl+Shift+Z or Ctrl+Spacebar",
+          "ChineseFunctionDescription": "清除格式",
+          "EnglishFunctionDescription": "Clear the formatting"
+        },
+        {
+          "Id": "c7793ef1-9d5c-4df6-8e82-4772e990845b",
+          "ShortcutKey": "Ctrl+Shift+H",
+          "ChineseFunctionDescription": "删除下一个字",
+          "EnglishFunctionDescription": "Delete the next word"
+        },
+        {
+          "Id": "e2fefb41-890f-4988-877f-2fa184c81608",
+          "ShortcutKey": "Ctrl+Shift+J",
+          "ChineseFunctionDescription": "使文本(拉伸段落以适合边距)",
+          "EnglishFunctionDescription": "Justify text (Stretch a paragraph to fit between the margins)"
+        },
+        {
+          "Id": "e5409d23-13d0-4e1e-8886-f8c77ec7b5dc",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "应用样式",
+          "EnglishFunctionDescription": "Apply styles"
+        },
+        {
+          "Id": "78d4e06d-09b1-4e3c-9424-d98d30fc2f23",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "创建悬挂缩进",
+          "EnglishFunctionDescription": "Create a hanging indent"
+        },
+        {
+          "Id": "d43fe72f-cc23-4a35-be8d-4e0c10e495f3",
+          "ShortcutKey": "Ctrl+K",
+          "ChineseFunctionDescription": "插入超链接",
+          "EnglishFunctionDescription": "Insert a hyperlink"
+        },
+        {
+          "Id": "b7f396d8-9159-402d-a36b-8fe7d56e5deb",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "左对齐段落",
+          "EnglishFunctionDescription": "Left-align a paragraph"
+        },
+        {
+          "Id": "a39fc793-1452-4fab-bdae-daaa711b26c9",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "右对齐段落",
+          "EnglishFunctionDescription": "Right-align a paragraph"
+        },
+        {
+          "Id": "d3d17b18-3fa4-4323-8dea-87f825ce3bcc",
+          "ShortcutKey": "Ctrl+Shift+T",
+          "ChineseFunctionDescription": "减小悬挂缩进量",
+          "EnglishFunctionDescription": "Reduce a hanging indent"
+        },
+        {
+          "Id": "38ae6675-b270-4a2a-913f-4d29502dacf0",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "删除段落格式",
+          "EnglishFunctionDescription": "Remove paragraph formatting"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "使用搜索",
+      "EnglishCategoryName": "Use search",
+      "Keys": [
+        {
+          "Id": "6dc6001e-e115-4622-9eb2-110346665dca",
+          "ShortcutKey": "Ctrl+E or F3",
+          "ChineseFunctionDescription": "转到搜索字段查找邮件或其他项目",
+          "EnglishFunctionDescription": "Go to the Search field to find a message or another item"
+        },
+        {
+          "Id": "65528379-2fe3-405f-b436-8bbb3b084b32",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "清除搜索结果",
+          "EnglishFunctionDescription": "Clear the search results"
+        },
+        {
+          "Id": "ce26810e-ba7b-4392-bef3-48965e80c746",
+          "ShortcutKey": "Ctrl+Alt+A",
+          "ChineseFunctionDescription": "扩展搜索以包括所有邮件项目、所有日历项目或所有联系人项目",
+          "EnglishFunctionDescription": "Expand the search to include All Mail Items, All Calendar Items, or All Contact Items, depending on the module you are in"
+        },
+        {
+          "Id": "29e8b18b-dce7-4ad2-a918-9959bcb32876",
+          "ShortcutKey": "Ctrl+Shift+F",
+          "ChineseFunctionDescription": "使用高级查找",
+          "EnglishFunctionDescription": "Use Advanced Find"
+        },
+        {
+          "Id": "6d543d9f-fc5c-4a9c-a7cf-70723d5fd8c3",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "创建搜索文件夹",
+          "EnglishFunctionDescription": "Create a Search folder"
+        },
+        {
+          "Id": "c18bfbc1-df8f-498c-9398-a08b39b24d08",
+          "ShortcutKey": "F4",
+          "ChineseFunctionDescription": "在打开的项中搜索文本",
+          "EnglishFunctionDescription": "Search for text within an open item"
+        },
+        {
+          "Id": "328705f7-9ae6-46fd-ad5b-97ca33f531f0",
+          "ShortcutKey": "Ctrl+H",
+          "ChineseFunctionDescription": "在阅读窗格或打开的项中查找和替换文本、符号或某些格式命令",
+          "EnglishFunctionDescription": "Find and replace text, symbols, or some formatting commands when in the Reading pane or in an open item"
+        },
+        {
+          "Id": "7cf525b7-a192-4e41-b983-f5b39eb50a3b",
+          "ShortcutKey": "Ctrl+Alt+K",
+          "ChineseFunctionDescription": "将搜索范围扩展到包括当前文件夹中的项目",
+          "EnglishFunctionDescription": "Expand search to include items from the current folder"
+        },
+        {
+          "Id": "9d95bbb2-fdbf-4cd7-9d31-1b54f575536a",
+          "ShortcutKey": "Ctrl+Alt+Z",
+          "ChineseFunctionDescription": "将搜索范围扩展到包括子文件夹",
+          "EnglishFunctionDescription": "Expand search to include subfolders"
+        }
+      ]
+    }
+  ]
+}

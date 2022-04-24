@@ -1,0 +1,745 @@
+{
+  "Id": "excel",
+  "AppName": "Microsoft Excel",
+  "AppIcon": "icons8-microsoft-excel-2019-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "常用快捷键",
+      "EnglishCategoryName": "Frequently used shortcuts",
+      "Keys": [
+        {
+          "Id": "71d8d35b-a14c-47f2-978a-01a636f7bdfc",
+          "ShortcutKey": "Ctrl+W",
+          "ChineseFunctionDescription": "关闭工作簿",
+          "EnglishFunctionDescription": "Close a workbook"
+        },
+        {
+          "Id": "43e3bfa1-f8c9-404b-a392-4b41a2e35838",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "打开工作簿",
+          "EnglishFunctionDescription": "Open a workbook"
+        },
+        {
+          "Id": "9d79cdaa-569a-4123-a2b9-3c9c117ea6b6",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "转到“开始”选项卡",
+          "EnglishFunctionDescription": "Go to the Home tab"
+        },
+        {
+          "Id": "c49c3bee-4780-47f4-86c2-f5279414eec8",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "保存工作簿",
+          "EnglishFunctionDescription": "Save a workbook"
+        },
+        {
+          "Id": "d00b9b35-6375-4847-98ee-2779b9dea7a9",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制所选内容",
+          "EnglishFunctionDescription": "Copy selection"
+        },
+        {
+          "Id": "474fc0e2-fe69-4c71-a5f0-9f8e083b2a05",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "粘贴所选内容",
+          "EnglishFunctionDescription": "Paste selection"
+        },
+        {
+          "Id": "70ed1dad-9c8d-43ff-a000-bdeaf770dcb5",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消最近操作",
+          "EnglishFunctionDescription": "Undo recent action"
+        },
+        {
+          "Id": "004ff87a-e6e1-4ce4-b7b3-b2ea5aa7d5e1",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "删除单元格内容",
+          "EnglishFunctionDescription": "Remove cell contents"
+        },
+        {
+          "Id": "cbe5b9c9-99ea-4c40-95f1-6c7077834298",
+          "ShortcutKey": "Alt+H, H",
+          "ChineseFunctionDescription": "选择填充颜色",
+          "EnglishFunctionDescription": "Choose a fill color"
+        },
+        {
+          "Id": "b16c068a-af32-4c32-9c62-1aa4838899e0",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "剪切所选内容",
+          "EnglishFunctionDescription": "Cut selection"
+        },
+        {
+          "Id": "c55ae8ad-4d61-4a83-aed4-ff2b998825e5",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "转到“插入”选项卡",
+          "EnglishFunctionDescription": "Go to the Insert tab"
+        },
+        {
+          "Id": "dc10a8b3-2975-4086-84f3-c423e9cc9bfa",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "应用加粗格式",
+          "EnglishFunctionDescription": "Apply bold formatting"
+        },
+        {
+          "Id": "c624e891-e356-45b8-bca7-ff296bb111d1",
+          "ShortcutKey": "Alt+H, A, C",
+          "ChineseFunctionDescription": "居中对齐单元格内容",
+          "EnglishFunctionDescription": "Center align cell contents"
+        },
+        {
+          "Id": "a4469035-8d90-4676-b57d-e92e91997306",
+          "ShortcutKey": "Alt+P",
+          "ChineseFunctionDescription": "转到“页面布局”选项卡",
+          "EnglishFunctionDescription": "Go to the Page Layout tab"
+        },
+        {
+          "Id": "9d80eaa9-8a28-494b-98d9-f18b8c685bbd",
+          "ShortcutKey": "Alt+A",
+          "ChineseFunctionDescription": "转到“数据”选项卡",
+          "EnglishFunctionDescription": "Go to the Data tab"
+        },
+        {
+          "Id": "679ee7f9-1c19-48d9-bcb0-139c1c036c47",
+          "ShortcutKey": "Alt+W",
+          "ChineseFunctionDescription": "转到“视图”选项卡",
+          "EnglishFunctionDescription": "Go to the View tab"
+        },
+        {
+          "Id": "6f22ae65-c2f4-4ba5-97c2-b1fbb0e1b738",
+          "ShortcutKey": "Shift+F10",
+          "ChineseFunctionDescription": "打开上下文菜单",
+          "EnglishFunctionDescription": "Open the context menu"
+        },
+        {
+          "Id": "f82dc2ff-128e-4aa1-bf65-cb3bf9ec7b55",
+          "ShortcutKey": "Alt+H, B",
+          "ChineseFunctionDescription": "添加边框",
+          "EnglishFunctionDescription": "Add borders"
+        },
+        {
+          "Id": "b2ad9682-1c80-477a-84c3-e46f9e80a948",
+          "ShortcutKey": "Alt+H, D, C",
+          "ChineseFunctionDescription": "删除列",
+          "EnglishFunctionDescription": "Delete column"
+        },
+        {
+          "Id": "cd41a7e7-fa33-4662-a27d-451b5a084ccd",
+          "ShortcutKey": "Alt+M",
+          "ChineseFunctionDescription": "转到“公式”选项卡",
+          "EnglishFunctionDescription": "Go to the Formula tab"
+        },
+        {
+          "Id": "4f2e46b8-c432-4f46-b989-f80d013dd2f0",
+          "ShortcutKey": "Ctrl+9",
+          "ChineseFunctionDescription": "隐藏选定的行",
+          "EnglishFunctionDescription": "Hide the selected rows"
+        },
+        {
+          "Id": "f3f0447c-84eb-4ff2-85b9-ef1d3041cccd",
+          "ShortcutKey": "Ctrl+0",
+          "ChineseFunctionDescription": "隐藏选定的列",
+          "EnglishFunctionDescription": "Hide the selected columns"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "使用功能区选项卡的访问键",
+      "EnglishCategoryName": "Use the Access keys for ribbon tabs",
+      "Keys": [
+        {
+          "Id": "cb08b3ff-2b27-4dfa-bebb-df8517c42ed9",
+          "ShortcutKey": "Alt+Q",
+          "ChineseFunctionDescription": "移动到功能区上的“搜索”字段，然后键入搜索词以查找帮助或帮助内容",
+          "EnglishFunctionDescription": "Move to the Tell me or Search field on the ribbon and type a search term for assistance or Help content"
+        },
+        {
+          "Id": "28086ac1-3795-4e08-b614-d68e2d074aed",
+          "ShortcutKey": "Alt+F",
+          "ChineseFunctionDescription": "打开“文件”菜单",
+          "EnglishFunctionDescription": "Open the File menu"
+        },
+        {
+          "Id": "a825919b-8f9b-45a3-b9ad-ca33b5f7a78f",
+          "ShortcutKey": "Alt+H",
+          "ChineseFunctionDescription": "打开“主页”选项卡并设置文本格式和数字格式，然后使用“查找”工具",
+          "EnglishFunctionDescription": "Open the Home tab and format text and numbers and use the Find tool"
+        },
+        {
+          "Id": "fd6b028c-193a-46f7-916c-cfb50d247603",
+          "ShortcutKey": "Alt+N",
+          "ChineseFunctionDescription": "打开“插入”选项卡，然后插入数据透视表、图表、外接程序、迷你图、图片、形状、页眉或文本框",
+          "EnglishFunctionDescription": "Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes"
+        },
+        {
+          "Id": "85c65fe9-fbde-4afc-b977-032cf40be8cf",
+          "ShortcutKey": "Alt+P",
+          "ChineseFunctionDescription": "打开“页面布局”选项卡并使用主题、页面设置、缩放和对齐",
+          "EnglishFunctionDescription": "Open the Page Layout tab and work with themes, page setup, scale, and alignment"
+        },
+        {
+          "Id": "c1eeb24a-2aa5-463d-9915-188da71c4d67",
+          "ShortcutKey": "Alt+M",
+          "ChineseFunctionDescription": "打开“公式”选项卡并插入、跟踪和自定义函数和计算",
+          "EnglishFunctionDescription": "Open the Formulas tab and insert, trace, and customize functions and calculations"
+        },
+        {
+          "Id": "5b939df2-c13e-45bd-998e-e3c7850eef29",
+          "ShortcutKey": "Alt+A",
+          "ChineseFunctionDescription": "打开“数据”选项卡并连接、排序、筛选、分析以及处理数据",
+          "EnglishFunctionDescription": "Open the Data tab and connect to, sort, filter, analyze, and work with data"
+        },
+        {
+          "Id": "f54891a6-6629-4047-b37a-049fe1ba1e02",
+          "ShortcutKey": "Alt+R",
+          "ChineseFunctionDescription": "打开“审阅”选项卡并检查拼写、添加备注和线程注释以及保护工作表和工作簿",
+          "EnglishFunctionDescription": "Open the Review tab and check spelling, add notes and threaded comments, and protect sheets and workbooks"
+        },
+        {
+          "Id": "ed9a5e78-d9c8-489d-892b-aca672893b29",
+          "ShortcutKey": "Alt+W",
+          "ChineseFunctionDescription": "打开“视图”选项卡并预览分页符和布局、显示和隐藏网格线和标题、设置缩放比例、管理窗口和窗格并查看宏",
+          "EnglishFunctionDescription": "Open the View tab and preview page breaks and layouts, show and hide gridlines and headings, set zoom magnification, manage windows and panes, and view macros"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "通过键盘使用功能区",
+      "EnglishCategoryName": "Work in the ribbon with the keyboard",
+      "Keys": [
+        {
+          "Id": "a5420bc4-a2f3-4574-aabd-0426e4d5dcf8",
+          "ShortcutKey": "Tab key or Shift+Tab",
+          "ChineseFunctionDescription": "将焦点移动到功能区上的命令",
+          "EnglishFunctionDescription": "Move the focus to commands on the ribbon"
+        },
+        {
+          "Id": "f3bfb6d7-eb3d-4cfd-8790-1a9d8c26f6fb",
+          "ShortcutKey": "Arrow keys",
+          "ChineseFunctionDescription": "在功能区上分别向下、向上、向左或向右在各项之间移动",
+          "EnglishFunctionDescription": "Move down, up, left, or right, respectively, among the items on the ribbon"
+        },
+        {
+          "Id": "d4515123-a9ee-4702-926c-b2c61b0c57b2",
+          "ShortcutKey": "Spacebar or Enter",
+          "ChineseFunctionDescription": "激活所选按钮",
+          "EnglishFunctionDescription": "Activate a selected button"
+        },
+        {
+          "Id": "2c6cebde-4ec9-4661-99fe-3d704665a4e6",
+          "ShortcutKey": "↓",
+          "ChineseFunctionDescription": "打开所选命令的列表",
+          "EnglishFunctionDescription": "Open the list for a selected command"
+        },
+        {
+          "Id": "2fd43553-5bf4-4ab9-a10b-30919670a143",
+          "ShortcutKey": "Alt+↓",
+          "ChineseFunctionDescription": "打开所选按钮的菜单",
+          "EnglishFunctionDescription": "Open the menu for a selected button"
+        },
+        {
+          "Id": "a5ff067e-ce71-4943-b80f-22faeb18adf6",
+          "ShortcutKey": "Ctrl+F1",
+          "ChineseFunctionDescription": "展开或收起功能区",
+          "EnglishFunctionDescription": "Expand or collapse the ribbon"
+        },
+        {
+          "Id": "722f7342-3685-4dd0-8aef-10cd03a35fe8",
+          "ShortcutKey": "Shift+F10",
+          "ChineseFunctionDescription": "打开上下文菜单",
+          "EnglishFunctionDescription": "Open a context menu"
+        },
+        {
+          "Id": "9323fbbc-78a8-42fa-9270-5b08c728d87f",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "当主菜单处于打开或选中状态时，移到子菜单",
+          "EnglishFunctionDescription": "Move to the submenu when a main menu is open or selected"
+        },
+        {
+          "Id": "169f150e-623a-4491-b34a-fd7a6b529cfc",
+          "ShortcutKey": "Ctrl+←/→",
+          "ChineseFunctionDescription": "从一组控件移动到另一组控件",
+          "EnglishFunctionDescription": "Move from one group of controls to another"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "用于单元格导航的键盘快捷方式",
+      "EnglishCategoryName": "Keyboard shortcuts for navigating in cells",
+      "Keys": [
+        {
+          "Id": "46eecf3e-1de6-463c-b81a-71877f6a0982",
+          "ShortcutKey": "Shift+Tab",
+          "ChineseFunctionDescription": "移到工作表中的前一个单元格或对话框中的前一个选项",
+          "EnglishFunctionDescription": "Move to the previous cell in a worksheet or the previous option in a dialog box"
+        },
+        {
+          "Id": "0a825fc0-3d87-4548-a44c-737abafd2c47",
+          "ShortcutKey": "↑",
+          "ChineseFunctionDescription": "在工作表中向上移动一个单元格",
+          "EnglishFunctionDescription": "Move one cell up in a worksheet"
+        },
+        {
+          "Id": "a74cd9d5-021d-4c12-9596-f89fa7da0d5a",
+          "ShortcutKey": "↓",
+          "ChineseFunctionDescription": "在工作表中向下移动一个单元格",
+          "EnglishFunctionDescription": "Move one cell down in a worksheet"
+        },
+        {
+          "Id": "2418b779-8787-46db-a68d-25b58b8c3090",
+          "ShortcutKey": "←",
+          "ChineseFunctionDescription": "在工作表中向左移动一个单元格",
+          "EnglishFunctionDescription": "Move one cell left in a worksheet"
+        },
+        {
+          "Id": "e453c223-e4fa-4386-b569-fa3d142aca66",
+          "ShortcutKey": "→",
+          "ChineseFunctionDescription": "在工作表中向右移动一个单元格",
+          "EnglishFunctionDescription": "Move one cell right in a worksheet"
+        },
+        {
+          "Id": "644c8e18-f9b7-4287-8d92-4a5ceefba214",
+          "ShortcutKey": "Ctrl+Arrow key",
+          "ChineseFunctionDescription": "移到工作表中当前数据区域的边缘",
+          "EnglishFunctionDescription": "Move to the edge of the current data region in a worksheet"
+        },
+        {
+          "Id": "26502549-1ea5-47bb-91e0-dc3e7dd552bc",
+          "ShortcutKey": "Ctrl+End",
+          "ChineseFunctionDescription": "移到工作表上的最后一个单元格，即所使用的最右一列的最下面一行",
+          "EnglishFunctionDescription": "Move to the last cell on a worksheet, to the lowest used row of the rightmost used column"
+        },
+        {
+          "Id": "71954ecf-b655-4153-8ed7-562c64eee0ba",
+          "ShortcutKey": "Ctrl+Shift+End",
+          "ChineseFunctionDescription": "将单元格选定区域扩展至工作表上最后一个使用的单元格（右下角）",
+          "EnglishFunctionDescription": "Extend the selection of cells to the last used cell on the worksheet (lower-right corner)"
+        },
+        {
+          "Id": "3f99e66a-e875-40bc-8957-5ea72f2b9263",
+          "ShortcutKey": "Home+Scroll lock",
+          "ChineseFunctionDescription": "打开滚动锁时，移动到窗口左上角的单元格",
+          "EnglishFunctionDescription": "Move to the cell in the upper-left corner of the window when Scroll lock is turned on"
+        },
+        {
+          "Id": "9aa432ab-188d-4959-9a39-38c64f3f2777",
+          "ShortcutKey": "Ctrl+Home",
+          "ChineseFunctionDescription": "移到工作表的开头",
+          "EnglishFunctionDescription": "Move to the beginning of a worksheet"
+        },
+        {
+          "Id": "de7de5ea-d392-465b-b282-9b214da01bc6",
+          "ShortcutKey": "Page down",
+          "ChineseFunctionDescription": "在工作表中向下移动一屏",
+          "EnglishFunctionDescription": "Move one screen down in a worksheet"
+        },
+        {
+          "Id": "50aa01fb-8e54-4663-9b1b-e660c42edaa8",
+          "ShortcutKey": "Ctrl+Page down",
+          "ChineseFunctionDescription": "移到工作簿中的下一个工作表",
+          "EnglishFunctionDescription": "Move to the next sheet in a workbook"
+        },
+        {
+          "Id": "a3f5edf4-3217-4625-9646-6bb6c970004b",
+          "ShortcutKey": "Alt+Page down",
+          "ChineseFunctionDescription": "在工作表中向右移动一屏",
+          "EnglishFunctionDescription": "Move one screen to the right in a worksheet"
+        },
+        {
+          "Id": "52b5811f-009f-4ccf-ae9a-8cc5cea2ea11",
+          "ShortcutKey": "Page up",
+          "ChineseFunctionDescription": "在工作表中向上移动一屏",
+          "EnglishFunctionDescription": "Move one screen up in a worksheet"
+        },
+        {
+          "Id": "37f20747-4f3a-4913-97f4-aa404d3b71c2",
+          "ShortcutKey": "Alt+Page up",
+          "ChineseFunctionDescription": "在工作表中向左移动一屏",
+          "EnglishFunctionDescription": "Move one screen to the left in a worksheet"
+        },
+        {
+          "Id": "e8b7e3b3-f636-4a87-89b1-22b1aae67c23",
+          "ShortcutKey": "Ctrl+Page up",
+          "ChineseFunctionDescription": "移到工作簿中的上一个工作表",
+          "EnglishFunctionDescription": "Move to the previous sheet in a workbook"
+        },
+        {
+          "Id": "34622a4d-ff67-4b76-93ae-da153de381e6",
+          "ShortcutKey": "Tab",
+          "ChineseFunctionDescription": "在工作表中向右移动一个单元格。 或者，在受保护的工作表中，在未锁定的单元格之间移动",
+          "EnglishFunctionDescription": "Move one cell to the right in a worksheet. Or, in a protected worksheet, move between unlocked cells"
+        },
+        {
+          "Id": "e342fa17-e464-416b-b86f-9996f1133de5",
+          "ShortcutKey": "Alt+↓",
+          "ChineseFunctionDescription": "对应用了数据验证选项的单元格打开验证选项列表",
+          "EnglishFunctionDescription": "Open the list of validation choices on a cell that has data validation option applied to it"
+        },
+        {
+          "Id": "2353be24-54cb-4f60-aa33-0c168908a94e",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "退出浮动形状导航并返回普通导航",
+          "EnglishFunctionDescription": "Exit the floating shape navigation and return to the normal navigation"
+        },
+        {
+          "Id": "42a80440-9288-4d9e-9ed6-c8c7ac34a706",
+          "ShortcutKey": "Ctrl+Alt+=",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": "Zoom in"
+        },
+        {
+          "Id": "f8839fb1-fca4-4586-8166-9a2e5f38af7b",
+          "ShortcutKey": "Ctrl+Alt+-",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": "Zoom out"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "用于单元格格式设置的键盘快捷方式",
+      "EnglishCategoryName": "Keyboard shortcuts for formatting cells",
+      "Keys": [
+        {
+          "Id": "bb8112e0-3435-4202-9bfb-1ad0f692abb2",
+          "ShortcutKey": "Ctrl+1",
+          "ChineseFunctionDescription": "打开“设置单元格格式”对话框",
+          "EnglishFunctionDescription": "Open the Format Cells dialog box"
+        },
+        {
+          "Id": "93d15f82-050a-4af0-8b8c-2c5142181d48",
+          "ShortcutKey": "Ctrl+Shift+F",
+          "ChineseFunctionDescription": "在“设置单元格格式”对话框中设置 字体格式",
+          "EnglishFunctionDescription": "Format fonts in the Format Cells dialog box"
+        },
+        {
+          "Id": "f3ab55e8-5763-4703-94a7-32e4ff55af7e",
+          "ShortcutKey": "Ctrl+Shift+P",
+          "ChineseFunctionDescription": "在“设置单元格格式”对话框中设置 字体格式",
+          "EnglishFunctionDescription": "Format fonts in the Format Cells dialog box"
+        },
+        {
+          "Id": "c0233bd2-9c50-4c4f-b030-267ca82ef90d",
+          "ShortcutKey": "Shift+F2",
+          "ChineseFunctionDescription": "插入备注",
+          "EnglishFunctionDescription": "Insert a note"
+        },
+        {
+          "Id": "d5e8a658-dfa2-4573-b866-03c7ae9155fe",
+          "ShortcutKey": "Ctrl+Shift+F2",
+          "ChineseFunctionDescription": "插入线程批注",
+          "EnglishFunctionDescription": "Insert a threaded comment"
+        },
+        {
+          "Id": "b567e479-4ce2-46e4-ae7b-394890ab57d8",
+          "ShortcutKey": "Ctrl+Shift+Plus",
+          "ChineseFunctionDescription": "打开“插入”对话框以插入空白单元格",
+          "EnglishFunctionDescription": "Open the Insert dialog box to insert blank cells"
+        },
+        {
+          "Id": "873eec2c-b952-459d-8b06-04288e2e3fab",
+          "ShortcutKey": "Ctrl+Minus",
+          "ChineseFunctionDescription": "打开“删除”对话框以删除所选单元格",
+          "EnglishFunctionDescription": "Open the Delete dialog box to delete selected cells"
+        },
+        {
+          "Id": "b2f5bc7d-b4f3-48ba-bf20-20f0ec27cf88",
+          "ShortcutKey": "Ctrl+Shift+:",
+          "ChineseFunctionDescription": "输入当前时间",
+          "EnglishFunctionDescription": "Enter the current time"
+        },
+        {
+          "Id": "38c24d56-906d-41e4-aad7-39b993393f6c",
+          "ShortcutKey": "Ctrl+;",
+          "ChineseFunctionDescription": "输入当前日期",
+          "EnglishFunctionDescription": "Enter the current date"
+        },
+        {
+          "Id": "ebe13def-e3da-4a4a-90d0-ae485b858a65",
+          "ShortcutKey": "Ctrl+`",
+          "ChineseFunctionDescription": "在工作表中，在显示单元格值或公式之间切换",
+          "EnglishFunctionDescription": "Switch between displaying cell values or formulas in the worksheet"
+        },
+        {
+          "Id": "a51f2ff8-f390-4c94-9fed-40631ee50e91",
+          "ShortcutKey": "Ctrl+'",
+          "ChineseFunctionDescription": "将公式从活动单元格上方的单元格复制到单元格或编辑栏中",
+          "EnglishFunctionDescription": "Copy a formula from the cell above the active cell into the cell or the formula bar"
+        },
+        {
+          "Id": "57619271-3eeb-4903-bd3e-035ddb874cfe",
+          "ShortcutKey": "Ctrl+X",
+          "ChineseFunctionDescription": "移动选定的单元格",
+          "EnglishFunctionDescription": "Move the selected cells"
+        },
+        {
+          "Id": "c0c8d7da-49f5-4a0e-a791-73233909fc76",
+          "ShortcutKey": "Ctrl+C",
+          "ChineseFunctionDescription": "复制选定的单元格",
+          "EnglishFunctionDescription": "Copy the selected cells"
+        },
+        {
+          "Id": "267e9bac-d2f5-4cca-8579-c41934448499",
+          "ShortcutKey": "Ctrl+V",
+          "ChineseFunctionDescription": "在插入点粘贴内容，并替换任何所选内容",
+          "EnglishFunctionDescription": "Paste content at the insertion point, replacing any selection"
+        },
+        {
+          "Id": "a7e6c4e9-a124-4139-8739-791de1e125ac",
+          "ShortcutKey": "Ctrl+Alt+V",
+          "ChineseFunctionDescription": "打开“选择性粘贴”对话框",
+          "EnglishFunctionDescription": "Open the Paste Special dialog box"
+        },
+        {
+          "Id": "ec519166-d27e-4398-9894-917a5b85bdc6",
+          "ShortcutKey": "Ctrl+I or Ctrl+3",
+          "ChineseFunctionDescription": "将文本设置为斜体或删除倾斜格式",
+          "EnglishFunctionDescription": "Italicize text or remove italic formatting"
+        },
+        {
+          "Id": "18248a83-9d09-4ab5-ac5f-ed9c56e0ed5f",
+          "ShortcutKey": "Ctrl+B or Ctrl+2",
+          "ChineseFunctionDescription": "将文本设置为加粗或删除加粗格式",
+          "EnglishFunctionDescription": "Bold text or remove bold formatting"
+        },
+        {
+          "Id": "f65cc846-6a71-4065-ae04-0db1a4f01892",
+          "ShortcutKey": "Ctrl+U or Ctrl+4",
+          "ChineseFunctionDescription": "为文字添加下划线或删除下划线",
+          "EnglishFunctionDescription": "Underline text or remove underline"
+        },
+        {
+          "Id": "cf33d058-01b2-449d-b2b0-fd1b0c1479b0",
+          "ShortcutKey": "Ctrl+5",
+          "ChineseFunctionDescription": "应用或删除删除线格式",
+          "EnglishFunctionDescription": "Apply or remove strikethrough formatting"
+        },
+        {
+          "Id": "a0d5d699-87d8-43cd-81f2-188275b0fa2f",
+          "ShortcutKey": "Ctrl+6",
+          "ChineseFunctionDescription": "在隐藏对象、显示对象和显示对象的占位符之间切换",
+          "EnglishFunctionDescription": "Switch between hiding objects, displaying objects, and displaying placeholders for objects"
+        },
+        {
+          "Id": "f8ff1786-1dc9-410e-a13a-90a0c3ffc03b",
+          "ShortcutKey": "Ctrl+Shift+&",
+          "ChineseFunctionDescription": "将轮廓边框应用于选定单元格",
+          "EnglishFunctionDescription": "Apply an outline border to the selected cells"
+        },
+        {
+          "Id": "3be3d083-7ae1-4e4c-9bba-7d9f523fe529",
+          "ShortcutKey": "Ctrl+Shift+_",
+          "ChineseFunctionDescription": "从选定单元格中删除轮廓边框",
+          "EnglishFunctionDescription": "Remove the outline border from the selected cells"
+        },
+        {
+          "Id": "26bd4d02-4901-4c1c-b8f7-5856d12d30c4",
+          "ShortcutKey": "Ctrl+8",
+          "ChineseFunctionDescription": "显示或隐藏大纲符号",
+          "EnglishFunctionDescription": "Display or hide the outline symbols"
+        },
+        {
+          "Id": "44ccb26c-b2d5-41a6-91bf-0f32401f8921",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "使用“向下填充”命令将所选区域最顶端单元格的内容和格式复制到下面的单元格中",
+          "EnglishFunctionDescription": "Use the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below"
+        },
+        {
+          "Id": "2e47e75c-b9a1-4bb6-b273-ecbe30c97f7f",
+          "ShortcutKey": "Ctrl+Shift+~",
+          "ChineseFunctionDescription": "应用“常规”数字格式",
+          "EnglishFunctionDescription": "Apply the General number format"
+        },
+        {
+          "Id": "18b63bca-d9ac-492e-a80e-622dbd50e322",
+          "ShortcutKey": "Ctrl+Shift+$",
+          "ChineseFunctionDescription": "应用两位小数的货币格式 (括号中的负数)",
+          "EnglishFunctionDescription": "Apply the Currency format with two decimal places (negative numbers in parentheses)."
+        },
+        {
+          "Id": "9140a963-300c-47d7-a737-5892b84f5068",
+          "ShortcutKey": "Ctrl+Shift+%",
+          "ChineseFunctionDescription": "应用无小数位数的百分比格式",
+          "EnglishFunctionDescription": "Apply the Percentage format with no decimal places"
+        },
+        {
+          "Id": "c352c2de-e194-4e67-9e9c-d9d7b103e15e",
+          "ShortcutKey": "Ctrl+Shift+^",
+          "ChineseFunctionDescription": "应用带两个小数位数的科学数字格式",
+          "EnglishFunctionDescription": "Apply the Scientific number format with two decimal places"
+        },
+        {
+          "Id": "e05b5452-261e-4d51-b38c-01d6e378ca2f",
+          "ShortcutKey": "Ctrl+Shift+#",
+          "ChineseFunctionDescription": "应用日期格式以及日期、月份和年份",
+          "EnglishFunctionDescription": "Apply the Date format with the day, month, and year"
+        },
+        {
+          "Id": "56062c64-3ecf-4204-990b-1f1b307b7edc",
+          "ShortcutKey": "Ctrl+Shift+@",
+          "ChineseFunctionDescription": "使用小时和分钟以及 AM 或 PM 应用时间格式",
+          "EnglishFunctionDescription": "Apply the Time format with the hour and minute, and AM or PM"
+        },
+        {
+          "Id": "2be6ca88-92a7-4cbd-8e2c-c7c44000cb12",
+          "ShortcutKey": "Ctrl+Shift+!",
+          "ChineseFunctionDescription": "对负值应用带两个小数位数、千位分隔符和减号 (-) 数字格式",
+          "EnglishFunctionDescription": "Apply the Number format with two decimal places, thousands separator, and minus sign (-) for negative values."
+        },
+        {
+          "Id": "4f5126ce-9b28-4e93-980c-39f9d0d59098",
+          "ShortcutKey": "Ctrl+K",
+          "ChineseFunctionDescription": "打开“插入超链接”对话框",
+          "EnglishFunctionDescription": "Open the Insert hyperlink dialog box"
+        },
+        {
+          "Id": "9940dec4-1b8f-413c-b585-07d1e21d44fe",
+          "ShortcutKey": "F7",
+          "ChineseFunctionDescription": "检查活动工作表或选定范围中的拼写",
+          "EnglishFunctionDescription": "Check spelling in the active worksheet or selected range"
+        },
+        {
+          "Id": "2780a874-f6c8-4dfc-b8f8-f33622c34ed2",
+          "ShortcutKey": "Ctrl+Q",
+          "ChineseFunctionDescription": "显示包含数据的选定单元格的“快速分析”选项",
+          "EnglishFunctionDescription": "Display the Quick Analysis options for selected cells that contain data"
+        },
+        {
+          "Id": "aa0c82be-42d8-44d4-b549-aa32738964b1",
+          "ShortcutKey": "Ctrl+L or Ctrl+T",
+          "ChineseFunctionDescription": "显示“创建表”对话框",
+          "EnglishFunctionDescription": "Display the Create Table dialog box"
+        },
+        {
+          "Id": "b27a3e1d-558d-466c-92c1-274680072cc8",
+          "ShortcutKey": "Ctrl+Shift+G",
+          "ChineseFunctionDescription": "打开工作簿统计信息对话框",
+          "EnglishFunctionDescription": "Open the Workbook Statistics dialog box"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "进行选择并执行操作的键盘快捷方式",
+      "EnglishCategoryName": "Keyboard shortcuts for making selections and performing actions",
+      "Keys": [
+        {
+          "Id": "de7dd9af-8b45-424d-8c7d-af80e49ce853",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "选择整个工作表",
+          "EnglishFunctionDescription": "Select the entire worksheet"
+        },
+        {
+          "Id": "0c8644d4-265e-4523-8dd0-25040f2b3882",
+          "ShortcutKey": "Ctrl+Shift+Spacebar",
+          "ChineseFunctionDescription": "选择整个工作表",
+          "EnglishFunctionDescription": "Select the entire worksheet"
+        },
+        {
+          "Id": "39e015a4-d82b-4946-aa03-1efc1de0b910",
+          "ShortcutKey": "Ctrl+Shift+Page down",
+          "ChineseFunctionDescription": "选择工作簿中的当前和下一个工作表",
+          "EnglishFunctionDescription": "Select the current and next sheet in a workbook"
+        },
+        {
+          "Id": "cd298dcd-0ad6-4016-855b-ebdde53807d2",
+          "ShortcutKey": "Ctrl+Shift+Page up",
+          "ChineseFunctionDescription": "选择工作簿中的当前和上一个工作表",
+          "EnglishFunctionDescription": "Select the current and previous sheet in a workbook"
+        },
+        {
+          "Id": "00bc2978-32ff-4cba-954f-511dd9687e86",
+          "ShortcutKey": "Shift+Arrow key",
+          "ChineseFunctionDescription": "将单元格的选定范围扩大一个单元格",
+          "EnglishFunctionDescription": "Extend the selection of cells by one cell"
+        },
+        {
+          "Id": "31cb3d48-7a38-4212-b563-44e67828032c",
+          "ShortcutKey": "Ctrl+Shift+Arrow key",
+          "ChineseFunctionDescription": "将单元格的选定范围扩展到活动单元格所在列或行中的最后一个非空单元格，或者如果下一个单元格为空，则扩展到下一个非空单元格",
+          "EnglishFunctionDescription": "Extend the selection of cells to the last nonblank cell in the same column or row as the active cell, or if the next cell is blank, to the next nonblank cell"
+        },
+        {
+          "Id": "da1dd9bd-b07e-49e5-9c01-6dc9b03f5af3",
+          "ShortcutKey": "F8",
+          "ChineseFunctionDescription": "打开扩展模式并使用箭头键扩展选定范围。 再次按下以关闭",
+          "EnglishFunctionDescription": "Turn extend mode on and use the arrow keys to extend a selection. Press again to turn off"
+        },
+        {
+          "Id": "2a6dcaf1-ebe2-43ba-90e4-c8c5bbbf0405",
+          "ShortcutKey": "Shift+F8",
+          "ChineseFunctionDescription": "通过使用箭头键将非邻近单元格或区域添加到单元格的选定范围中",
+          "EnglishFunctionDescription": "Add a non-adjacent cell or range to a selection of cells by using the arrow keys"
+        },
+        {
+          "Id": "aeda6e7f-8fbf-4050-a253-5b4a1a9fd748",
+          "ShortcutKey": "Alt+Enter",
+          "ChineseFunctionDescription": "在同一单元格中另起一个新行",
+          "EnglishFunctionDescription": "Start a new line in the same cell"
+        },
+        {
+          "Id": "a4b398be-0a3e-45b7-a0d0-56b5977e0c95",
+          "ShortcutKey": "Ctrl+Enter",
+          "ChineseFunctionDescription": "使用当前输入填充选定的单元格区域",
+          "EnglishFunctionDescription": "Fill the selected cell range with the current entry"
+        },
+        {
+          "Id": "d8e7dd9c-aa29-4e29-8236-e262495d24f5",
+          "ShortcutKey": "Shift+Enter",
+          "ChineseFunctionDescription": "完成单元格输入并选择上面的单元格",
+          "EnglishFunctionDescription": "Complete a cell entry and select the cell above"
+        },
+        {
+          "Id": "6da53043-855b-4c20-9c37-3baf4f3a91a8",
+          "ShortcutKey": "Ctrl+Spacebar",
+          "ChineseFunctionDescription": "选择工作表中的整列",
+          "EnglishFunctionDescription": "Select an entire column in a worksheet"
+        },
+        {
+          "Id": "f8207557-932c-42aa-a31c-34a54e4f74bb",
+          "ShortcutKey": "Shift+Spacebar",
+          "ChineseFunctionDescription": "选择工作表中的整行",
+          "EnglishFunctionDescription": "Select an entire row in a worksheet"
+        },
+        {
+          "Id": "1f72c041-7bb9-4f64-a8ac-1d888a3c66a7",
+          "ShortcutKey": "Ctrl+Shift+Spacebar",
+          "ChineseFunctionDescription": "当某个对象处于选定状态时，选择工作表上的所有对象",
+          "EnglishFunctionDescription": "Select all objects on a worksheet when an object is selected"
+        },
+        {
+          "Id": "8ee5734b-ec4f-4e43-87d6-2dd7d9f8fc21",
+          "ShortcutKey": "Ctrl+Shift+Home",
+          "ChineseFunctionDescription": "将单元格的选定范围扩展到工作表的开头",
+          "EnglishFunctionDescription": "Extend the selection of cells to the beginning of the worksheet"
+        },
+        {
+          "Id": "29e48a14-66e8-4b37-85e1-7e6c27f6d5d0",
+          "ShortcutKey": "Ctrl+A",
+          "ChineseFunctionDescription": "如果工作表包含数据，则选择当前区域。 再按一次将选择当前区域和其摘要行。 按第三次可选择整个工作表",
+          "EnglishFunctionDescription": "Select the current region if the worksheet contains data. Press a second time to select the current region and its summary rows. Press a third time to select the entire worksheet"
+        },
+        {
+          "Id": "238ed498-a16d-486f-8d6e-4a76ed33e314",
+          "ShortcutKey": "Ctrl+Shift+*",
+          "ChineseFunctionDescription": "选择活动单元格周围的当前区域",
+          "EnglishFunctionDescription": "Select the current region around the active cell"
+        },
+        {
+          "Id": "b3735d85-8039-440a-8284-129561340d92",
+          "ShortcutKey": "Home",
+          "ChineseFunctionDescription": "当菜单或子菜单处于可见状态时，选择菜单上的第一个命令",
+          "EnglishFunctionDescription": "Select the first command on the menu when a menu or submenu is visible"
+        },
+        {
+          "Id": "b4059d3f-2ad1-4046-b5a2-b3baf1376225",
+          "ShortcutKey": "Ctrl+Y",
+          "ChineseFunctionDescription": "重复上一个命令或操作（如有可能）",
+          "EnglishFunctionDescription": "Repeat the last command or action, if possible"
+        },
+        {
+          "Id": "7e5f655c-71bf-4b68-ab76-f1e41c3575da",
+          "ShortcutKey": "Ctrl+Z",
+          "ChineseFunctionDescription": "撤消最后一个操作",
+          "EnglishFunctionDescription": "Undo the last action"
+        }
+      ]
+    }
+  ]
+}

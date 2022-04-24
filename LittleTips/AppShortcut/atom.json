@@ -1,0 +1,337 @@
+{
+  "Id": "atom",
+  "AppName": "Atom",
+  "AppIcon": "icons8-atom-editor-100.png",
+  "Categories": [
+    {
+      "ChineseCategoryName": "通用",
+      "EnglishCategoryName": "General",
+      "Keys": [
+        {
+          "Id": "7be29c5a-a8b0-45e0-aea1-9fece3d62eb2",
+          "ShortcutKey": "Ctrl+,",
+          "ChineseFunctionDescription": "首选项/设置",
+          "EnglishFunctionDescription": "Preferences/Settings"
+        },
+        {
+          "Id": "782c49db-e149-4eac-a975-37d22aaf50bb",
+          "ShortcutKey": "Shift+Ctrl+P",
+          "ChineseFunctionDescription": "命令面板",
+          "EnglishFunctionDescription": "Command Palette"
+        },
+        {
+          "Id": "4be3f9ca-e2bc-47fd-b5c0-552d0829b79a",
+          "ShortcutKey": "Ctrl+P",
+          "ChineseFunctionDescription": "打开文件",
+          "EnglishFunctionDescription": "Open File (Fuzzy)"
+        },
+        {
+          "Id": "63285633-cd5c-4bc8-b3d7-87c0ab584188",
+          "ShortcutKey": "Ctrl+T",
+          "ChineseFunctionDescription": "打开文件",
+          "EnglishFunctionDescription": "Open File (Fuzzy)"
+        },
+        {
+          "Id": "e8d041c1-0fd3-4ca8-981c-d8701458bb60",
+          "ShortcutKey": "Ctrl+B",
+          "ChineseFunctionDescription": "浏览打开的文件",
+          "EnglishFunctionDescription": "Browse Open Files"
+        },
+        {
+          "Id": "3248b579-af6c-4baf-9673-1d80c4bb11ce",
+          "ShortcutKey": "Ctrl+Pageup",
+          "ChineseFunctionDescription": "上一个标签",
+          "EnglishFunctionDescription": "Previous Tab"
+        },
+        {
+          "Id": "f57813e9-3884-4b5c-a5ef-85f9cb0a45aa",
+          "ShortcutKey": "Ctrl+Pagedown",
+          "ChineseFunctionDescription": "下一个标签",
+          "EnglishFunctionDescription": "Next Tab"
+        },
+        {
+          "Id": "e5899b97-e1be-4068-9ec3-cc00f3b61399",
+          "ShortcutKey": "Ctrl+Shift+L",
+          "ChineseFunctionDescription": "语法选择器",
+          "EnglishFunctionDescription": "Grammar Selector"
+        },
+        {
+          "Id": "e56cc6c6-6170-4226-836f-0b9c87b4c1e1",
+          "ShortcutKey": "Ctrl+Shift+M",
+          "ChineseFunctionDescription": "Markdown预览",
+          "EnglishFunctionDescription": "Markdown Preview"
+        },
+        {
+          "Id": "d6aa590d-26c0-4e2f-b02f-3d79d222acb3",
+          "ShortcutKey": "Ctrl+.",
+          "ChineseFunctionDescription": "键绑定解析器",
+          "EnglishFunctionDescription": "Key Binding Resolver"
+        },
+        {
+          "Id": "48628af6-d2b5-4e9e-8336-e360297fe639",
+          "ShortcutKey": "Ctrl+K,Ctrl+B",
+          "ChineseFunctionDescription": "切换树视图",
+          "EnglishFunctionDescription": "Toggle Tree View"
+        },
+        {
+          "Id": "50eeea07-c4ca-493a-a25e-aa9efb2c0cba",
+          "ShortcutKey": "Ctrl+\\",
+          "ChineseFunctionDescription": "切换树视图",
+          "EnglishFunctionDescription": "Toggle Tree View"
+        },
+        {
+          "Id": "bf5c675f-5066-4cab-8b55-3c3097f112ee",
+          "ShortcutKey": "Alt+Ctrl+R",
+          "ChineseFunctionDescription": "重新加载Atom",
+          "EnglishFunctionDescription": "Reload Atom"
+        },
+        {
+          "Id": "9e774a09-f21f-42d3-9408-968c39e46757",
+          "ShortcutKey": "Ctrl+Alt+I",
+          "ChineseFunctionDescription": "开发人员工具",
+          "EnglishFunctionDescription": "Toggle Developer Tools"
+        },
+        {
+          "Id": "a68ce405-067e-4e4f-aca3-167e9734bd06",
+          "ShortcutKey": "Alt+Shift+S",
+          "ChineseFunctionDescription": "显示可用片段",
+          "EnglishFunctionDescription": "Show Available Snippets"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "窗口管理",
+      "EnglishCategoryName": "Window Management",
+      "Keys": [
+        {
+          "Id": "67b5fda2-1d3d-4d01-96e0-d2804f053c73",
+          "ShortcutKey": "Ctrl+N",
+          "ChineseFunctionDescription": "新文件",
+          "EnglishFunctionDescription": "New File"
+        },
+        {
+          "Id": "d2592c1a-a1ef-4441-a804-23a5413b7b02",
+          "ShortcutKey": "Ctrl+Shift+N",
+          "ChineseFunctionDescription": "新窗口",
+          "EnglishFunctionDescription": "New Window"
+        },
+        {
+          "Id": "42f4fa67-ab5a-4cc4-83cd-18e86da3c0db",
+          "ShortcutKey": "Ctrl+O",
+          "ChineseFunctionDescription": "打开",
+          "EnglishFunctionDescription": "Open"
+        },
+        {
+          "Id": "fb26cd13-38b9-4ee3-a963-0604f3cffe11",
+          "ShortcutKey": "Ctrl+Shift+O",
+          "ChineseFunctionDescription": "打开目录",
+          "EnglishFunctionDescription": "Open Folder"
+        },
+        {
+          "Id": "ae5f75ef-a722-4142-8bcb-2442790b6b9d",
+          "ShortcutKey": "Ctrl+S",
+          "ChineseFunctionDescription": "保存",
+          "EnglishFunctionDescription": "Save"
+        },
+        {
+          "Id": "90e0d76d-2299-4053-ace7-9ff1a046b88a",
+          "ShortcutKey": "Ctrl+Shift+S",
+          "ChineseFunctionDescription": "另存为",
+          "EnglishFunctionDescription": "Save As"
+        },
+        {
+          "Id": "00027812-9caf-4a4c-b565-4b0045eaf7f7",
+          "ShortcutKey": "Ctrl+W",
+          "ChineseFunctionDescription": "关闭标签",
+          "EnglishFunctionDescription": "Close Tab"
+        },
+        {
+          "Id": "4c304692-49cc-4b3a-b82e-2862d531d14e",
+          "ShortcutKey": "Ctrl+Shift+W",
+          "ChineseFunctionDescription": "关闭窗口",
+          "EnglishFunctionDescription": "Close Window"
+        },
+        {
+          "Id": "04563e44-6702-42b9-a56e-2e00e048872e",
+          "ShortcutKey": "Ctrl+K,↑/↓/←/→",
+          "ChineseFunctionDescription": "拆分窗口",
+          "EnglishFunctionDescription": "Split Window"
+        },
+        {
+          "Id": "1859e87f-5951-4990-9ff0-9ca5b0211674",
+          "ShortcutKey": "Ctrl+K,Ctrl+↑/↓/←/→",
+          "ChineseFunctionDescription": "焦点窗格",
+          "EnglishFunctionDescription": "Focus Pane"
+        },
+        {
+          "Id": "23a040d3-aeea-4566-8ca8-2c5bcf4eef07",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "切换全屏",
+          "EnglishFunctionDescription": "Toggle full screen"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "编辑",
+      "EnglishCategoryName": "Editing",
+      "Keys": [
+        {
+          "Id": "957f9ceb-282f-4ba7-8b4f-c142a4f848ec",
+          "ShortcutKey": "Ctrl+Shift+D",
+          "ChineseFunctionDescription": "复制行",
+          "EnglishFunctionDescription": "Duplicate Lines"
+        },
+        {
+          "Id": "6227d2cd-e16b-4def-9181-cd5162e0cf32",
+          "ShortcutKey": "Ctrl+Shift+K",
+          "ChineseFunctionDescription": "删除行",
+          "EnglishFunctionDescription": "Delete Line"
+        },
+        {
+          "Id": "3170e7f9-9888-4be9-bf39-c7b855e98e39",
+          "ShortcutKey": "Ctrl+↑",
+          "ChineseFunctionDescription": "向上移动行",
+          "EnglishFunctionDescription": "Move Line Up"
+        },
+        {
+          "Id": "ce37e7b4-cffc-4b72-9ce5-0cbbab6500f8",
+          "ShortcutKey": "Ctrl+↓",
+          "ChineseFunctionDescription": "向下移动行",
+          "EnglishFunctionDescription": "Move Line Down"
+        },
+        {
+          "Id": "a6602aaa-ef35-41e8-a45a-1378112bb775",
+          "ShortcutKey": "Ctrl+F",
+          "ChineseFunctionDescription": "查找/替换",
+          "EnglishFunctionDescription": "Find/Replace"
+        },
+        {
+          "Id": "c2327245-4936-402d-ab6b-932e9b9d960f",
+          "ShortcutKey": "F3",
+          "ChineseFunctionDescription": "查找下一个",
+          "EnglishFunctionDescription": "Find Next"
+        },
+        {
+          "Id": "014e533f-4d66-49f2-a505-7d69fa9353ee",
+          "ShortcutKey": "Shift+F3",
+          "ChineseFunctionDescription": "查找上一个",
+          "EnglishFunctionDescription": "Find Previous"
+        },
+        {
+          "Id": "bb04d6e1-c95d-4985-a87f-393ed90dbc78",
+          "ShortcutKey": "Ctrl+Shift+F",
+          "ChineseFunctionDescription": "在项目中查找",
+          "EnglishFunctionDescription": "Find in Project"
+        },
+        {
+          "Id": "0b81adbb-cf8d-467e-af89-73649289445a",
+          "ShortcutKey": "Ctrl+G",
+          "ChineseFunctionDescription": "转到行",
+          "EnglishFunctionDescription": "Go To Line"
+        },
+        {
+          "Id": "7235bca4-12ff-4431-8ef5-71e44f9391ce",
+          "ShortcutKey": "Ctrl+M",
+          "ChineseFunctionDescription": "转到匹配的支架",
+          "EnglishFunctionDescription": "Go To Matching Bracket"
+        },
+        {
+          "Id": "b973aaa8-957a-433f-a17f-42f1e6bd5b73",
+          "ShortcutKey": "Ctrl+L",
+          "ChineseFunctionDescription": "选择行",
+          "EnglishFunctionDescription": "Select Line"
+        },
+        {
+          "Id": "f12d3dc7-1942-46ca-9c53-d5c2da1e8311",
+          "ShortcutKey": "Ctrl+/",
+          "ChineseFunctionDescription": "注释",
+          "EnglishFunctionDescription": "Toggle Comment"
+        },
+        {
+          "Id": "1214e7aa-ee1f-49c3-828d-42c5a00be2a1",
+          "ShortcutKey": "Ctrl+Alt+↑/↓",
+          "ChineseFunctionDescription": "列选择",
+          "EnglishFunctionDescription": "Column Selection"
+        },
+        {
+          "Id": "d4c04402-c69b-4f23-bb30-d97fb13d44b9",
+          "ShortcutKey": "Ctrl+D",
+          "ChineseFunctionDescription": "选择相同的词",
+          "EnglishFunctionDescription": "Select Same Words"
+        },
+        {
+          "Id": "21fa7f81-0066-4857-8eb4-0c72a697977d",
+          "ShortcutKey": "Ctrl+U",
+          "ChineseFunctionDescription": "撤消选择",
+          "EnglishFunctionDescription": "Undo Selection"
+        },
+        {
+          "Id": "08034710-464e-4928-9d2c-84f4c3b7e66a",
+          "ShortcutKey": "Alt+F3",
+          "ChineseFunctionDescription": "一次选择所有相同的单词",
+          "EnglishFunctionDescription": "Select All The Same Words At Once"
+        },
+        {
+          "Id": "a59446bb-eb61-457e-a18c-94c2162b1824",
+          "ShortcutKey": "Ctrl+R",
+          "ChineseFunctionDescription": "显示符号调色板",
+          "EnglishFunctionDescription": "Show Symbols Palette"
+        },
+        {
+          "Id": "ea887b97-9463-49df-9302-a398ce2ebffd",
+          "ShortcutKey": "Ctrl+Space",
+          "ChineseFunctionDescription": "显示自动完成",
+          "EnglishFunctionDescription": "Show auto-completions"
+        },
+        {
+          "Id": "ce0a38fb-a4b9-49b2-b635-11ff520ff6bb",
+          "ShortcutKey": "Ctrl+Alt+[",
+          "ChineseFunctionDescription": "折叠代码段",
+          "EnglishFunctionDescription": "Fold sections of code"
+        },
+        {
+          "Id": "a6e1f4aa-a38b-4164-9c0e-3126160848c7",
+          "ShortcutKey": "Ctrl+Alt+]",
+          "ChineseFunctionDescription": "展开代码段",
+          "EnglishFunctionDescription": "Unfold sections of code"
+        },
+        {
+          "Id": "d8cfc445-ca05-4cb9-a382-e97e42749fcf",
+          "ShortcutKey": "Ctrl+K,Ctrl+(0-9)",
+          "ChineseFunctionDescription": "在特定缩进级别折叠/展开",
+          "EnglishFunctionDescription": "Fold/Unfold at a specific indentation level"
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "各种包",
+      "EnglishCategoryName": "Various Packages",
+      "Keys": [
+        {
+          "Id": "6c354a01-e1d5-46d2-992a-da4480fe0952",
+          "ShortcutKey": "Ctrl+Alt+B",
+          "ChineseFunctionDescription": "构建项目",
+          "EnglishFunctionDescription": "Build Project"
+        },
+        {
+          "Id": "6ddfb26b-37b5-4ee0-ac39-4d9db936cc0a",
+          "ShortcutKey": "Ctrl+E",
+          "ChineseFunctionDescription": "展开缩写",
+          "EnglishFunctionDescription": "Expand Abbreviation"
+        },
+        {
+          "Id": "0372a59d-1023-4a2d-8c48-4e8290aab461",
+          "ShortcutKey": "Ctrl+Shift+H",
+          "ChineseFunctionDescription": "Git Plus 菜单",
+          "EnglishFunctionDescription": "Git Plus Menu"
+        },
+        {
+          "Id": "f8366099-9889-4cb5-9ccc-5c1555961886",
+          "ShortcutKey": "Alt+Shift+P",
+          "ChineseFunctionDescription": "打开项目",
+          "EnglishFunctionDescription": "Open Project"
+        }
+      ]
+    }
+  ]
+}
