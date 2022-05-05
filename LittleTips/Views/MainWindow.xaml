@@ -180,7 +180,7 @@
         <TextBlock HorizontalAlignment="Center" Grid.Row="1" Text="感谢您的捐赠，它将有助于软件的后续开发" />
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" Text="捐赠将用于硬件、软件、服务器托管和其他费用" />
         <TextBlock Grid.Row="3" HorizontalAlignment="Center" Margin="0 5 0 0">
-          <Hyperlink Click="Donate_OnClick" Foreground="#AAFFFFFF">http://littletips.redisant.com/donate</Hyperlink>
+          <Hyperlink Click="Donate_OnClick" Foreground="#AAFFFFFF">http://www.redisant.cn/ltip/donate</Hyperlink>
         </TextBlock>
       </Grid>
       <Grid Grid.Row="1" VerticalAlignment="Center" Margin="10 0">

@@ -55,7 +55,7 @@
                      HorizontalAlignment="Center" Margin="0 10 0 0"
                      Text="如果您喜欢使用该软件，不管金额多少，请您捐赠" />
           <TextBlock Grid.Row="3" HorizontalAlignment="Center" Margin="0 5 0 0">
-            <Hyperlink Click="Donate_OnClick" Foreground="#AAFFFFFF">http://littletips.redisant.com/donate</Hyperlink>
+            <Hyperlink Click="Donate_OnClick" Foreground="#AAFFFFFF">http://www.redisant.cn/ltip/donate</Hyperlink>
           </TextBlock>
         </Grid>
       </Grid>

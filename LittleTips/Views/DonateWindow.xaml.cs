@@ -18,7 +18,7 @@ namespace LittleTips.Views
 
         private void Donate_OnClick(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://littletips.redisant.com/donate");
+            System.Diagnostics.Process.Start($"{App.Host}/donate");
             e.Handled = true;
         }
 
