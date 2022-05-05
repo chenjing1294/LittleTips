@@ -10,7 +10,7 @@ namespace LittleTips
         public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.04";
 
         public static readonly string Host = "http://www.redisant.cn/ltip";
-        // public static string HOST = "http://localhost";
+        // public static string Host = "http://localhost/ltip";
 
         protected override void OnStartup(StartupEventArgs e)
         {
