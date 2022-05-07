@@ -1,0 +1,685 @@
+{
+  "Id": "lceda",
+  "AppName": "立创EDA",
+  "AppIcon": "lceda.ico",
+  "Categories": [
+    {
+      "ChineseCategoryName": "共用快捷键",
+      "EnglishCategoryName": "",
+      "Keys": [
+        {
+          "Id": "1570F765-8CE5-368A-06C5-5210E17B8E76",
+          "ShortcutKey": "Space",
+          "ChineseFunctionDescription": "旋转所选图形",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "EA5D347D-0765-2374-3C1E-FBFC5330CF8E",
+          "ShortcutKey": "鼠标右键",
+          "ChineseFunctionDescription": "长按右键拖动画布；操作过程中按一下右键释放操作’",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "8D3EA186-8405-54BD-074F-D1401F206EEF",
+          "ShortcutKey": "Left",
+          "ChineseFunctionDescription": "向左滚动或左移所选图形",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "A504FB7D-A5B4-F9B4-DBA4-C40F3A287850",
+          "ShortcutKey": "Right",
+          "ChineseFunctionDescription": "向右滚动或右移所选图形",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "8F95FDCA-4C67-A796-13D6-DCAD1FDD2679",
+          "ShortcutKey": "Up",
+          "ChineseFunctionDescription": "向上滚动或上移所选图形",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "0A2625B3-71B2-0D35-E7A7-0862725AFF9F",
+          "ShortcutKey": "Down",
+          "ChineseFunctionDescription": "向下滚动或下移所选图形",
+          "EnglishFunctionDescription": "#"
+        },
+        {
+          "Id": "41BFB362-0E39-57D5-17BC-A97B5818AC6A",
+          "ShortcutKey": "TAB",
+          "ChineseFunctionDescription": "在放置元素时修改它的属性；选中一个元素并按下该快捷键打开偏移量对话框",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D8651ABA-2A24-1737-7812-3F56DD3F88B4",
+          "ShortcutKey": "Esc",
+          "ChineseFunctionDescription": "取消绘制",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "A924528E-1622-261F-CD3C-0759F58E4E59",
+          "ShortcutKey": "HOME",
+          "ChineseFunctionDescription": "重新指定原点",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "368FDCF6-4971-9F5B-A53B-391A7C75FA1D",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "删除所选",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "848EF5E5-29E5-EB2B-CB5E-BD1EC8258D54",
+          "ShortcutKey": "F1",
+          "ChineseFunctionDescription": "打开帮助文档",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "220E7AF3-E0C7-1187-AC4A-566249B4DF7E",
+          "ShortcutKey": "F11",
+          "ChineseFunctionDescription": "浏览器下全屏",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "6AC089E3-19D3-09B0-2475-720B8C93FBF1",
+          "ShortcutKey": "A",
+          "ChineseFunctionDescription": "放大",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "699CDE2E-A8F3-87F9-1A9C-60610BA481E5",
+          "ShortcutKey": "Z",
+          "ChineseFunctionDescription": "缩小",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "F134DCCC-8C21-EBD7-4D56-6E42165D8699",
+          "ShortcutKey": "D",
+          "ChineseFunctionDescription": "拖动",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7629D803-D589-53D0-7650-217568ACC195",
+          "ShortcutKey": "K",
+          "ChineseFunctionDescription": "适合窗口",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "69762652-6213-6EB5-FD7F-FBA23465BB1E",
+          "ShortcutKey": "R",
+          "ChineseFunctionDescription": "旋转所选图形",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "E7A89CEA-825B-E33A-FE38-D0D64C2378D4",
+          "ShortcutKey": "X",
+          "ChineseFunctionDescription": "水平翻转(封装不支持)",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "1FF568F3-90A4-2703-B9F1-6542CE97E679",
+          "ShortcutKey": "Y",
+          "ChineseFunctionDescription": "垂直翻转(封装不支持)",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "AF1F2259-2FBF-B13B-DB95-8D00EAB53C34",
+          "ShortcutKey": "ALT+F5",
+          "ChineseFunctionDescription": "和F11一致，浏览器下全屏",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7C0323F1-7B75-580D-2169-B88460B9E7A2",
+          "ShortcutKey": "ALT+W",
+          "ChineseFunctionDescription": "关闭当前页",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5BF856CF-CCD4-1AD4-7FE0-D24D6A3847F8",
+          "ShortcutKey": "SHIT+ALT+W",
+          "ChineseFunctionDescription": "关闭全部页",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "51FE7A42-CDD8-EA6D-998F-89A12910DDCE",
+          "ShortcutKey": "CTRL+X",
+          "ChineseFunctionDescription": "剪切",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "53BFE28A-C07F-297E-E447-D9461D95C8CA",
+          "ShortcutKey": "CTRL+C",
+          "ChineseFunctionDescription": "复制",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "BFE46F6B-F8ED-55D5-4955-8A1A063FF089",
+          "ShortcutKey": "CTRL+V",
+          "ChineseFunctionDescription": "粘贴",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "DCFF4B31-0A1A-700B-7FFA-5DFF625EF142",
+          "ShortcutKey": "CTRL+A",
+          "ChineseFunctionDescription": "全选",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "F7E71450-7699-7E9E-3AD2-FFB05E7AB4AE",
+          "ShortcutKey": "CTRL+Z",
+          "ChineseFunctionDescription": "撤销",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C4B3CF16-BFE2-89C3-74C4-C9DA22FF8647",
+          "ShortcutKey": "CTRL+Y",
+          "ChineseFunctionDescription": "重做",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "AD29762F-F527-DB35-FD37-ADA6F14577DF",
+          "ShortcutKey": "CTRL+S",
+          "ChineseFunctionDescription": "保存",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "23265C0D-00CD-18C6-BAC7-C3346BA5A151",
+          "ShortcutKey": "CTRL+F",
+          "ChineseFunctionDescription": "查找元素",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D92B119C-D90F-BB98-0507-180A31A274B9",
+          "ShortcutKey": "CTRL+D",
+          "ChineseFunctionDescription": "设计管理器",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7C27708F-11AD-2185-3ED0-CA73A90079F6",
+          "ShortcutKey": "CTRL+HOME",
+          "ChineseFunctionDescription": "打开原点坐标设置对话框",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "F5B5648B-B209-C1D6-945D-F225F3D05AE6",
+          "ShortcutKey": "SHIFT+1",
+          "ChineseFunctionDescription": "往左边切换文档标签",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C7ECB7CB-C248-8181-428B-88EEC2FC6A46",
+          "ShortcutKey": "SHIFT+2",
+          "ChineseFunctionDescription": "往右边切换文档标签",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7287D392-FA5C-BE74-7449-AA4216D05DF3",
+          "ShortcutKey": "SHIFT+X",
+          "ChineseFunctionDescription": "交叉选择",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "44F2AA7D-C651-EFA5-D24F-10444B1C2D3A",
+          "ShortcutKey": "SHIFT+F",
+          "ChineseFunctionDescription": "浏览和查找元件库",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "325F090D-0882-3CFA-7402-2C940F179BB8",
+          "ShortcutKey": "SHIFT+拖动元件",
+          "ChineseFunctionDescription": "光标自动吸附在元件的原点",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "ECDB17E1-4863-832C-804A-53F250135D64",
+          "ShortcutKey": "SHIFT+ALT+H",
+          "ChineseFunctionDescription": "水平居中对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "19891B95-AC9D-13C8-EEE1-A31727BC1286",
+          "ShortcutKey": "SHIFT+ALT+E",
+          "ChineseFunctionDescription": "垂直居中对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "980511FA-74E0-6A26-B0FA-C897520C9D04",
+          "ShortcutKey": "CRTL+SHIFT+L",
+          "ChineseFunctionDescription": "左对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "AC4CD1DD-0A19-15CA-9986-84BA876A5D55",
+          "ShortcutKey": "CRTL+SHIFT+R",
+          "ChineseFunctionDescription": "右对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "9EA69A31-3177-2CDE-5E7F-6562F88B7A68",
+          "ShortcutKey": "CRTL+SHIFT+O",
+          "ChineseFunctionDescription": "顶对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "85A6AF41-49A2-0B55-4032-E8A5FB1DA100",
+          "ShortcutKey": "CRTL+SHIFT+B",
+          "ChineseFunctionDescription": "底对齐",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "B752B540-3BEB-35E9-B9BC-ACD4DA349523",
+          "ShortcutKey": "CRTL+SHIFT+G",
+          "ChineseFunctionDescription": "对齐网格",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "4598EE7A-33CB-2AAD-522F-A6BAC9A918B3",
+          "ShortcutKey": "CRTL+SHIFT+H",
+          "ChineseFunctionDescription": "水平等距分布",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "E96C483B-F30D-0328-9B0E-2F26B4074579",
+          "ShortcutKey": "CRTL+SHIFT+E",
+          "ChineseFunctionDescription": "垂直等距分布",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "141C6DB9-6F9C-0C50-B343-A2514598EF11",
+          "ShortcutKey": "CTRL+SHIFT+F",
+          "ChineseFunctionDescription": "查找相似对象",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "4E6E3B11-8F57-9E36-20EC-A38299F769A7",
+          "ShortcutKey": "CTRL+SHIFT+ALT+F12",
+          "ChineseFunctionDescription": "打开Log对话框",
+          "EnglishFunctionDescription": ""
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "原理图快捷键",
+      "EnglishCategoryName": "",
+      "Keys": [
+        {
+          "Id": "3A98E1A6-A2BB-787F-8C59-34C731DFD580",
+          "ShortcutKey": "W",
+          "ChineseFunctionDescription": "绘制导线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "2DD1B11A-E216-5ABC-FB02-1D009C06B9BC",
+          "ShortcutKey": "B",
+          "ChineseFunctionDescription": "绘制总线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5FF456AC-9DC6-44A0-BBE3-462F944055DE",
+          "ShortcutKey": "U",
+          "ChineseFunctionDescription": "总线分支",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C1C8E44F-96A1-9A48-3035-A07687FA530B",
+          "ShortcutKey": "N",
+          "ChineseFunctionDescription": "网络标签",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5D39FA7C-3931-FB27-622D-CBAA327FD52D",
+          "ShortcutKey": "P",
+          "ChineseFunctionDescription": "放置管脚",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D9CD9514-1786-66B7-341E-544105475DF9",
+          "ShortcutKey": "L",
+          "ChineseFunctionDescription": "绘制折线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5F02C14A-B404-3B98-902B-710B95AF975A",
+          "ShortcutKey": "O",
+          "ChineseFunctionDescription": "绘制多边形",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "058D8316-DB9C-2377-0291-126E5DCDE311",
+          "ShortcutKey": "Q",
+          "ChineseFunctionDescription": "绘制贝塞尔曲线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C2A029CC-0240-4090-2F43-8B7F537D4DC1",
+          "ShortcutKey": "C",
+          "ChineseFunctionDescription": "绘制圆弧",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "293F57B0-7B54-DDE9-CF34-9F3C63EA7F22",
+          "ShortcutKey": "S",
+          "ChineseFunctionDescription": "绘制矩形",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7B847B28-E020-C12D-50BE-C0B3785A8A38",
+          "ShortcutKey": "E",
+          "ChineseFunctionDescription": "绘制椭圆",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "B116D2F8-3E6C-2FBE-DF6F-FE8F21142A49",
+          "ShortcutKey": "F",
+          "ChineseFunctionDescription": "自由绘制",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "AE7DA46B-04DF-5974-AE7A-7100652DB36E",
+          "ShortcutKey": "T",
+          "ChineseFunctionDescription": "放置文本",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5A58B44B-43B5-7253-6649-5ABEC2497B95",
+          "ShortcutKey": "I",
+          "ChineseFunctionDescription": "修改选中器件",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "A75B4073-6ABA-D835-769E-07DCE9AF26C8",
+          "ShortcutKey": "CTRL+Q",
+          "ChineseFunctionDescription": "标识符 VCC",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "B131A023-DA71-3338-FE1F-B533D67F8D79",
+          "ShortcutKey": "CTRL+G",
+          "ChineseFunctionDescription": "标识符 GND",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "3927BF71-A30B-FCD8-DB7D-8D560B36797A",
+          "ShortcutKey": "CTRL+R",
+          "ChineseFunctionDescription": "仿真当前文档",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "A9453B61-E3DB-7B89-48A6-27863A56BA1F",
+          "ShortcutKey": "CTRL+J",
+          "ChineseFunctionDescription": "打开仿真设置对话框",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "8939A2C1-603C-E261-AB8A-774203D2D9A3",
+          "ShortcutKey": "CTRL+SHIFT+X",
+          "ChineseFunctionDescription": "批量选中元件，布局传递到PCB",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D3E346E4-411E-6CD3-4F84-40A7CF306F14",
+          "ShortcutKey": "SHIFT+T",
+          "ChineseFunctionDescription": "打开符号向导",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "B3A82ACC-3719-4EC8-E45D-99E9885F1CBA",
+          "ShortcutKey": "ALT+F",
+          "ChineseFunctionDescription": "打开封装管理器",
+          "EnglishFunctionDescription": ""
+        }
+      ]
+    },
+    {
+      "ChineseCategoryName": "PCB快捷键",
+      "EnglishCategoryName": "",
+      "Keys": [
+        {
+          "Id": "A75DED74-1DCF-9EC3-15E3-FCA29EB42BD5",
+          "ShortcutKey": "W",
+          "ChineseFunctionDescription": "绘制走线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D96D6E3E-28CA-9E19-8C25-7F77E6E97545",
+          "ShortcutKey": "U",
+          "ChineseFunctionDescription": "绘制圆弧",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "F6FC03D3-EE53-17AD-F2B4-3D55C140E856",
+          "ShortcutKey": "C",
+          "ChineseFunctionDescription": "绘制圆形",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "CD24B3F4-04D8-9D37-73D7-41D63E1F35DE",
+          "ShortcutKey": "N",
+          "ChineseFunctionDescription": "放置尺寸",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "54E42099-7D02-4114-E5AF-07412F8035F9",
+          "ShortcutKey": "S",
+          "ChineseFunctionDescription": "放置文本",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "702F9E85-7023-2C30-D46F-1BB1C44E050D",
+          "ShortcutKey": "O",
+          "ChineseFunctionDescription": "放置连接线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5AEC4986-650F-F8AB-54DE-10936EA8D295",
+          "ShortcutKey": "E",
+          "ChineseFunctionDescription": "绘制铺铜",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "9A6A307B-5910-EBD4-D83E-EA469B929C1E",
+          "ShortcutKey": "T",
+          "ChineseFunctionDescription": "切换至顶层；选中封装时，切换封装层属性为顶层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "ED7BDAFF-8312-1E4F-2EA1-02C6C08A7A02",
+          "ShortcutKey": "B",
+          "ChineseFunctionDescription": "切换至底层;选中封装时,切换封装层属性为底层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "16E4722D-A8DF-14DD-92A7-2B1D0CC8B982",
+          "ShortcutKey": "1",
+          "ChineseFunctionDescription": "切换至内层1",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "03B23AB2-0F92-513E-D481-1A6FAE8683B4",
+          "ShortcutKey": "2",
+          "ChineseFunctionDescription": "切换至内层2",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "04E280A1-1E7F-866C-BFCA-105EFF6E6A01",
+          "ShortcutKey": "3",
+          "ChineseFunctionDescription": "切换至内层3",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "A544F0DE-B759-DB89-CF51-AB204BDAB176",
+          "ShortcutKey": "4",
+          "ChineseFunctionDescription": "切换至内层4",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "B8F209CA-DAAB-A756-5065-F2E915AE404B",
+          "ShortcutKey": "P",
+          "ChineseFunctionDescription": "放置焊盘",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "1D21FE8C-9ED1-C40F-6F9D-D7734B568BE1",
+          "ShortcutKey": "Q",
+          "ChineseFunctionDescription": "切换画布单位",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "47E6A75D-B65E-2585-71A5-256656D37274",
+          "ShortcutKey": "V",
+          "ChineseFunctionDescription": "放置过孔",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "428E1104-32CF-C65D-EF58-EBDDDE583A82",
+          "ShortcutKey": "M",
+          "ChineseFunctionDescription": "量测距离",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "FCDBDA73-5599-F3E9-B8AE-98A22D8F8A50",
+          "ShortcutKey": "H",
+          "ChineseFunctionDescription": "持续高亮选中的网络，再按一次取消高亮",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "1508795F-459F-065C-FDCD-D69340EB1C4F",
+          "ShortcutKey": "L",
+          "ChineseFunctionDescription": "改变布线角度",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "2180F670-AC2F-24BC-5A72-5429F9A15747",
+          "ShortcutKey": "-",
+          "ChineseFunctionDescription": "布线时，减少线宽；小键盘时，循环切换PCB层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "1D017213-FFF6-2E06-CCD5-0DB49C8F224D",
+          "ShortcutKey": "+",
+          "ChineseFunctionDescription": "布线时，增加线宽；小键盘时，循环切换PCB层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "A95880BA-404F-2F45-CF70-6DFFDDC0E9CB",
+          "ShortcutKey": "*(星号)",
+          "ChineseFunctionDescription": "循环切换PCB层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "986583A6-C224-55F8-C7E2-6437512A2C15",
+          "ShortcutKey": "Delete",
+          "ChineseFunctionDescription": "删除选中的元素；布线过程中撤销到上一次布线",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "66286107-9767-5C76-507F-5D9C3E76EE00",
+          "ShortcutKey": "Alt–",
+          "ChineseFunctionDescription": "减少栅格尺寸",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "0B44EE86-3CDE-91D0-C46E-B1415A68CB64",
+          "ShortcutKey": "Alt++",
+          "ChineseFunctionDescription": "增加栅格尺寸",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "20319EBB-1854-2B73-6D61-5FA82A8942AB",
+          "ShortcutKey": "CTRL+R",
+          "ChineseFunctionDescription": "选中元素后按下，指定参考点，开始连续粘贴元素",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "5AB6FDDA-4F7F-0736-DE98-3FAFB894FE26",
+          "ShortcutKey": "CTRL+L",
+          "ChineseFunctionDescription": "打开层管理器",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "7CE0C92F-5ECF-C280-087D-086D3F06C32A",
+          "ShortcutKey": "CTRL+Q",
+          "ChineseFunctionDescription": "显示或隐藏网络文字",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "4B5EC5AE-66BA-0D61-C0F1-EB22694D9489",
+          "ShortcutKey": "SHIFT+M",
+          "ChineseFunctionDescription": "删除所有铺铜",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "D3C4988B-3B47-9D0E-433A-8A33BE6EBEAA",
+          "ShortcutKey": "SHIFT+B",
+          "ChineseFunctionDescription": "重建所有铺铜",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C0B86BD2-8D34-F7BE-40C7-E5733229279B",
+          "ShortcutKey": "SHIFT+D",
+          "ChineseFunctionDescription": "根据参考点移动元素",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "C6FBF381-4A91-462C-848F-B446B07EA54A",
+          "ShortcutKey": "SHIFT+G",
+          "ChineseFunctionDescription": "显示当前导线的走线长度，布线时有效",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "968ABD99-54CC-5B90-E4BD-DE1A424AD8E2",
+          "ShortcutKey": "SHIFT+W",
+          "ChineseFunctionDescription": "显示常用线宽，布线时有效",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "25925748-E932-5222-C536-B1BD49EF54E2",
+          "ShortcutKey": "SHIFT+R",
+          "ChineseFunctionDescription": "循环切换布线冲突模式",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "69E10A60-46F0-412D-89B1-39C6ECC5D237",
+          "ShortcutKey": "SHIFT+S",
+          "ChineseFunctionDescription": "只显示当前层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "AED0ECE7-4E99-9068-5F9E-D2203874C4AB",
+          "ShortcutKey": "SHIFT+双击",
+          "ChineseFunctionDescription": "删除所选导线线段",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "DC8DC802-779A-D58F-F369-002C93A2E080",
+          "ShortcutKey": "CTRL+SHIFT+C",
+          "ChineseFunctionDescription": "根据参考点复制元素",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "CFCDD920-3ABA-76B3-DE15-95FF103AB2F0",
+          "ShortcutKey": "CTRL+SHIFT+V",
+          "ChineseFunctionDescription": "粘贴元件时保持编号不变，并关闭飞线层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "FB6D4573-B9D9-AD85-2A7F-E1E4CE559A38",
+          "ShortcutKey": "CTRL+SHIFT+SPACE",
+          "ChineseFunctionDescription": "切换布线拐角，与快捷键 L 一致",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "433D00DE-03A2-9972-8329-B1C1887F045D",
+          "ShortcutKey": "CTRL+ALT+L",
+          "ChineseFunctionDescription": "开启全部图层",
+          "EnglishFunctionDescription": ""
+        },
+        {
+          "Id": "CB805FAD-8699-4929-929E-B735A8F30624",
+          "ShortcutKey": "CTRL+SHIFT+ALT+D",
+          "ChineseFunctionDescription": "打开封装自定义数据对话框",
+          "EnglishFunctionDescription": ""
+        }
+      ]
+    }
+  ]
+}

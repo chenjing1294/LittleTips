@@ -6,8 +6,8 @@ namespace LittleTips
 {
     public partial class App
     {
-        public static readonly string VersionNumber = "1.0.3.0";
-        public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.04";
+        public static readonly string VersionNumber = "1.0.4.0";
+        public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.05";
 
         public static readonly string Host = "http://www.redisant.cn/ltip";
         // public static string Host = "http://localhost/ltip";
