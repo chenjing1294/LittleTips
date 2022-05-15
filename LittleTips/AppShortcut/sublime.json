@@ -298,7 +298,7 @@
         {
           "Id": "5b5dc5cb-ae7d-49c3-b49f-c5f3cf572638",
           "ShortcutKey": "Ctrl+K,Ctrl+U",
-          "ChineseFunctionDescription": "",
+          "ChineseFunctionDescription": "转换为大写",
           "EnglishFunctionDescription": "Transform to uppercase"
         },
         {
