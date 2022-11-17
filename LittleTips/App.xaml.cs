@@ -6,7 +6,7 @@ namespace LittleTips
 {
     public partial class App
     {
-        public static readonly string VersionNumber = "1.0.5.0";
+        public static readonly string VersionNumber = "1.0.5.1";
         public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.05";
 
         public static readonly string Host = "http://www.redisant.cn/ltip";
@@ -68,8 +68,7 @@ namespace LittleTips
         }
 
         //UI线程未捕获异常处理事件（UI主线程）
-        private static void App_DispatcherUnhandledException(object sender,
-            System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
+        private static void App_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
         {
             try
             {
