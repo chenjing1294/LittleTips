@@ -26,15 +26,6 @@ Displays a list of shortcut keys for the active window. Download address: http:/
 
 ![](./image1.png)
 
-
-## 捐赠
-
-感谢您的捐赠，它将有助于 "Little Tips" 的后续开发，捐赠将用于硬件、软件、服务器托管和其他费用。
-
-再次感谢您的支持！
-
 Thank you for your donation, it will help the subsequent development of "Little Tips", donations will be used for hardware, software, server hosting and other expenses.
 
 Thanks again for your support!
-
-![](./shoukuan.jpg)
