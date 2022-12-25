@@ -6,11 +6,9 @@ namespace LittleTips
 {
     public partial class App
     {
-        public static readonly string VersionNumber = "1.0.5.1";
-        public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.05";
-
-        public static readonly string Host = "http://www.redisant.cn/ltip";
-        // public static string Host = "http://localhost/ltip";
+        public static readonly string VersionNumber = "1.0.5.2";
+        public static readonly string Version = $"Build Version {VersionNumber}, build on 2022.12";
+        public static readonly string Host = "https://github.com/chenjing1294/Little-Tips";
 
         protected override void OnStartup(StartupEventArgs e)
         {
